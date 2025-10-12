@@ -1,0 +1,96 @@
+layout:
+  qmk_keyboard: corne_rotated
+  layout_name: LAYOUT_split_3x5_3
+layers:
+  ALPHA1:
+    - [Q, Y, O, U, "-", J, G, N, W, K]
+    - [{h: Gui, t: H}, {h: Alt, t: I}, {h: Ctrl, t: E}, {h: Shift, t: A}, {s: ":", t: "."}, P, {h: Shift, t: D}, {h: Ctrl, t: R}, {h: Alt, t: S}, {h: Gui, t: L}]
+    - [X, {s: "!", t: "?"}, {s: "\"", t: "'"}, {s: ";", t: ","}, Z, B, C, M, F, V]
+    - {h: Num, t: num-word}
+    - {h: Shift, t: Space}
+    - {h: Nav, t: ⟐}
+    - {h: Alpha2, t: ⟐}
+    - {h: Sym, t: T}
+    - {h: Fun, t: Bspace}
+  ALPHA2:
+    - [null, null, "Ô", "Â", null, null, J, "Ë", "Ü", null]
+    - [Gui, {h: Alt, t: "Î"}, {h: Ctrl, t: "É"}, {h: Shift, t: "À"}, null, null, {h: Shift, t: P}, {h: Ctrl, t: "Ê"}, {h: Alt, t: "Û"}, Gui]
+    - [null, "Ï", "È", Z, null, null, B, "Ç", "Ù", null]
+    - Bspace
+    - {h: Shift, t: Space}
+    - null
+    - {type: held}
+    - null
+    - null
+  COMBOS:
+    - [null, null, null, null, null, null, null, null, null, null]
+    - [null, null, null, null, null, null, null, null, null, null]
+    - [null, null, null, null, null, null, null, null, null, null]
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+  NUM:
+    - [null, null, null, null, null, "*", "7", "8", "9", {s: ";", t: ","}]
+    - [Gui, Alt, Ctrl, Alt, null, "+", "4", "5", "6", {s: ":", t: "."}]
+    - [null, null, null, null, null, "-", "1", "2", "3", /]
+    - {type: held}
+    - {h: Shift, t: Space}
+    - null
+    - "="
+    - "0"
+    - Bspace
+  NAV:
+    - [Undo, Cut, Copy, Paste, Redo, null, null, null, null, null]
+    - [←, ↓, ↑, →, "Caps Lock", null, Shift, Ctrl, Alt, Gui]
+    - [Home, "Page Down", "Page Up", End, Ins, null, null, null, null, null]
+    - null
+    - null
+    - {type: held}
+    - null
+    - {h: Shift, t: Space}
+    - Bspace
+  MOUSE:
+    - [Undo, Cut, Copy, Paste, Redo, null, null, null, null, null]
+    - [←, ↓, ↑, →, "Caps Lock", null, Shift, Ctrl, Alt, Gui]
+    - [Scroll left, Scroll down, Scroll up, Scroll down, Ins, null, null, null, null, null]
+    - Bspace
+    - {h: Shift, t: Space}
+    - null
+    - M
+    - L
+    - R
+  SYM:
+    - ["`", "<", ">", "-", "|", "^", "{", "}", "$", "\\"]
+    - ["!", "*", "/", "=", "&", "#", "(", ")", ";", "\""]
+    - ["~", "+", "[", "]", "%", "@", ":", ",", ".", "'"]
+    - Bspace
+    - {h: Shift, t: Space}
+    - null
+    - null
+    - {type: held}
+    - null
+  FUN:
+    - [M0, M1, M2, M3, null, null, F7, F8, F9, F12]
+    - [⏮, Volume Down, Volume Up, ⏭, null, null, F4, F5, F6, F11]
+    - [BT0, BT1, BT2, BT3, BT Clear, null, F1, F2, F3, F10]
+    - Mute
+    - ⏯
+    - ⏹
+    - null
+    - null
+    - {type: held}
+    
+combos:
+  - {p: [2, 12], k: Enter, l: ["COMBOS"]}
+  - {p: [3, 13], k: Tab, l: ["COMBOS"]}
+  - {p: [12, 22], k: Del, l: ["COMBOS"]}
+  - {p: [13, 23], k: Esc, l: ["COMBOS"]}
+  - {p: [6, 16], k: Tab, l: ["COMBOS"]}
+  - {p: [7, 17], k: Enter, l: ["COMBOS"]}
+  - {p: [16, 26], k: Esc, l: ["COMBOS"]}
+  - {p: [17, 27], k: Del, l: ["COMBOS"]}
+  - {p: [26, 28], k: smart-mouse, l: ["COMBOS"]}
+  
