@@ -86,7 +86,7 @@ layers:
     - { t: $$mdi:repeat$$, s: repeat, h: arcane }
     - { t: T, h: symbols }
   shifted2:
-    - [Ê, È, Â, B, J, K]
+    - [null, null, null, B, J, K]
     - [
         { t: X, h: shortcuts },
         { h: $$mdi:apple-keyboard-option$$, t: Î },
