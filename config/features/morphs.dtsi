@@ -1,5 +1,7 @@
 / {
     morphs {
         MOD_MORPH(qexcl_morph, MOD_LSFT|MOD_RSFT, &kp EXCL, &kp QMARK)
+        MOD_MORPH(dot_morph, MOD_LSFT|MOD_RSFT, &kp DOT, &kp COLON)
+        MOD_MORPH(comma_morph, MOD_LSFT|MOD_RSFT, &kp COMMA, &kp SEMICOLON)
     };
 };
