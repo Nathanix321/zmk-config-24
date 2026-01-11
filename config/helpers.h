@@ -1,7 +1,7 @@
     /* LAYER TAPS */    
 
     #define LAYERTAP_TP(NAME, BINDINGS) \
-         NAME: NAME { \
+        NAME: NAME { \
             compatible = "zmk,behavior-hold-tap"; \
             flavor = "tap-preferred"; \
             #binding-cells = <2>; \
@@ -11,7 +11,7 @@
         };
     
     #define LAYERTAP_HP(NAME, BINDINGS) \
-         NAME: NAME { \
+        NAME: NAME { \
             compatible = "zmk,behavior-hold-tap"; \
             flavor = "hold-preferred"; \
             #binding-cells = <2>; \
@@ -24,7 +24,7 @@
     /*  MOD TAPS  */
 
     #define MODTAP_TP(NAME, BINDINGS) \
-         NAME: NAME { \
+        NAME: NAME { \
             compatible = "zmk,behavior-hold-tap"; \
             flavor = "tap-preferred"; \
             #binding-cells = <2>; \
@@ -37,7 +37,7 @@
     /*  TAP HOLDS  */
 
     #define TAPHOLD_TP(NAME, TAP, HOLD) \
-         NAME: NAME { \
+        NAME: NAME { \
             compatible = "zmk,behavior-hold-tap"; \
             flavor = "tap-preferred"; \
             #binding-cells = <2>; \
@@ -46,6 +46,12 @@
             require-prior-idle-ms = <QUICK_TAP_TERM>; \
             bindings = <HOLD>, <TAP>; \
         };
+
+    #define HOMEROW(NAME, HOLD, TAP, TRIGGER_POS) \
+        ZMK_HOLD_TAP(NAME, bindings = <HOLD>, <TAP>; flavor = "balanced"; \
+                    tapping-term-ms = <280>; quick-tap-ms = <QUICK_TAP_MS>; \
+                    require-prior-idle-ms = <150>; hold-trigger-on-release; \
+                    hold-trigger-key-positions = <TRIGGER_POS>;)
 
     /*  MACROS  */
     
