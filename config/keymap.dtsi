@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+#include "includes.h"
+
 #include "zmk-helpers/helper.h"
 
 #define ALPHA1    0

@@ -1,5 +1,5 @@
 #include <physical_layouts.dtsi>
-#include "zmk-helpers/key-labels/36.h"
-#include "base.keymap"
+#include "zmk-helpers/key-labels/36.h" // Running on a chocofi with keys removed, so it's mapped to 36 keys.
+#include "keymap.dtsi"
 
 /{ chosen { zmk,physical-layout = &foostan_corne_5col_layout; }; };
