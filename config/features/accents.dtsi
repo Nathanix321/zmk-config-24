@@ -1,5 +1,3 @@
-
-
 / {
     accents {
         ACCENT(acc_a_grave,   A, GRAVE) // À à

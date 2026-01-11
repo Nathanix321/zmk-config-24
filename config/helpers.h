@@ -98,7 +98,6 @@
             bindings \
                 = <&macro_tap &kp DEAD_KEY> \
                 , <&macro_tap &kp KEY> \
-                , <&macro_tap &sl ALTREP2> \
                 ; \
         }; \
         NAME##_c: NAME##_c { \
@@ -112,7 +111,6 @@
                 , <&macro_press &kp RSHFT> \
                 , <&macro_tap &kp KEY> \
                 , <&macro_release &kp RSHFT> \
-                , <&macro_tap &sl ALTREP2> \
                 ; \
         }; \
         NAME##_s: NAME##_s { \
@@ -126,7 +124,6 @@
                 , <&macro_press &kp LSHFT> \
                 , <&macro_tap &kp KEY> \
                 , <&macro_release &kp LSHFT> \
-                , <&macro_tap &sl ALTREP2> \
                 ; \
         };
 

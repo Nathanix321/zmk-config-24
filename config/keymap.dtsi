@@ -130,7 +130,7 @@
                      bindings = <
     &none               &none               &none               &none               &none               &none               &none               &none               &none               &none           
     &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
-    &kp Y               &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
                                             &none               &none               &none               &none               &none               &none
                         >;
                 };

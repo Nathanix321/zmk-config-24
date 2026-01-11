@@ -2,7 +2,6 @@
 
 #define ALPHA1 0
 #define ALPHA2 1
-#define ALTREP2 2
 
 // Settings
 
@@ -147,6 +146,5 @@
             quick-tap-ms = <QUICK_TAP_TERM>;
             bindings = <&kp>, <&sk>;
         };
-
     };
 };
