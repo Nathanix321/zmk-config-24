@@ -49,11 +49,12 @@
 
     #define HOMEROW(NAME, HOLD, TAP, TRIGGER_POS) \
         NAME: NAME { \
-            bindings = <HOLD>, <TAP>; \
+            compatible = "zmk,behavior-hold-tap"; \
             flavor = "balanced"; \
             tapping-term-ms = <280>; \
             quick-tap-ms = <QUICK_TAP_MS>; \
             require-prior-idle-ms = <150>; \
+            bindings = <HOLD>, <TAP>; \
             hold-trigger-on-release; \
             hold-trigger-key-positions = <TRIGGER_POS>; \
         };
