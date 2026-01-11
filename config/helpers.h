@@ -53,7 +53,7 @@
             flavor = "balanced"; \
             #binding-cells = <2>; \
             tapping-term-ms = <280>; \
-            quick-tap-ms = <QUICK_TAP_MS>; \
+            quick-tap-ms = <QUICK_TAP_TERM>; \
             require-prior-idle-ms = <150>; \
             bindings = <HOLD>, <TAP>; \
             hold-trigger-on-release; \
