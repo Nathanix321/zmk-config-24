@@ -128,9 +128,9 @@
                 alpha1_layer {
                      display-name = "ALPHA1";
                      bindings = <
-    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none           
+    &none               &qexcl_morph        &dot_morph          &comma_morph        &none               &none               &none               &none               &none               &none           
     &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
-    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
                                             &none               &none               &none               &none               &none               &none
                         >;
                 };
