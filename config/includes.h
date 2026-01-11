@@ -8,4 +8,4 @@
 
 #include "config.dtsi"
 
-// #include "features/accents.dtsi"
+#include "features/accents.dtsi"
