@@ -5,6 +5,5 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #include "zmk-helpers/helper.h"
-#include "zmk-helpers/key-labels/36.h"
 
 #include "config.dtsi"
