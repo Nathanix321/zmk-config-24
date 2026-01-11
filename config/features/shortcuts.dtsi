@@ -1,5 +1,0 @@
-/ {
-    shortcuts {
-        MODTAP_TP(arcane_repeat, I H)
-    };
-};
