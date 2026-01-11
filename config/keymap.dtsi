@@ -122,35 +122,27 @@
 //     bindings = <&kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L &kp DOT &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U &kp AT &kp S &kp B &kp Q &kp U &kp A &kp N &kp T &kp U &kp M &kp DOT &kp C &kp O &kp M>;
 // )
 
-
-
-/* Keymap */
-
-#ifndef ZMK_BASE_LAYER
-    #define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH)                 \
-        ZMK_LAYER(name, LT RT LM RM LB RB LH RH)
-#endif
-
-ZMK_BASE_LAYER(Alpha1,
-//╭─────────────────┬─────────────────┬─────────────────┬─────────────────┬────────────────────╮ ╭────────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────╮
-    &none             &none             &none             &none             &none              ,   &none                &none             &none             &none             &none           ,
-//├─────────────────┼─────────────────┼─────────────────┼─────────────────┼────────────────────┤ ├────────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-    &none             &none             &none             &none             &none              ,   &none                &none             &none             &none             &none           ,
-//├─────────────────┼─────────────────┼─────────────────┼─────────────────┼────────────────────┤ ├────────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-    &none             &none             &none             &none             &none              ,   &none                &none             &none             &none             &none           ,
-//╰─────────────────┴─────────────────┼─────────────────┼─────────────────┼────────────────────┤ ├────────────────────┼─────────────────┼─────────────────┼─────────────────┴─────────────────╯
-                                        &none             &none             &none              ,   &none                &none             &none
-//                                    ╰─────────────────┴─────────────────┴────────────────────╯ ╰────────────────────┴─────────────────┴─────────────────╯
-)
-
-ZMK_BASE_LAYER(Alpha2,
-//╭─────────────────┬─────────────────┬─────────────────┬─────────────────┬────────────────────╮ ╭────────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────╮
-    &none             &none             &none             &none             &none              ,   &none                &none             &none             &none             &none           ,
-//├─────────────────┼─────────────────┼─────────────────┼─────────────────┼────────────────────┤ ├────────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-    &none             &none             &none             &none             &none              ,   &none                &none             &none             &none             &none           ,
-//├─────────────────┼─────────────────┼─────────────────┼─────────────────┼────────────────────┤ ├────────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-    &none             &none             &none             &none             &none              ,   &none                &none             &none             &none             &none           ,
-//╰─────────────────┴─────────────────┼─────────────────┼─────────────────┼────────────────────┤ ├────────────────────┼─────────────────┼─────────────────┼─────────────────┴─────────────────╯
-                                        &none             &none             &none              ,   &none                &none             &none
-//                                    ╰─────────────────┴─────────────────┴────────────────────╯ ╰────────────────────┴─────────────────┴─────────────────╯
-)
+/   {
+        keymap {
+                compatible = "zmk,keymap";
+                default_layer {
+                     display-name = "ALPHA1";
+                     bindings = <
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none           
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &kp Y               &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+                                            &none               &none               &none               &none               &none               &none
+                        >;
+                };
+                compatible = "zmk,keymap";
+                default_layer {
+                     display-name = "ALPHA2";
+                     bindings = <
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+                                            &none               &none               &none               &none               &none               &none
+                        >;
+                };
+        };
+};
