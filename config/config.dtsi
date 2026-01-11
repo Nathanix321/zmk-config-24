@@ -1,0 +1,99 @@
+// Layers
+
+#define ALPHA1 0
+#define ALPHA2 1
+
+// Settings
+
+#define COMBO_TERM_FAST 18
+#define COMBO_TERM_SLOW 30
+
+#define COMBO_IDLE_FAST 150
+#define COMBO_IDLE_SLOW 50
+
+#define TAPPING_TERM 250
+#define QUICK_TAP_TERM 175
+
+#define ADAPTIVE_KEY_TIMEOUT 2000
+
+/*                KEY POSITIONS
+
+  ╭─────────────────────╮ ╭─────────────────────╮
+  │ LT4 LT3 LT2 LT1 LT0 │ │ RT0 RT1 RT2 RT3 RT4 │
+  │ LM4 LM3 LM2 LM1 LM0 │ │ RM0 RM1 RM2 RM3 RM4 │
+  │ LB4 LB3 LB2 LB1 LB0 │ │ RB0 RB1 RB2 RB3 RB4 │
+  ╰───────╮ LH2 LH1 LH0 │ │ RH0 RH1 RH2 ╭───────╯
+          ╰─────────────╯ ╰─────────────╯ */
+
+&mt {
+    tapping-term-ms = <TAPPING_TERM>;
+    flavor = "tap-preferred";
+    quick-tap-ms = <QUICK_TAP_TERM>;
+};
+
+&lt {
+    tapping-term-ms = <TAPPING_TERM>;
+    flavor = "tap-preferred";
+    quick-tap-ms = <QUICK_TAP_TERM>;
+};
+
+&sl {
+    release-after-ms = <2000>;
+    quick-release;
+};
+
+&sk {
+    release-after-ms = <1500>;
+    quick-release;
+};
+
+/ {
+    custom_hold_taps {
+
+        hlt: layer-tap-with-hold-preferred {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <TAPPING_TERM>;
+            flavor = "hold-preferred";
+            quick-tap-ms = <QUICK_TAP_TERM>;
+            bindings = <&mo>, <&kp>;
+        };
+
+        ltn: layer-tap-no-quick-tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <QUICK_TAP_TERM>;
+            flavor = "tap-preferred";
+            quick-tap-ms = <0>;
+            bindings = <&mo>, <&kp>;
+        };
+
+        msl: layer-tap-with-stick-layer {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <TAPPING_TERM>;
+            flavor = "tap-preferred";
+            quick-tap-ms = <QUICK_TAP_TERM>;
+            bindings = <&mo>, <&sl>;
+        };
+
+        msk: layer-tap-with-stick-key {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <TAPPING_TERM>;
+            flavor = "tap-preferred";
+            quick-tap-ms = <QUICK_TAP_TERM>;
+            bindings = <&mo>, <&sk>;
+        };
+
+        hsk: mod-tap-with-stick-key {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <TAPPING_TERM>;
+            flavor = "hold-preferred";
+            quick-tap-ms = <QUICK_TAP_TERM>;
+            bindings = <&kp>, <&sk>;
+        };
+
+    };
+};
