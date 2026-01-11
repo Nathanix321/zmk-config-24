@@ -1,5 +1,5 @@
 / {
     shortcuts {
-        MODTAP_TP(arcane_repeat, arcane_key key_repeat)
+        MODTAP_TP(arcane_repeat, I H)
     };
 };
