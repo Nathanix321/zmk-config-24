@@ -188,10 +188,10 @@
     
     #define ADAPTIVE_STRICT(NAME, BINDINGS, TRIGGERS) \
         adaptive_##NAME: adaptive_##NAME { \
+            strict-modifiers; \
             trigger-keys = <TRIGGERS>; \
             bindings = <BINDINGS>; \
             max-prior-idle-ms = <ADAPTIVE_KEY_TIMEOUT>; \
-            strict-modifiers; \
         };
 
     /*  END  */
