@@ -177,4 +177,21 @@
             bindings = <&NAME##hold>, <&NAME##tap>; \
         };
 
+    /*  ADAPTIVE KEYS  */
+
+    #define ADAPTIVE(NAME, BINDINGS, TRIGGERS) \
+        adaptive_##NAME: adaptive_##NAME { \
+            trigger-keys = <TRIGGERS>; \
+            bindings = <BINDINGS>; \
+            max-prior-idle-ms = <ADAPTIVE_KEY_TIMEOUT>; \
+        };
+    
+    #define ADAPTIVE_STRICT(NAME, BINDINGS, TRIGGERS) \
+        adaptive_##NAME: adaptive_##NAME { \
+            trigger-keys = <TRIGGERS>; \
+            bindings = <BINDINGS>; \
+            max-prior-idle-ms = <ADAPTIVE_KEY_TIMEOUT>; \
+            strict-modifiers; \
+        };
+
     /*  END  */
