@@ -106,7 +106,7 @@
             compatible = "zmk,behavior-macro"; \
             #binding-cells = <0>; \
             bindings \
-                = <&macro_release &kp LSHIFT &kp RSHFT> \
+                = <&macro_release &kp LSHFT &kp RSHFT> \
                 , <&macro_tap &kp DEAD_KEY> \
                 , <&macro_press &kp RSHFT> \
                 , <&macro_tap &kp KEY> \
