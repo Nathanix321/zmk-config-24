@@ -512,15 +512,13 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 </g>
 <g transform="translate(280, 238)" class="key keypos-21">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<text x="0" y="0" class="key tap">&#x27;</text>
 </g>
 <g transform="translate(380, 238)" class="key keypos-22">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<text x="0" y="0" class="key tap">&#x27;</text>
 </g>
 <g transform="translate(450, 238)" class="key keypos-23">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-space"/>
+<text x="0" y="0" class="key tap">&#x27;</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="228" y="53" width="34" height="30" class="combo"/>
@@ -785,15 +783,13 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 </g>
 <g transform="translate(280, 238)" class="key keypos-21">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<text x="0" y="0" class="key tap">&#x27;</text>
 </g>
 <g transform="translate(380, 238)" class="key keypos-22">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<text x="0" y="0" class="key tap">&#x27;</text>
 </g>
 <g transform="translate(450, 238)" class="key keypos-23">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-space"/>
+<text x="0" y="0" class="key tap">&#x27;</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="228" y="53" width="34" height="30" class="combo"/>
