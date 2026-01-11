@@ -7,3 +7,5 @@
 #include "zmk-helpers/helper.h"
 
 #include "config.dtsi"
+
+#include "features/accents.dtsi"

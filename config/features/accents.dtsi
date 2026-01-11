@@ -1,23 +1,22 @@
-// / {
-//     accents {
-//         ACCENT(ac_agrv, A, GRAVE)
-//         ACCENT(ac_aacu, A, SQT  )
-//         ACCENT(ac_atil, A, TILDE)
-//         ACCENT(ac_acir, A, CARET)
-//         ACCENT(ac_eacu, E, SQT  )
-//         ACCENT(ac_ecir, E, CARET)
-//         ACCENT(ac_iacu, I, SQT  )
-//         ACCENT(ac_oacu, O, SQT  )
-//         ACCENT(ac_otil, O, TILDE)
-//         ACCENT(ac_ocir, O, CARET)
-//         ACCENT(ac_uacu, U, SQT  )
+/ {
+    accents {
+        ACCENT(acc_a_grave,   A, GRAVE) // À à
+        ACCENT(acc_a_circ,    A, CARET) // Â â
 
-//         MACRO(mc_qu,       &kp Q &kp U &sl ALTREP2)
-//         MACRO(mc_qu_s,     &kp LS(Q) &kp U &sl ALTREP2)
-//         MACRO(mc_qu_c,     &kp RS(Q) &kp RS(U) &sl ALTREP2)
-//         MACRO(mc_aotil,    &macro_tap &macro_wait_time 10 &macro_tap &ac_atil &kp O)
-//         MACRO(mc_aotil_c,  &macro_tap &macro_wait_time 10 &macro_tap &ac_atil_c &kp RS(O))
-//         MACRO(mc_otiles,   &macro_tap &ac_otil &macro_wait_time 10 &kp E &kp S)
-//         MACRO(mc_otiles_c, &macro_tap &ac_otil_c &macro_wait_time 10 &kp RS(E) &kp RS(S))
-//     };
-// };
+        ACCENT(acc_e_aigu,    E, SQT  ) // É é
+        ACCENT(acc_e_grave,   E, GRAVE) // È è
+        ACCENT(acc_e_circ,    E, CARET) // Ê ê
+        ACCENT(acc_e_trema,   E, DQT  ) // Ë ë
+
+        ACCENT(acc_i_circ,    I, CARET) // Î î
+        ACCENT(acc_i_trema,   I, DQT  ) // Ï ï
+
+        ACCENT(acc_o_circ,    O, CARET) // Ô ô
+
+        ACCENT(acc_u_grave,   U, GRAVE) // Ù ù
+        ACCENT(acc_u_circ,    U, CARET) // Û û
+        ACCENT(acc_u_trema,   U, DQT  ) // Ü ü
+        
+        ACCENT(acc_c_cedille, C, SQT  ) // Ç ç
+    };
+};
