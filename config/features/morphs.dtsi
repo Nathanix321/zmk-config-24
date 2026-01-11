@@ -1,5 +1,5 @@
 / {
     morphs {
-        MOD_MORPH(qexcl_morph, LSHFT|RSHFT, EXCL, QMARK)
+        MOD_MORPH(qexcl_morph, MOD_LSFT|MOD_RSFT, &kp EXCL, &kp QMARK)
     };
 };
