@@ -57,7 +57,6 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs.
 /* Combos, mouse emulation */
 
 #include "combos.dtsi" // Must be sourced after HRM-combo hack.
-#include "mouse.dtsi"
 
 /* Nav cluster */
 
