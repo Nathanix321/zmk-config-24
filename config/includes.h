@@ -10,3 +10,4 @@
 #include "features/morphs.dtsi"
 #include "features/homerow.dtsi"
 #include "features/adaptive.dtsi"
+#include "features/shortcuts.dtsi"
