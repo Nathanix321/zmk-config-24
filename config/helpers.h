@@ -109,7 +109,7 @@
             compatible = "zmk,behavior-macro"; \
             #binding-cells = <0>; \
             bindings \
-                = <&macro_tap &kp DEAD_KEY> \
+                = <&macro_tap &kp RA(DEAD_KEY)> \
                 , <&macro_tap &kp KEY> \
                 ; \
         }; \
@@ -120,7 +120,7 @@
             #binding-cells = <0>; \
             bindings \
                 = <&macro_release &kp LSHFT &kp RSHFT> \
-                , <&macro_tap &kp DEAD_KEY> \
+                , <&macro_tap &kp RA(DEAD_KEY)> \
                 , <&macro_press &kp RSHFT> \
                 , <&macro_tap &kp KEY> \
                 , <&macro_release &kp RSHFT> \
@@ -133,7 +133,7 @@
             #binding-cells = <0>; \
             bindings \
                 = <&macro_release &kp LSHFT &kp RSHFT> \
-                , <&macro_tap &kp DEAD_KEY> \
+                , <&macro_tap &kp RA(DEAD_KEY)> \
                 , <&macro_press &kp LSHFT> \
                 , <&macro_tap &kp KEY> \
                 , <&macro_release &kp LSHFT> \
