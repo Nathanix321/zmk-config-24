@@ -68,7 +68,7 @@
     &none               &qexcl_morph        &dot_morph          &comma_morph        &none               &none               &kp G               &kp N               &kp W               &none           
     &magic_h            &kp I               &kp E               &kp A               &none               &none               &kp D               &kp R               &kp S               &kp L
     &none               &kp Y               &kp O               &kp U               &none               &none               &kp C               &kp M               &kp F               &none
-                                            &none               &kp SPACE           &sl ALPHA2          &arcane_key         &kp T               &none
+                                            &none               &kp SPACE           &sl ALPHA2          &arcane_repeat      &kp T               &none
                         >;
                 };
                 compatible = "zmk,keymap";
@@ -77,7 +77,7 @@
                      bindings = <
     &none               &none               &none               &none               &none               &none               &kp B               &kp J               &kp K               &none
     &kp X               &acc_i_circ         &acc_e_aigu         &acc_a_grave        &none               &none               &kp P               &kp RA(SQT)         &kp RA(GRAVE)       &kp V
-    &none               &kp Q               &acc_o_circ         &acc_u_circ         &none               &none               &acc_c_cedille      &kp RA(CARET)       &kp RA(DQT)               &none
+    &none               &kp Q               &acc_o_circ         &acc_u_circ         &none               &none               &acc_c_cedille      &kp RA(CARET)       &kp RA(DQT)         &none
                                             &none               &kp SPACE           &kp APOS            &kp APOS            &kp SPACE           &none
                         >;
                 };
