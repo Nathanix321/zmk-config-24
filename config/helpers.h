@@ -52,7 +52,7 @@
             compatible = "zmk,behavior-hold-tap"; \
             flavor = "tap-preferred"; \
             #binding-cells = <2>; \
-            tapping-term-ms = <200>; \
+            tapping-term-ms = <QUICK_TAP_TERM>; \
             quick-tap-ms = <0>; \
             require-prior-idle-ms = <0>; \
             bindings = <HOLD>, <TAP>; \
