@@ -47,12 +47,14 @@
             bindings = <HOLD>, <TAP>; \
         };
 
-    #define TAPHOLD_TP_BAL(NAME, TAP, HOLD) \
+    #define TAPHOLD_TP_AGRESSIVE(NAME, TAP, HOLD) \
         NAME: NAME { \
             compatible = "zmk,behavior-hold-tap"; \
             flavor = "tap-preferred"; \
             #binding-cells = <2>; \
             tapping-term-ms = <TAPPING_TERM>; \
+            quick-tap-ms = <0>; \
+            require-prior-idle-ms = <0>; \
             bindings = <HOLD>, <TAP>; \
         };
 
