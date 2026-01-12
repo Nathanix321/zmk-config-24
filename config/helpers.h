@@ -47,6 +47,17 @@
             bindings = <HOLD>, <TAP>; \
         };
 
+    #define TAPHOLD_TP_BAL(NAME, TAP, HOLD) \
+        NAME: NAME { \
+            compatible = "zmk,behavior-hold-tap"; \
+            flavor = "tap-preferred"; \
+            #binding-cells = <2>; \
+            tapping-term-ms = <TAPPING_TERM>; \
+            bindings = <HOLD>, <TAP>; \
+        };
+
+    /*  HOMEROW MODS  */
+
     #define HOMEROW(NAME, HOLD, TAP, TRIGGER_POS) \
         NAME: NAME { \
             compatible = "zmk,behavior-hold-tap"; \
