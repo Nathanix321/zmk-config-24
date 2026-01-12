@@ -32,7 +32,14 @@ layers:
     - { t: $$mdi:repeat$$, s: repeat, h: arcane }
     - { t: t, h: symbols }
   alpha2:
-    - [null, null, null, b, j, k]
+    - [
+        { h: "⇥ ?|!", t: "?", s: "!",}, 
+        { h: "⇥ .|:", t: ".", s: ":"},  
+        { h: "⇥ ,|;", t: ",", s: ";" }, 
+        b, 
+        j, 
+        k
+      ]
     - [
         { t: x, h: shortcuts },
         { h: $$mdi:apple-keyboard-option$$, t: î },
@@ -86,7 +93,14 @@ layers:
     - { t: $$mdi:repeat$$, s: repeat, h: arcane }
     - { t: T, h: symbols }
   shifted2:
-    - [null, null, null, B, J, K]
+    - [
+        { h: "⇥ ?|!", t: "?", s: "!",}, 
+        { h: "⇥ .|:", t: ".", s: ":"},  
+        { h: "⇥ ,|;", t: ",", s: ";" }, 
+        B, 
+        J, 
+        K
+      ]
     - [
         { t: X, h: shortcuts },
         { h: $$mdi:apple-keyboard-option$$, t: Î },

@@ -408,12 +408,21 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 <g transform="translate(0, 56)">
 <g transform="translate(105, 34)" class="key keypos-0">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
+<text x="0" y="0" class="key tap">?</text>
+<text x="0" y="30" class="key hold">⇥ ?|!</text>
+<text x="0" y="-30" class="key shifted">!</text>
 </g>
 <g transform="translate(175, 34)" class="key keypos-1">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
+<text x="0" y="0" class="key tap">.</text>
+<text x="0" y="30" class="key hold">⇥ .|:</text>
+<text x="0" y="-30" class="key shifted">:</text>
 </g>
 <g transform="translate(245, 34)" class="key keypos-2">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
+<text x="0" y="0" class="key tap">,</text>
+<text x="0" y="30" class="key hold">⇥ ,|;</text>
+<text x="0" y="-30" class="key shifted">;</text>
 </g>
 <g transform="translate(415, 34)" class="key keypos-3">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
@@ -678,12 +687,21 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 <g transform="translate(0, 56)">
 <g transform="translate(105, 34)" class="key keypos-0">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
+<text x="0" y="0" class="key tap">?</text>
+<text x="0" y="30" class="key hold">⇥ ?|!</text>
+<text x="0" y="-30" class="key shifted">!</text>
 </g>
 <g transform="translate(175, 34)" class="key keypos-1">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
+<text x="0" y="0" class="key tap">.</text>
+<text x="0" y="30" class="key hold">⇥ .|:</text>
+<text x="0" y="-30" class="key shifted">:</text>
 </g>
 <g transform="translate(245, 34)" class="key keypos-2">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
+<text x="0" y="0" class="key tap">,</text>
+<text x="0" y="30" class="key hold">⇥ ,|;</text>
+<text x="0" y="-30" class="key shifted">;</text>
 </g>
 <g transform="translate(415, 34)" class="key keypos-3">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
