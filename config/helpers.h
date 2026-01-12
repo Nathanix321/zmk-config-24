@@ -192,14 +192,14 @@
 
     /*  ADAPTIVE KEYS  */
 
-    #define ADAPTIVE(NAME, BINDINGS, TRIGGERS) \
+    #define ADAPTIVE(NAME, TRIGGERS, BINDINGS) \
         adaptive_##NAME: adaptive_##NAME { \
             trigger-keys = <TRIGGERS>; \
             bindings = <BINDINGS>; \
             max-prior-idle-ms = <ADAPTIVE_KEY_TIMEOUT>; \
         };
     
-    #define ADAPTIVE_STRICT(NAME, BINDINGS, TRIGGERS) \
+    #define ADAPTIVE_STRICT(NAME, TRIGGERS, BINDINGS) \
         adaptive_##NAME: adaptive_##NAME { \
             strict-modifiers; \
             trigger-keys = <TRIGGERS>; \
