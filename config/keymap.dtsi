@@ -68,7 +68,7 @@
     &none               &qexcl_morph        &dot_morph          &comma_morph        &none               &none               &kp G               &kp N               &kp W               &none           
     &magic_h            &kp I               &kp E               &kp A               &none               &none               &kp D               &kp R               &kp S               &kp L
     &none               &kp Y               &kp O               &kp U               &none               &none               &kp C               &kp M               &kp F               &none
-                                            &none               &kp SPACE           &sl ALPHA2          &mt A B         &kp T               &none
+                                            &none               &kp SPACE           &sl ALPHA2          &mt arcane_key key_repeat         &kp T               &none
                         >;
                 };
                 compatible = "zmk,keymap";
@@ -81,5 +81,5 @@
                                             &none               &kp SPACE           &kp APOS            &kp APOS            &kp SPACE           &none
                         >;
                 };
-        };
+        };aaaaaabababaaaabaaaaaaabbbbbbbbbbaaaabbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaa
 };
