@@ -1,5 +1,5 @@
 / {
     shortcuts {
-        TAPHOLD_TP_AGRESSIVE(arcane_repeat, &arcane_key, &key_repeat)
+        TAPHOLD_TP_AGRESSIVE(arcane_repeat, &key_repeat, &arcane_key)
     };
 };
