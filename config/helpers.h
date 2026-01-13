@@ -73,12 +73,6 @@
             hold-trigger-key-positions = <TRIGGER_POS>; \
         };
 
-    #define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
-        ZMK_HOLD_TAP(NAME, bindings = <HOLD>, <TAP>; flavor = "balanced"; \
-               tapping-term-ms = <280>; quick-tap-ms = <QUICK_TAP_TERM>; \
-               require-prior-idle-ms = <150>; hold-trigger-on-release; \
-               hold-trigger-key-positions = <TRIGGER_POS>;)
-
     /*  MACROS  */
 
     #define MACRO(NAME, BINDINGS) \
