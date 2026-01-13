@@ -1,5 +1,11 @@
 / {
     shortcuts {
-        TAPHOLD_TP_AGRESSIVE(arcane_repeat, &key_repeat, &arcane_key)
+        MACRO(end_qexcl_morph, &kp END &qexcl_morph)
+        MACRO(end_dot_morph,   &kp END &dot_morph  )
+        MACRO(end_comma_morph, &kp END &comma_morph)
+
+        TAPHOLD_TP(th_qexcl_morph, &qexcl_morph, &end_qexcl_morph)
+        TAPHOLD_TP(th_dot_morph,   &dot_morph,   &end_dot_morph  )
+        TAPHOLD_TP(th_comma_morph, &comma_morph, &end_comma_morph)
     };
 };
