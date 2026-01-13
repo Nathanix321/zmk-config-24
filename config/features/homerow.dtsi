@@ -1,6 +1,6 @@
 / {
     homerow {
-        HOMEROW(hml, &kp, &kp, KEYS_R THUMBS)
-        HOMEROW(hmr, &kp, &kp, KEYS_L THUMBS)
+        MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)
+        MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)
     };
 };

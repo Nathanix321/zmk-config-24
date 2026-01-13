@@ -1,4 +1,4 @@
-    /* LAYER TAPS */    
+    /* LAYER TAPS */
 
     #define LAYERTAP_TP(NAME, BINDINGS) \
         NAME: NAME { \
@@ -9,7 +9,7 @@
             quick-tap-ms = <QUICK_TAP_TERM>; \
             bindings = <&mo>, <BINDINGS>; \
         };
-    
+
     #define LAYERTAP_HP(NAME, BINDINGS) \
         NAME: NAME { \
             compatible = "zmk,behavior-hold-tap"; \
@@ -73,8 +73,14 @@
             hold-trigger-key-positions = <TRIGGER_POS>; \
         };
 
+    #define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
+        ZMK_HOLD_TAP(NAME, bindings = <HOLD>, <TAP>; flavor = "balanced"; \
+               tapping-term-ms = <280>; quick-tap-ms = <QUICK_TAP_MS>; \
+               require-prior-idle-ms = <150>; hold-trigger-on-release; \
+               hold-trigger-key-positions = <TRIGGER_POS>;)
+
     /*  MACROS  */
-    
+
     #define MACRO(NAME, BINDINGS) \
         NAME: NAME { \
 			compatible = "zmk,behavior-macro"; \
@@ -114,7 +120,7 @@
         };
 
     /*  ACCENTS  */
-    
+
     #define ACCENT(NAME, KEY, DEAD_KEY) \
         NAME: NAME { \
             wait-ms = <0>; \
@@ -154,7 +160,7 @@
         };
 
     /*  COMBOS  */
-    
+
     #define COMBO(NAME, KEYS, BINDINGS, LAYERS) \
         NAME { \
             timeout-ms = <COMBO_TERM>; \
@@ -198,7 +204,7 @@
             bindings = <BINDINGS>; \
             max-prior-idle-ms = <ADAPTIVE_KEY_TIMEOUT>; \
         };
-    
+
     #define ADAPTIVE_STRICT(NAME, TRIGGERS, BINDINGS) \
         adaptive_##NAME: adaptive_##NAME { \
             strict-modifiers; \
