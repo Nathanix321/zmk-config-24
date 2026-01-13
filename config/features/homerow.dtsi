@@ -51,7 +51,7 @@
             hold-trigger-key-positions = <KEYS_R THUMBS>;
         };
 
-        hml_acc_a_grav: hml_acc_a_grav {
+        hml_acc_a_grave: hml_acc_a_grave {
             compatible = "zmk,behavior-hold-tap";
             flavor = "balanced";
             #binding-cells = <2>;
