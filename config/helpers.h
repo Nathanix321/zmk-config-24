@@ -58,21 +58,6 @@
             bindings = <HOLD>, <TAP>; \
         };
 
-    /*  HOMEROW MODS  */
-
-    #define HOMEROW(NAME, HOLD, TAP, TRIGGER_POS) \
-        NAME: NAME { \
-            compatible = "zmk,behavior-hold-tap"; \
-            flavor = "balanced"; \
-            #binding-cells = <2>; \
-            tapping-term-ms = <280>; \
-            quick-tap-ms = <QUICK_TAP_TERM>; \
-            require-prior-idle-ms = <150>; \
-            bindings = <HOLD>, <TAP>; \
-            hold-trigger-on-release; \
-            hold-trigger-key-positions = <TRIGGER_POS>; \
-        };
-
     /*  MACROS  */
 
     #define MACRO(NAME, BINDINGS) \
