@@ -58,7 +58,7 @@
             tapping-term-ms = <HOMEROW_TAPPING_TERM>;
             quick-tap-ms = <QUICK_TAP_TERM>;
             require-prior-idle-ms = <HOMEROW_REQUIRE_IDLE>;
-            bindings = <&kp>, <&acc_a_grav>;
+            bindings = <&kp>, <&acc_a_grave>;
             hold-trigger-on-release;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
         };
