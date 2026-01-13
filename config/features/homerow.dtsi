@@ -95,6 +95,6 @@
 #define HML_ACC_A_GRAVE   &hml_acc_a_grave   LSHFT 0
 #define HML_ACC_U_CIRC    &hml_acc_u_circ    LGUI  0
 
-#define HMR_ACC_C_CEDILLE &hml_acc_c_cedille LGUI 0
+#define HMR_ACC_C_CEDILLE &hmr_acc_c_cedille LGUI 0
 
 
