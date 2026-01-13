@@ -1,6 +1,6 @@
 / {
     adaptive_keys {
-        
+
         // ******************** ARCANE ******************** //
 
         arcane_key: arcane_key {
@@ -41,11 +41,11 @@
             #binding-cells = <0>;
             bindings = <&kp H>;
 
-            ADAPTIVE(ah, A, &kp U)
-            ADAPTIVE(eh, U, &kp A)
-            ADAPTIVE(uh, E, &kp O)
-            ADAPTIVE(oh, O, &kp E)
-            ADAPTIVE(rh, R, &kp N)
+            ADAPTIVE_QUICK(ah, A, &kp U)
+            ADAPTIVE_QUICK(eh, U, &kp A)
+            ADAPTIVE_QUICK(uh, E, &kp O)
+            ADAPTIVE_QUICK(oh, O, &kp E)
+            ADAPTIVE_QUICK(rh, R, &kp N)
         };
     };
 };
