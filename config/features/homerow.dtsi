@@ -24,4 +24,76 @@
              hold-trigger-key-positions = <KEYS_L THUMBS>;
          };
     };
+
+    homerow_specifics {
+        hml_acc_i_circ: hml_acc_i_circ {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "balanced";
+            #binding-cells = <2>;
+            tapping-term-ms = <HOMEROW_TAPPING_TERM>;
+            quick-tap-ms = <QUICK_TAP_TERM>;
+            require-prior-idle-ms = <HOMEROW_REQUIRE_IDLE>;
+            bindings = <&kp>, <&acc_i_circ>;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <KEYS_R THUMBS>;
+        }
+
+        hml_acc_e_aigu: hml_acc_e_aigu {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "balanced";
+            #binding-cells = <2>;
+            tapping-term-ms = <HOMEROW_TAPPING_TERM>;
+            quick-tap-ms = <QUICK_TAP_TERM>;
+            require-prior-idle-ms = <HOMEROW_REQUIRE_IDLE>;
+            bindings = <&kp>, <&acc_e_aigu>;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <KEYS_R THUMBS>;
+        }
+
+        hml_acc_a_grav: hml_acc_a_grav {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "balanced";
+            #binding-cells = <2>;
+            tapping-term-ms = <HOMEROW_TAPPING_TERM>;
+            quick-tap-ms = <QUICK_TAP_TERM>;
+            require-prior-idle-ms = <HOMEROW_REQUIRE_IDLE>;
+            bindings = <&kp>, <&acc_a_grav>;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <KEYS_R THUMBS>;
+        }
+
+        hml_acc_u_circ: hml_acc_u_circ {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "balanced";
+            #binding-cells = <2>;
+            tapping-term-ms = <HOMEROW_TAPPING_TERM>;
+            quick-tap-ms = <QUICK_TAP_TERM>;
+            require-prior-idle-ms = <HOMEROW_REQUIRE_IDLE>;
+            bindings = <&kp>, <&acc_u_circ>;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <KEYS_R THUMBS>;
+        }
+
+        hmr_acc_c_cedille: hmr_acc_c_cedille {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "balanced";
+            #binding-cells = <2>;
+            tapping-term-ms = <HOMEROW_TAPPING_TERM>;
+            quick-tap-ms = <QUICK_TAP_TERM>;
+            require-prior-idle-ms = <HOMEROW_REQUIRE_IDLE>;
+            bindings = <&kp>, <&acc_c_cedille>;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <KEYS_L THUMBS>;
+        }
+    };
 };
+
+// ALPHA2 Layer
+#define HML_ACC_I_CIRC    hml_acc_i_circ    LALT  0
+#define HML_ACC_E_AIGU    hml_acc_e_aigu    LCTRL 0
+#define HML_ACC_A_GRAVE   hml_acc_a_grave   LSHFT 0
+#define HML_ACC_U_CIRC    hml_acc_u_circ    LGUI  0
+
+#define HMR_ACC_C_CEDILLE hml_acc_c_cedille LGUI 0
+
+
