@@ -66,8 +66,8 @@
                      display-name = "ALPHA1";
                      bindings = <
     &none               &qexcl_morph        &dot_morph          &comma_morph        &none               &none               &kp G               &kp N               &kp W               &none
-    &magic_h            &hml &kp LALT &kp I         &hml &kp LCTRL &kp E        &hml &kp LSHFT &kp A        &none               &none               &hmr &kp LSHFT &kp D        &hmr &kp LCTRL &kp R        &hml LALT S         &kp L
-    &none               &kp Y               &kp O               &hml LGUI U         &none               &none               &hmr LGUI C         &kp M               &kp F               &none
+    &magic_h            &hml LALT I         &hml LCTRL E        &hml LSHFT A        &none               &none               &hmr LSHFT D        &hmr LCTRL R        &hml LALT S         &kp L
+    &none               &kp Y               &hmr_hard               &hml LGUI U         &none               &none               &hmr LGUI C         &kp M               &kp F               &none
                                             &none               &kp SPACE           &sl ALPHA2          &arcane_repeat 0 0  &kp T               &none
                         >;
                 };
