@@ -1,5 +1,7 @@
 / {
     shortcuts {
+        TAPHOLD_TP_AGRESSIVE(arcane_repeat, &key_repeat, &arcane_key)
+
         MACRO(end_qexcl_morph, &kp END &qexcl_morph)
         MACRO(end_dot_morph,   &kp END &dot_morph  )
         MACRO(end_comma_morph, &kp END &comma_morph)

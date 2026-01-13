@@ -49,5 +49,3 @@
         };
     };
 };
-
-TAPHOLD_TP_AGRESSIVE(arcane_repeat, &key_repeat, &arcane_key)
