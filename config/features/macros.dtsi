@@ -7,8 +7,11 @@
         MACRO(end_colon, &kp END &kp COLON)
         MACRO(end_semi,  &kp END &kp SEMI )
 
+        // letourneau.nathaniel@hotmail.com
         MACRO(email1, &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U &kp DOT &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L &kp AT &kp H &kp O &kp T &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M)
-        MACRO(email2, &kp L &kp E &kp T &kp N &kp N1 &kp N1 &kp N0 &kp N2 &kp AT &kp U &kp S &kp H &kp E &kp R &kp B &kp R &kp O &kp O &kp K &kp E &kp DOT &kp C &kp A> )
+        // letn1102@usherbrooke.ca
+        MACRO(email2, &kp L &kp E &kp T &kp N &kp N1 &kp N1 &kp N0 &kp N2 &kp AT &kp U &kp S &kp H &kp E &kp R &kp B &kp R &kp O &kp O &kp K &kp E &kp DOT &kp C &kp A)
+        // nathaniel.letourneau@sbquantum.com
         MACRO(email3, &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L &kp DOT &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U &kp AT &kp S &kp B &kp Q &kp U &kp A &kp N &kp T &kp U &kp M &kp DOT &kp C &kp O &kp M)
     };
 };
