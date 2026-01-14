@@ -6,6 +6,18 @@
 #define SHIFTED1 2
 #define SHIFTED2 3
 
+#define NUMBERS 4
+#define SYMBOLS 5
+#define SHORTCUTS 6
+#define CASES 7
+
+#define NAV 8
+#define TEXT 9
+
+#define MEDIA
+#define FUNCTIONS
+#define MACROS
+
 // Settings
 
 #define COMBO_TERM_FAST 18
