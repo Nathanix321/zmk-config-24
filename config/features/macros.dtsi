@@ -7,14 +7,20 @@
         MACRO(end_colon, &kp END &kp COLON)
         MACRO(end_semi,  &kp END &kp SEMI )
 
+        MACRO(lpar, &kp LPAR)
+        MACRO(rpar, &kp RPAR)
         MACRO(end_lpar,    &kp END &kp LPAR)
         MACRO(end_rpar,    &kp END &kp RPAR)
         MACRO(end_pars_in, &kp END &kp LPAR &kp RPAR &kp LEFT)
 
+        MACRO(lbkt, &kp LBKT)
+        MACRO(rbkt, &kp RBKT)
         MACRO(end_lbkt, &kp END  &kp LBKT)
         MACRO(end_rbkt, &kp END  &kp RBKT)
         MACRO(bkts_in,  &kp LBKT &kp RBKT &kp LEFT)
 
+        MACRO(lbrc, &kp LBRC)
+        MACRO(rbrc, &kp RBRC)
         MACRO(end_lbrc, &kp END &kp LBRC)
         MACRO(end_rbrc, &kp END &kp RBRC)
 

@@ -42,9 +42,9 @@
                 numbers_layer {
                      display-name = "NUM";
                      bindings = <
-    &none &none &none             /*&th_lbrc LBRC 0     &th_rbrc RBRC 0*/     &kp BSLH            &none               &none               &kp N7              &kp N8              &kp N9               &none
-    &none &none &none              /*&th_lpar LAPR 0     &th_rpar RPAR 0*/     &kp AMPS            &none               &none               &kp N4              &kp N5              &kp N6               &kp DOT
-    &none &none &none              /*&th_lbkt LBKT 0     &th_rbkt RBKT 0*/     &kp PIPE            &none               &none               &kp N1              &kp N2              &kp N3              &none
+    &none               &th_lbrc 0 0        &th_rbrc 0 0        &kp BSLH            &none               &none               &kp N7              &kp N8              &kp N9               &none
+    &mo FUNCTIONS       &th_lpar 0 0        &th_rpar 0 0        &kp AMPS            &none               &none               &kp N4              &kp N5              &kp N6               &kp DOT
+    &none               &th_lbkt 0 0        &th_rbkt 0 0        &kp PIPE            &none               &none               &kp N1              &kp N2              &kp N3              &none
                                             &none               &none               &none               &kp SPACE           &hlt SYMBOLS N0    &none
                         >;
                 };
