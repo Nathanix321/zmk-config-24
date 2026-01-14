@@ -7,9 +7,9 @@
         MACRO(end_colon, &kp END &kp COLON)
         MACRO(end_semi,  &kp END &kp SEMI )
 
-        MACRO(end_lpar,    &kp END  &kp LPAR)
-        MACRO(end_rpar,    &kp END  &kp RPAR)
-        MACRO(end_pars_in, &kp END, &kp LPAR, &kp RPAR, &kp LEFT)
+        MACRO(end_lpar,    &kp END &kp LPAR)
+        MACRO(end_rpar,    &kp END &kp RPAR)
+        MACRO(end_pars_in, &kp END &kp LPAR &kp RPAR &kp LEFT)
 
         MACRO(end_lbkt, &kp END  &kp LBKT)
         MACRO(end_rbkt, &kp END  &kp RBKT)
