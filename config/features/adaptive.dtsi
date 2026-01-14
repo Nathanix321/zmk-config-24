@@ -51,7 +51,7 @@
         magic_h_s: magic_h_s {
             compatible = "zmk,behavior-adaptive-key";
             #binding-cells = <0>;
-            bindings = <&kp LS(H)>
+            bindings = <&kp LS(H)>;
 
             ADAPTIVE_QUICK(ah_s, A, &kp LS(U))
             ADAPTIVE_QUICK(eh_s, U, &kp LS(A))
