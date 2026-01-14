@@ -6,7 +6,7 @@
         TAPHOLD_TP(th_dot_morph,   &dot_morph,   &end_dot_morph  )
         TAPHOLD_TP(th_comma_morph, &comma_morph, &end_comma_morph)
 
-        TAPHOLD_TP(th_lpar, &kp LPAR, &end_lpar)
+        TAPHOLD_TP(th_lpar, &end_lparR, &end_lpar)
         TAPHOLD_TP(th_rpar, &kp RPAR, &end_rpar)
 
         TAPHOLD_TP(th_lbkt, &kp LBKT, &end_lbkt)
