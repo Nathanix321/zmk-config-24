@@ -7,6 +7,17 @@
         MACRO(end_colon, &kp END &kp COLON)
         MACRO(end_semi,  &kp END &kp SEMI )
 
+        MACRO(end_lpar,    &kp END  &kp LPAR)
+        MACRO(end_rpar,    &kp END  &kp RPAR)
+        MACRO(end_pars_in, &kp END, &kp LPAR, &kp RPAR, &kp LEFT)
+
+        MACRO(end_lbkt, &kp END  &kp LBKT)
+        MACRO(end_rbkt, &kp END  &kp RBKT)
+        MACRO(bkts_in,  &kp LBKT &kp RBKT &kp LEFT)
+
+        MACRO(end_lbrc, &kp END &kp LBRC)
+        MACRO(end_rbrc, &kp END &kp RBRC)
+
         // letourneau.nathaniel@hotmail.com
         MACRO(email1, &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U &kp DOT &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L &kp AT &kp H &kp O &kp T &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M)
         // letn1102@usherbrooke.ca

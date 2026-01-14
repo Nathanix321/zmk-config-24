@@ -12,7 +12,6 @@
                                             &none               &hlt NUMBERS SPACE  LT_NAV_ALPHA2       &arcane_repeat 0 0  &hlt SYMBOLS T      &none
                         >;
                 };
-                compatible = "zmk,keymap";
                 alpha2_layer {
                      display-name = "ALPHA2";
                      bindings = <
@@ -22,7 +21,6 @@
                                             &none               &kp SPACE           &kp APOS            &kp APOS            &kp SPACE           &none
                         >;
                 };
-                compatible = "zmk,keymap";
                 shifted1_layer {
                      display-name = "CASE";
                      bindings = <
@@ -32,7 +30,6 @@
                                             &none               &hlt NUMBERS SPACE  LT_NAV_SHIFTED2     &arcane_repeat 0 0  &hlt SYMBOLS LS(T)  &none
                         >;
                 };
-                compatible = "zmk,keymap";
                 shifted2_layer {
                      display-name = "CASE";
                      bindings = <
@@ -40,6 +37,24 @@
     &lt SHORTCUTS LS(X) &acc_i_circ_s       &acc_e_aigu_s       &acc_a_grave_s      &none               &none               &kp LS(P)           &kp RA(SQT)         &kp RA(GRAVE)       &lt SHORTCUTS LS(V)
     &none               &kp LS(Q)           &acc_o_circ_s       &acc_u_circ_s       &none               &none               &acc_c_cedille_s    &kp RA(CARET)       &kp RA(DQT)         &none
                                             &none               &kp SPACE           &kp APOS            &kp APOS            &kp SPACE           &none
+                        >;
+                };
+                numbers_layer {
+                     display-name = "NUM";
+                     bindings = <
+    &none               &th_lbrc            &th_rbrc            &kp BSLH            &none               &none               &kp N7              &kp N8              &kp N9               &none
+    &mo FUNCTIONS       &th_lpar            &th_rpar            &kp AMPS            &none               &none               &kp N4              &kp N5              &kp N6               &kp DOT
+    &none               &th_lbkt            &th_rbkt            &kp PIPE            &none               &none               &kp N1              &kp N2              &kp N3              &none
+                                            &none               &none               &none               &kp SPACE           &hlt SYM N0         &none
+                        >;
+                };
+                symbols_layer {
+                     display-name = "SYM";
+                     bindings = <
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+                                            &none               &none               &none               &none               &none               &none
                         >;
                 };
         };
