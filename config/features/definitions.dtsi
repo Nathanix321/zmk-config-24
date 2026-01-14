@@ -6,14 +6,14 @@
         TAPHOLD_TP(th_dot_morph,   &dot_morph,   &end_dot_morph  )
         TAPHOLD_TP(th_comma_morph, &comma_morph, &end_comma_morph)
 
-        TAPHOLD_TP(th_lpar, &end_lpar, &end_lpar)
-        TAPHOLD_TP(th_rpar, &kp RPAR, &end_rpar)
+        TAPHOLD_TP(th_lpar, &kp, &end_lpar)
+        TAPHOLD_TP(th_rpar, &kp, &end_rpar)
 
-        TAPHOLD_TP(th_lbkt, &kp LBKT, &end_lbkt)
-        TAPHOLD_TP(th_rbkt, &kp RBKT, &end_rbkt)
+        TAPHOLD_TP(th_lbkt, &kp, &end_lbkt)
+        TAPHOLD_TP(th_rbkt, &kp, &end_rbkt)
 
-        TAPHOLD_TP(th_lbrc, &kp LBRC, &end_lbrc)
-        TAPHOLD_TP(th_rbrc, &kp RBRC, &end_rbrc)
+        TAPHOLD_TP(th_lbrc, &kp, &end_lbrc)
+        TAPHOLD_TP(th_rbrc, &kp, &end_rbrc)
 
         hlt_mo_sl: hlt_mo_sl {
             compatible = "zmk,behavior-hold-tap";
