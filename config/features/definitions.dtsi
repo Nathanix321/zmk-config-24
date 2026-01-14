@@ -26,5 +26,5 @@
     };
 };
 
-#define LT_MAGIC_H   lt_magic_h   SHORTCUTS 0
-#define LT_MAGIC_H_S lt_magic_h_s SHORTCUTS 0
+#define LT_MAGIC_H   &lt_magic_h   SHORTCUTS 0
+#define LT_MAGIC_H_S &lt_magic_h_s SHORTCUTS 0
