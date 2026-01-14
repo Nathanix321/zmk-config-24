@@ -35,8 +35,8 @@
     };
 };
 
-#define LT_NAV_ALPHA2 &hlt_mo_sl NAV ALPHA2
-#define LT_NAV_ALPHA2 &hlt_mo_sl NAV SHIFTED2
+#define LT_NAV_ALPHA2   &hlt_mo_sl NAV ALPHA2
+#define LT_NAV_SHIFTED2 &hlt_mo_sl NAV SHIFTED2
 
 #define LT_MAGIC_H   &lt_magic_h   SHORTCUTS 0
 #define LT_MAGIC_H_S &lt_magic_h_s SHORTCUTS 0
