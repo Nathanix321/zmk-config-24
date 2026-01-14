@@ -3,11 +3,11 @@ layout:
 layers:
   alpha1:
     - [
-        { h: "⇥ ?|!", t: "?", s: "!",}, 
-        { h: "⇥ .|:", t: ".", s: ":"},  
-        { h: "⇥ ,|;", t: ",", s: ";" }, 
+        { h: "⇥ ?|!", t: "?", s: "!",},
+        { h: "⇥ .|:", t: ".", s: ":"},
+        { h: "⇥ ,|;", t: ",", s: ";" },
         g,
-        n, 
+        n,
         w]
     - [
         { t: h, h: shortcuts, s: adaptive},
@@ -33,11 +33,11 @@ layers:
     - { t: t, h: symbols }
   alpha2:
     - [
-        { h: "⇥ ?|!", t: "?", s: "!",}, 
-        { h: "⇥ .|:", t: ".", s: ":"},  
-        { h: "⇥ ,|;", t: ",", s: ";" }, 
-        b, 
-        j, 
+        { h: "⇥ ?|!", t: "?", s: "!",},
+        { h: "⇥ .|:", t: ".", s: ":"},
+        { h: "⇥ ,|;", t: ",", s: ";" },
+        b,
+        j,
         k
       ]
     - [
@@ -64,11 +64,11 @@ layers:
     - $$mdi:keyboard-space$$
   shifted1:
     - [
-        { h: "⇥ ?|!", t: "?", s: "!",}, 
-        { h: "⇥ .|:", t: ".", s: ":"},  
-        { h: "⇥ ,|;", t: ",", s: ";" }, 
+        { h: "⇥ ?|!", t: "?", s: "!",},
+        { h: "⇥ .|:", t: ".", s: ":"},
+        { h: "⇥ ,|;", t: ",", s: ";" },
         G,
-        N, 
+        N,
         W]
     - [
         { t: H, h: shortcuts, s: adaptive},
@@ -94,11 +94,11 @@ layers:
     - { t: T, h: symbols }
   shifted2:
     - [
-        { h: "⇥ ?|!", t: "?", s: "!",}, 
-        { h: "⇥ .|:", t: ".", s: ":"},  
-        { h: "⇥ ,|;", t: ",", s: ";" }, 
-        B, 
-        J, 
+        { h: "⇥ ?|!", t: "?", s: "!",},
+        { h: "⇥ .|:", t: ".", s: ":"},
+        { h: "⇥ ,|;", t: ",", s: ";" },
+        B,
+        J,
         K
       ]
     - [
@@ -299,9 +299,9 @@ layers:
       ]
     - [
         type: held,
-        null,
-        null,
-        null,
+        { t: $$mdi:apple-keyboard-control$$ },
+        { t: $$mdi:apple-keyboard-option$$ },
+        { t: $$mdi:apple-keyboard-shift$$ },
         { t: $$mdi:microphone$$, s: mic},
         { t: $$mdi:volume-medium$$, s: vol- },
         { t: $$mdi:volume-high$$, s: vol+ },
@@ -310,7 +310,7 @@ layers:
     - [
         null,
         null,
-        null,
+        { t: $$mdi:apple-keyboard-command$$ },
         { t: $$mdi:play-pause$$, s: play },
         { t: $$mdi:skip-backward$$, s: previous },
         { t: $$mdi:skip-forward$$, s: next },
@@ -341,7 +341,7 @@ layers:
     - [
         null,
         null,
-        null,
+        { t: $$mdi:apple-keyboard-command$$ },
         "F1",
         "F2",
         "F3",
@@ -373,7 +373,7 @@ layers:
         null,
         null,
         { t: "-␣[␣]␣", s: "new task" },
-        { t: personal1, s: email },        
+        { t: personal1, s: email },
         null,
         null,
       ]
@@ -452,7 +452,7 @@ combos:
       layers: [shortcuts],
       draw_separate: true,
     }
-  
+
   - { p: [3, 22], k: { t: "tab" }, layers: [nav], draw_separate: true }
   - { p: [4, 22], k: { t: "enter" }, layers: [nav], draw_separate: true }
   - { p: [10, 22], k: { t: $$mdi:arrow-left$$, h: left }, layers: [nav], draw_separate: true }
@@ -503,7 +503,7 @@ combos:
       k: { t: $$mdi:arrow-down-bold-outline$$, s: page },
       a: mid,
       layers: [
-                nav, 
+                nav,
                 text
               ],
     }
@@ -512,7 +512,7 @@ combos:
       k: { t: $$mdi:arrow-up-bold-outline$$, s: page },
       a: mid,
       layers: [
-                nav, 
+                nav,
                 text
               ],
     }

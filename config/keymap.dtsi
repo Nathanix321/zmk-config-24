@@ -9,7 +9,7 @@
     &none               &th_qexcl_morph 0 0 &th_dot_morph 0 0   &th_comma_morph 0 0 &none               &none               &kp G               &kp N               &kp W               &none
     LT_MAGIC_H          &hml LALT I         &hml LCTRL E        &hml LSHFT A        &none               &none               &hmr LSHFT D        &hmr LCTRL R        &hml LALT S         &lt SHORTCUTS L
     &none               &kp Y               &kp O               &hml LGUI U         &none               &none               &hmr LGUI C         &kp M               &kp F               &none
-                                            &none               &kp SPACE           &sl ALPHA2          &arcane_repeat 0 0  &kp T               &none
+                                            &none               &hlt NUMBERS SPACE  LT_NAV_ALPHA2       &arcane_repeat 0 0  &hlt SYMBOLS T      &none
                         >;
                 };
                 compatible = "zmk,keymap";
@@ -29,7 +29,7 @@
     &none               &th_qexcl_morph 0 0 &th_dot_morph 0 0   &th_comma_morph 0 0 &none               &none               &kp LS(G)           &kp LS(N)           &kp LS(W)           &none
     LT_MAGIC_H_S        &kp LS(I)           &kp LS(E)           &kp LS(A)           &none               &none               &kp LS(D)           &kp LS(R)           &kp LS(S)           &lt SHORTCUTS LS(L)
     &none               &kp LS(Y)           &kp LS(O)           &kp LS(U)           &none               &none               &kp LS(C)           &kp LS(M)           &kp LS(F)           &none
-                                            &none               &kp SPACE           &sl SHIFTED2        &arcane_repeat 0 0  &kp LS(T)           &none
+                                            &none               &hlt NUMBERS SPACE  LT_NAV_SHIFTED2     &arcane_repeat 0 0  &hlt SYMBOLS LS(T)  &none
                         >;
                 };
                 compatible = "zmk,keymap";
