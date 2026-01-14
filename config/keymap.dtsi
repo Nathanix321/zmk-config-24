@@ -66,7 +66,7 @@
                      display-name = "ALPHA1";
                      bindings = <
     &none               &th_qexcl_morph 0 0 &th_dot_morph 0 0   &th_comma_morph 0 0 &none               &none               &kp G               &kp N               &kp W               &none
-    &lt SHORTCUTS magic_h            &hml LALT I         &hml LCTRL E        &hml LSHFT A        &none               &none               &hmr LSHFT D        &hmr LCTRL R        &hml LALT S         &lt SHORTCUTS L
+    LT_MAGIC_H          &hml LALT I         &hml LCTRL E        &hml LSHFT A        &none               &none               &hmr LSHFT D        &hmr LCTRL R        &hml LALT S         &lt SHORTCUTS L
     &none               &kp Y               &kp O               &hml LGUI U         &none               &none               &hmr LGUI C         &kp M               &kp F               &none
                                             &none               &kp SPACE           &sl ALPHA2          &arcane_repeat 0 0  &kp T               &none
                         >;
@@ -76,7 +76,7 @@
                      display-name = "ALPHA2";
                      bindings = <
     &none               &th_qexcl_morph 0 0 &th_dot_morph 0 0   &th_comma_morph 0 0 &none               &none               &kp B               &kp J               &kp K               &none
-    &kp X               HML_ACC_I_CIRC      HML_ACC_E_AIGU      HML_ACC_A_GRAVE     &none               &none               &hmr LSHFT  P       &hmr LCTRL RA(SQT)  &hmr LALT RA(GRAVE) &kp V
+    &lt SHORTCUTS X     HML_ACC_I_CIRC      HML_ACC_E_AIGU      HML_ACC_A_GRAVE     &none               &none               &hmr LSHFT  P       &hmr LCTRL RA(SQT)  &hmr LALT RA(GRAVE) &lt SHORTCUTS V
     &none               &kp Q               &acc_o_circ         HML_ACC_U_CIRC      &none               &none               HMR_ACC_C_CEDILLE   &kp RA(CARET)       &kp RA(DQT)         &none
                                             &none               &kp SPACE           &kp APOS            &kp APOS            &kp SPACE           &none
                         >;
@@ -86,7 +86,7 @@
                      display-name = "CASE";
                      bindings = <
     &none               &th_qexcl_morph 0 0 &th_dot_morph 0 0   &th_comma_morph 0 0 &none               &none               &kp LS(G)           &kp LS(N)           &kp LS(W)           &none
-    &magic_h_s          &kp LS(I)           &kp LS(E)           &kp LS(A)           &none               &none               &kp LS(D)           &kp LS(R)           &kp LS(S)           &kp LS(L)
+    LT_MAGIC_H_S        &kp LS(I)           &kp LS(E)           &kp LS(A)           &none               &none               &kp LS(D)           &kp LS(R)           &kp LS(S)           &lt SHORTCUTS LS(L)
     &none               &kp LS(Y)           &kp LS(O)           &kp LS(U)           &none               &none               &kp LS(C)           &kp LS(M)           &kp LS(F)           &none
                                             &none               &kp SPACE           &sl SHIFTED2        &arcane_repeat 0 0  &kp LS(T)           &none
                         >;
@@ -96,7 +96,7 @@
                      display-name = "CASE";
                      bindings = <
     &none               &th_qexcl_morph 0 0 &th_dot_morph 0 0   &th_comma_morph 0 0 &none               &none               &kp LS(B)           &kp LS(J)           &kp LS(K)           &none
-    &kp LS(X)           &acc_i_circ_s       &acc_e_aigu_s       &acc_a_grave_s      &none               &none               &kp LS(P)           &kp RA(SQT)         &kp RA(GRAVE)       &kp LS(V)
+    &lt SHORTCUTS LS(X) &acc_i_circ_s       &acc_e_aigu_s       &acc_a_grave_s      &none               &none               &kp LS(P)           &kp RA(SQT)         &kp RA(GRAVE)       &lt SHORTCUTS LS(V)
     &none               &kp LS(Q)           &acc_o_circ_s       &acc_u_circ_s       &none               &none               &acc_c_cedille_s    &kp RA(CARET)       &kp RA(DQT)         &none
                                             &none               &kp SPACE           &kp APOS            &kp APOS            &kp SPACE           &none
                         >;
