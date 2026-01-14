@@ -3,6 +3,9 @@
 #define ALPHA1 0
 #define ALPHA2 1
 
+#define SHIFTED1 2
+#define SHIFTED2 3
+
 // Settings
 
 #define COMBO_TERM_FAST 18
