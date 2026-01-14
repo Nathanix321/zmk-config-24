@@ -2,13 +2,6 @@
     shortcuts {
         TAPHOLD_TP_AGRESSIVE(arcane_repeat, &key_repeat, &arcane_key)
 
-        MACRO(end_qmark, &kp END &kp QMARK)
-        MACRO(end_dot,   &kp END &kp DOT  )
-        MACRO(end_comma, &kp END &kp COMMA)
-        MACRO(end_excl,  &kp END &kp EXCL )
-        MACRO(end_colon, &kp END &kp COLON)
-        MACRO(end_semi,  &kp END &kp SEMI )
-
         TAPHOLD_TP(th_qexcl_morph, &qexcl_morph, &end_qexcl_morph)
         TAPHOLD_TP(th_dot_morph,   &dot_morph,   &end_dot_morph  )
         TAPHOLD_TP(th_comma_morph, &comma_morph, &end_comma_morph)

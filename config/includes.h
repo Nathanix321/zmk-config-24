@@ -7,7 +7,8 @@
 #include "config.dtsi"
 
 #include "features/accents.dtsi"
-#include "features/morphs.dtsi"
-#include "features/homerow.dtsi"
 #include "features/adaptive.dtsi"
+#include "features/homerow.dtsi"
+#include "features/macros.dtsi"
+#include "features/morphs.dtsi"
 #include "features/shortcuts.dtsi"
