@@ -14,9 +14,9 @@
 #define NAV 8
 #define TEXT 9
 
-#define MEDIA
-#define FUNCTIONS
-#define MACROS
+#define MEDIA 10
+#define FUNCTIONS 11
+#define MACROS 12
 
 // Settings
 
