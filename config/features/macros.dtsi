@@ -1,12 +1,8 @@
 / {
     macros {
         // End -> Morphs
-        MACRO(end_qmark, &kp END &kp QMARK)
         MACRO(end_dot,   &kp END &kp DOT  )
         MACRO(end_comma, &kp END &kp COMMA)
-        MACRO(end_excl,  &kp END &kp EXCL )
-        MACRO(end_colon, &kp END &kp COLON)
-        MACRO(end_semi,  &kp END &kp SEMI )
 
         // () Macros
         MACRO(lpar,                    &kp LPAR)
