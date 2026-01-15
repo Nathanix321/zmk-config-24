@@ -7,22 +7,25 @@
         MACRO(end_colon, &kp END &kp COLON)
         MACRO(end_semi,  &kp END &kp SEMI )
 
-        MACRO(lpar, &kp LPAR)
-        MACRO(rpar, &kp RPAR)
+        MACRO(lpar,                &kp LPAR)
+        MACRO(rpar,                &kp RPAR)
         MACRO(end_lpar,    &kp END &kp LPAR)
         MACRO(end_rpar,    &kp END &kp RPAR)
+        MACRO(pars_in,             &kp LPAR &kp RPAR &kp LEFT)
         MACRO(end_pars_in, &kp END &kp LPAR &kp RPAR &kp LEFT)
 
-        MACRO(lbkt, &kp LBKT)
-        MACRO(rbkt, &kp RBKT)
-        MACRO(end_lbkt, &kp END  &kp LBKT)
-        MACRO(end_rbkt, &kp END  &kp RBKT)
-        MACRO(bkts_in,  &kp LBKT &kp RBKT &kp LEFT)
+        MACRO(lbkt,                &kp LBKT)
+        MACRO(rbkt,                &kp RBKT)
+        MACRO(end_lbkt,   &kp END  &kp LBKT)
+        MACRO(end_rbkt,   &kp END  &kp RBKT)
+        MACRO(bkts_in,             &kp LBKT &kp RBKT &kp LEFT)
+        MACRO(end_bkts_in, &kp END &kp LBKT &kp RBKT &kp LEFT)
 
-        MACRO(lbrc, &kp LBRC)
-        MACRO(rbrc, &kp RBRC)
-        MACRO(end_lbrc, &kp END &kp LBRC)
-        MACRO(end_rbrc, &kp END &kp RBRC)
+        MACRO(lbrc,                 &kp LBRC)
+        MACRO(rbrc,                 &kp RBRC)
+        MACRO(end_lbrc,     &kp END &kp LBRC)
+        MACRO(end_rbrc,     &kp END &kp RBRC)
+        MACRO(end_brc_in_n, &kp END &kp LBRC &kp RBRC &kp LEFT &kp ENTER)
 
         // letourneau.nathaniel@hotmail.com
         MACRO(email1, &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U &kp DOT &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L &kp AT &kp H &kp O &kp T &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M)
@@ -30,5 +33,7 @@
         MACRO(email2, &kp L &kp E &kp T &kp N &kp N1 &kp N1 &kp N0 &kp N2 &kp AT &kp U &kp S &kp H &kp E &kp R &kp B &kp R &kp O &kp O &kp K &kp E &kp DOT &kp C &kp A)
         // nathaniel.letourneau@sbquantum.com
         MACRO(email3, &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L &kp DOT &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U &kp AT &kp S &kp B &kp Q &kp U &kp A &kp N &kp T &kp U &kp M &kp DOT &kp C &kp O &kp M)
+        // https://github.com/Nathanix321/zmk-config-24/blob/main/draw/svgs/whole_keymap.svg
+        MACRO(keymap, &kp H &kp T &kp T &kp P &kp S &kp SEMI &kp FLSH  &kp FLSH &kp G &kp I &kp T &kp H &kp U &kp B &kp DOT &kp C &kp O &kp M &kp FLSH  &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp X &kp N3 &kp N2 &kp N1 &kp FLSH &kp Z &kp M &kp K &kp MINUS &kp C &kp O &kp N &kp F &kp I &kp G &kp MINUS  &kp N2 &kp N4 &kp FLSH &kp B &kp L &kp O &kp B &kp FLSH &kp M &kp A &kp I &kp N &kp FLSH &kp D &kp R &kp A &kp W &kp FLSH &kp S &kp V &kp G &kp S &kp FLSH &kp W &kp H &kp O &kp L &kp E &kp UNDER &kp K &kp E &kp Y &kp M &kp A &kp P &kp DOT &kp S &kp V &kp G)
     };
 };
