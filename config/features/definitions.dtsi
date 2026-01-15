@@ -22,6 +22,15 @@
         TAPHOLD_TP(th_lbrc, &lbrc, &end_lbrc)
         TAPHOLD_TP(th_rbrc, &rbrc, &end_rbrc)
 
+        TAPHOLD_TP(th_apos,  &apos,  &end_apos)
+        TAPHOLD_TP(th_dqt,   &dqt,   &end_dqt)
+        TAPHOLD_TP(th_grave, &grave, &end_grave)
+
+        TAPHOLD_TP(th_equal, &equal, &end_equal)
+        TAPHOLD_TP(th_colon, &colon, &end_colon)
+        TAPHOLD_TP(th_qmark, &qmark, &end_qmark)
+        TAPHOLD_TP(th_excl,  &excl,  &end_excl)
+
         hlt_mo_sl: hlt_mo_sl {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
