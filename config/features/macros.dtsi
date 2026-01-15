@@ -1,5 +1,6 @@
 / {
     macros {
+        // End -> Morphs
         MACRO(end_qmark, &kp END &kp QMARK)
         MACRO(end_dot,   &kp END &kp DOT  )
         MACRO(end_comma, &kp END &kp COMMA)
@@ -7,13 +8,17 @@
         MACRO(end_colon, &kp END &kp COLON)
         MACRO(end_semi,  &kp END &kp SEMI )
 
-        MACRO(lpar,                &kp LPAR)
-        MACRO(rpar,                &kp RPAR)
-        MACRO(end_lpar,    &kp END &kp LPAR)
-        MACRO(end_rpar,    &kp END &kp RPAR)
-        MACRO(pars_in,             &kp LPAR &kp RPAR &kp LEFT)
-        MACRO(end_pars_in, &kp END &kp LPAR &kp RPAR &kp LEFT)
+        // () Macros
+        MACRO(lpar,                    &kp LPAR)
+        MACRO(rpar,                    &kp RPAR)
+        MACRO(end_lpar,        &kp END &kp LPAR)
+        MACRO(end_rpar,        &kp END &kp RPAR)
+        MACRO(pars_in,                 &kp LPAR &kp RPAR &kp LEFT)
+        MACRO(end_pars_in,     &kp END &kp LPAR &kp RPAR &kp LEFT)
+        MACRO(end_pars_semi,   &kp END &kp LPAR &kp RPAR &kp SEMI)
+        MACRO(end_pars_semi_n, &kp END &kp LPAR &kp RPAR &kp SEMI &kp ENTER)
 
+        // [] Macros
         MACRO(lbkt,                &kp LBKT)
         MACRO(rbkt,                &kp RBKT)
         MACRO(end_lbkt,   &kp END  &kp LBKT)
@@ -21,19 +26,75 @@
         MACRO(bkts_in,             &kp LBKT &kp RBKT &kp LEFT)
         MACRO(end_bkts_in, &kp END &kp LBKT &kp RBKT &kp LEFT)
 
+        // {} Macros
         MACRO(lbrc,                 &kp LBRC)
         MACRO(rbrc,                 &kp RBRC)
         MACRO(end_lbrc,     &kp END &kp LBRC)
         MACRO(end_rbrc,     &kp END &kp RBRC)
+        MACRO(end_brc_in,   &kp END &kp LBRC &kp RBRC &kp LEFT)
         MACRO(end_brc_in_n, &kp END &kp LBRC &kp RBRC &kp LEFT &kp ENTER)
+
+        // :: Macros
+        MACRO(2_colon,             &kp COLON &kp COLON)
+        MACRO(end_2_colon, &kp END &kp COLON &kp COLON)
+
+        // && Macros
+        MACRO(2_amps,             &kp AMPS &kp AMPS)
+        MACRO(end_2_amps, &kp END &kp AMPS &kp AMPS)
+
+        // || Macros
+        MACRO(2_pipe,             &kp PIPE &kp PIPE)
+        MACRO(end_2_pipe, &kp END &kp PIPE &kp PIPE)
+
+        // ; Macros
+        MACRO(end_semi,   &kp END &kp SEMI)
+        MACRO(end_semi_n, &kp END &kp SEMI &kp ENTER)
+
+        // # Macros
+        MACRO(2_pound, &kp POUND &kp POUND)
+        MACRO(3_pound, &kp POUND &kp POUND &kp POUND)
+
+        // ' Macros
+        MACRO(2_apos_in, &kp APOS &kp APOS &kp LEFT)
+
+        // " Macros
+        MACRO(2_dqt_in, &kp DQT &kp DQT &kp LEFT)
+        MACRO(3_dqt,    &kp DQT &kp DQT &kp DQT)
+
+        // ` Macros
+        MACRO(2_grave_in, &kp GRAVE &kp GRAVE &kp LEFT)
+        MACRO(3_grave,    &kp GRAVE &kp GRAVE &kp GRAVE)
+
+        // Arrow Macros
+        MACRO(min_arrow, &kp EQUAL &kp GT)
+        MACRO(equ_arrow, &kp MINUS &kp GT)
+
+        // / Macros
+        MACRO(tilde_fslh, &kp TILDE &kp FSLH)
+        MACRO(dot_fslh,   &kp DOT   &kp FSLH)
+        MACRO(2_dot_fslh, &kp DOT   &kp DOT &kp FSLH)
+
+        // = Macros
+        MACRO(2_equ,    &kp EQUAL &kp EQUAL)
+        MACRO(excl_equ, &kp EXCL  &kp EQUAL)
+
+        // Currency Macros
+        MACRO(usd_sign,   &kp U &kp S &kp DOLLAR)
+        MACRO(usd_letter, &kp U &kp S &kp D)
+        MACRO(cad_sign,   &kp C &kp A &kp DOLLAR)
+        MACRO(cad_letter, &kp C &kp A &kp D)
+        MACRO(eur_letter, &kp E &kp U &kp R)
 
         // letourneau.nathaniel@hotmail.com
         MACRO(email1, &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U &kp DOT &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L &kp AT &kp H &kp O &kp T &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M)
+
         // letn1102@usherbrooke.ca
         MACRO(email2, &kp L &kp E &kp T &kp N &kp N1 &kp N1 &kp N0 &kp N2 &kp AT &kp U &kp S &kp H &kp E &kp R &kp B &kp R &kp O &kp O &kp K &kp E &kp DOT &kp C &kp A)
+
         // nathaniel.letourneau@sbquantum.com
         MACRO(email3, &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L &kp DOT &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U &kp AT &kp S &kp B &kp Q &kp U &kp A &kp N &kp T &kp U &kp M &kp DOT &kp C &kp O &kp M)
+
         // https://github.com/Nathanix321/zmk-config-24/blob/main/draw/svgs/whole_keymap.svg
-        MACRO(keymap, &kp H &kp T &kp T &kp P &kp S &kp SEMI &kp FSLH &kp FSLH &kp G &kp I &kp T &kp H &kp U &kp B &kp DOT &kp C &kp O &kp M &kp FSLH &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp X &kp N3 &kp N2 &kp N1 &kp FSLH &kp Z &kp M &kp K &kp MINUS &kp C &kp O &kp N &kp F &kp I &kp G &kp MINUS &kp N2 &kp N4 &kp FSLH &kp B &kp L &kp O &kp B &kp FSLH &kp M &kp A &kp I &kp N &kp FSLH &kp D &kp R &kp A &kp W &kp FSLH &kp S &kp V &kp G &kp S &kp FSLH &kp W &kp H &kp O &kp L &kp E &kp UNDER &kp K &kp E &kp Y &kp M &kp A &kp P &kp DOT &kp S &kp V &kp G)
+        MACRO(keymap, &kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH &kp G &kp I &kp T &kp H &kp U &kp B &kp DOT &kp C &kp O &kp M &kp FSLH &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp X &kp N3 &kp N2 &kp N1 &kp FSLH &kp Z &kp M &kp K &kp MINUS &kp C &kp O &kp N &kp F &kp I &kp G &kp MINUS &kp N2 &kp N4 &kp FSLH &kp B &kp L &kp O &kp B &kp FSLH &kp M &kp A &kp I &kp N &kp FSLH &kp D &kp R &kp A &kp W &kp FSLH &kp S &kp V &kp G &kp S &kp FSLH &kp W &kp H &kp O &kp L &kp E &kp UNDER &kp K &kp E &kp Y &kp M &kp A &kp P &kp DOT &kp S &kp V &kp G)
     };
 };
