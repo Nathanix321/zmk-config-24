@@ -35,42 +35,42 @@
         MACRO(end_brc_in_n, &kp END &kp LBRC &kp RBRC &kp LEFT &kp ENTER)
 
         // : Macros
-        MACRO(colon,               &kp COLON)
-        MACRO(2_colon,             &kp COLON &kp COLON)
-        MACRO(end_2_colon, &kp END &kp COLON &kp COLON)
-        MACRO(end_colon,   &kp END &kp COLON)
+        MACRO(colon,                 &kp COLON)
+        MACRO(two_colon,             &kp COLON &kp COLON)
+        MACRO(end_two_colon, &kp END &kp COLON &kp COLON)
+        MACRO(end_colon,     &kp END &kp COLON)
 
         // && Macros
-        MACRO(2_amps,             &kp AMPS &kp AMPS)
-        MACRO(end_2_amps, &kp END &kp AMPS &kp AMPS)
+        MACRO(two_amps,             &kp AMPS &kp AMPS)
+        MACRO(end_two_amps, &kp END &kp AMPS &kp AMPS)
 
         // || Macros
-        MACRO(2_pipe,             &kp PIPE &kp PIPE)
-        MACRO(end_2_pipe, &kp END &kp PIPE &kp PIPE)
+        MACRO(two_pipe,             &kp PIPE &kp PIPE)
+        MACRO(end_two_pipe, &kp END &kp PIPE &kp PIPE)
 
         // ; Macros
         MACRO(end_semi,   &kp END &kp SEMI)
         MACRO(end_semi_n, &kp END &kp SEMI &kp ENTER)
 
         // # Macros
-        MACRO(2_pound, &kp POUND &kp POUND)
-        MACRO(3_pound, &kp POUND &kp POUND &kp POUND)
+        MACRO(two_pound,   &kp POUND &kp POUND)
+        MACRO(three_pound, &kp POUND &kp POUND &kp POUND)
 
         // ' Macros
         MACRO(apos,               &kp APOS)
-        MACRO(2_apos_in,          &kp APOS &kp APOS &kp LEFT)
+        MACRO(two_apos_in,        &kp APOS &kp APOS &kp LEFT)
         MACRO(end_apos,  &kp END  &kp APOS)
 
         // " Macros
         MACRO(dqt,              &kp DQT)
-        MACRO(2_dqt_in,         &kp DQT &kp DQT &kp LEFT)
-        MACRO(3_dqt,            &kp DQT &kp DQT &kp DQT)
+        MACRO(two_dqt_in,       &kp DQT &kp DQT &kp LEFT)
+        MACRO(three_dqt,        &kp DQT &kp DQT &kp DQT)
         MACRO(end_dqt,  &kp END &kp DQT)
 
         // ` Macros
         MACRO(grave,                &kp GRAVE)
-        MACRO(2_grave_in,           &kp GRAVE &kp GRAVE &kp LEFT)
-        MACRO(3_grave,              &kp GRAVE &kp GRAVE &kp GRAVE)
+        MACRO(two_grave_in,         &kp GRAVE &kp GRAVE &kp LEFT)
+        MACRO(three_grave,          &kp GRAVE &kp GRAVE &kp GRAVE)
         MACRO(end_grave,  &kp END   &kp GRAVE)
 
         // Arrow Macros
@@ -78,13 +78,13 @@
         MACRO(equ_arrow, &kp MINUS &kp GT)
 
         // / Macros
-        MACRO(tilde_fslh, &kp TILDE &kp FSLH)
-        MACRO(dot_fslh,   &kp DOT   &kp FSLH)
-        MACRO(2_dot_fslh, &kp DOT   &kp DOT &kp FSLH)
+        MACRO(tilde_fslh,   &kp TILDE &kp FSLH)
+        MACRO(dot_fslh,     &kp DOT   &kp FSLH)
+        MACRO(two_dot_fslh, &kp DOT   &kp DOT &kp FSLH)
 
         // = Macros
         MACRO(equal,      &kp EQUAL)
-        MACRO(2_equal,    &kp EQUAL &kp EQUAL)
+        MACRO(two_equal,  &kp EQUAL &kp EQUAL)
         MACRO(excl_equal, &kp EXCL  &kp EQUAL)
         MACRO(end_equal,  &kp END   &kp EQUAL)
 
