@@ -21,7 +21,7 @@
         TAPHOLD_TP(th_dot_excl_morph,   &dot_excl_morph,   &end_dot_excl_morph)
 
         TAPHOLD_TP(th_colon_semi_morph, &colon_semi_morph, &end_colon_semi_morph)
-        TAPHOLD_TP(th_q_commma_morph,   &q_comma_morph,    &end_q_comma_morph)
+        TAPHOLD_TP(th_q_comma_morph,   &q_comma_morph,    &end_q_comma_morph)
         TAPHOLD_TP(th_excl_dot_morph,   &excl_dot_morph,   &end_excl_dot_morph)
 
         TAPHOLD_TP(th_lpar, &lpar, &end_lpar)
