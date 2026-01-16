@@ -6,7 +6,7 @@
 
         MOD_MORPH(colon_semi_morph, MOD_LSFT|MOD_RSFT, &kp SEMI,  &kp COLON)
         MOD_MORPH(q_comma_morph,    MOD_LSFT|MOD_RSFT, &kp QMARK, &kp COMMA)
-        MOD_MORPH(sot_excl_morph,   MOD_LSFT|MOD_RSFT, &kp DOT,   &kp EXCL)
+        MOD_MORPH(excl_dot_morph,   MOD_LSFT|MOD_RSFT, &kp DOT,   &kp EXCL)
 
         MOD_MORPH(end_semi_colon_morph, MOD_LSFT|MOD_RSFT, &end_colon, &end_semi)
         MOD_MORPH(end_comma_q_morph,    MOD_LSFT|MOD_RSFT, &end_comma, &end_qmark)
