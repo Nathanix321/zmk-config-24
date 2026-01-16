@@ -24,7 +24,7 @@
                 shifted1_layer {
                      display-name = "CASE";
                      bindings = <
-    &none               &th_qexcl_morph 0 0 &th_dot_morph 0 0   &th_comma_morph 0 0 &none               &none               &kp LS(G)           &kp LS(N)           &kp LS(W)           &none
+    &none               SEMI_COLON          COMMA_Q             DOT_EXCL            &none               &none               &kp LS(G)           &kp LS(N)           &kp LS(W)           &none
     LT_MAGIC_H_S        &kp LS(I)           &kp LS(E)           &kp LS(A)           &none               &none               &kp LS(D)           &kp LS(R)           &kp LS(S)           &lt SHORTCUTS LS(L)
     &none               &kp LS(Y)           &kp LS(O)           &kp LS(U)           &none               &none               &kp LS(C)           &kp LS(M)           &kp LS(F)           &none
                                             &none               &hlt NUMBERS SPACE  LT_NAV_SHIFTED2     &arcane_repeat 0 0  &hlt SYMBOLS LS(T)  &none
@@ -33,7 +33,7 @@
                 shifted2_layer {
                      display-name = "CASE";
                      bindings = <
-    &none               &th_qexcl_morph 0 0 &th_dot_morph 0 0   &th_comma_morph 0 0 &none               &none               &kp LS(B)           &kp LS(J)           &kp LS(K)           &none
+    &none               COLON_SEMI          Q_COMMA             EXCL_DOT            &none               &none               &kp LS(B)           &kp LS(J)           &kp LS(K)           &none
     &lt SHORTCUTS LS(X) &acc_i_circ_s       &acc_e_aigu_s       &acc_a_grave_s      &none               &none               &kp LS(P)           &kp RA(SQT)         &kp RA(GRAVE)       &lt SHORTCUTS LS(V)
     &none               &kp LS(Q)           &acc_o_circ_s       &acc_u_circ_s       &none               &none               &acc_c_cedille_s    &kp RA(CARET)       &kp RA(DQT)         &none
                                             &none               &kp SPACE           &kp APOS            &kp APOS            &kp SPACE           &none
