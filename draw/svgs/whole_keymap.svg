@@ -1913,8 +1913,8 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 </g>
 <g transform="translate(380, 238)" class="key keypos-22">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<use href="#mdi:repeat" xlink:href="#mdi:repeat" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:repeat"/>
-<text x="0" y="-30" class="key shifted">repeat</text>
+<use href="#mdi:flash" xlink:href="#mdi:flash" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:flash"/>
+<text x="0" y="-30" class="key shifted">boot</text>
 </g>
 <g transform="translate(450, 238)" class="key keypos-23">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
