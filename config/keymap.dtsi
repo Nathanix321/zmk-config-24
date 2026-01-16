@@ -51,9 +51,9 @@
                 symbols_layer {
                      display-name = "SYM";
                      bindings = <
-    &none               &kp TILDE           &kp POUND           &th_apos            &none               &none               &kp PERCENT         &th_equal           &th_colon           &none
-    &kp AT              &kp CARET           &kp DOLLAR          &th_dqt             &none               &none               &th_qmark           &kp MINUS           &kp PLUS            &lt MACROS COMMA
-    &none               &kp LT              &kp GT              &th_grave           &none               &none               &th_excl            &kp FSLH            &kp STAR            &none
+    &none               &kp TILDE           &kp POUND           &th_apos 0 0        &none               &none               &kp PERCENT         &th_equal 0 0       &th_colon 0 0       &none
+    &kp AT              &kp CARET           &kp DOLLAR          &th_dqt 0 0         &none               &none               &th_qmark 0 0       &kp MINUS           &kp PLUS            &lt MACROS COMMA
+    &none               &kp LT              &kp GT              &th_grave 0 0       &none               &none               &th_excl 0 0        &kp FSLH            &kp STAR            &none
                                             &hlt NUMBERS SPACE  &none               &none               &none               &none               &none
                         >;
                 };
