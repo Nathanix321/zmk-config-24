@@ -88,8 +88,8 @@
                      display-name = "TEXT";
                      bindings = <
     &none               &sel_home           &sel_word_fw        &sel_line           &none               &none               &th_tab 0 0         &th_enter 0 0       &kp ESC             &none
-    &none               &none               &none               &none               &none               &none               &mv_word_bw         &kp DOWN            &kp UP              &mv_word_fw
-    &none               &none               &none               &none               &none               &none               &del_word_fw        &kp HOME            &kp END             &none
+    &none               &kp LALT            &kp LCTRL           &kp LSHFT           &none               &none               &mv_word_bw         &kp DOWN            &kp UP              &mv_word_fw
+    &none               &none               &none               &kp LGUI            &none               &none               &del_word_fw        &kp HOME            &kp END             &none
                                             &none               &none               &none               &kp SPACE           &none               &none
                         >;
                 };
