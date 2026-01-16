@@ -5,13 +5,24 @@
 #define LT_MAGIC_H   &lt_magic_h   SHORTCUTS 0
 #define LT_MAGIC_H_S &lt_magic_h_s SHORTCUTS 0
 
+#define SEMI_COLON &th_semi_colon_morph 0 0
+#define COMMA_Q    &th_comma_q_morph    0 0
+#define DOT_EXCL   &th_dot_excl_morph   0 0
+#define COLON_SEMI &th_colon_semi_morph 0 0
+#define Q_COMMA    &th_q_comma_morph    0 0
+#define EXCL_DOT   &th_excl_dot_morph   0 0
+
 / {
     definitions {
         TAPHOLD_TP_AGRESSIVE(arcane_repeat, &key_repeat, &arcane_key)
 
-        TAPHOLD_TP(th_qexcl_morph, &qexcl_morph, &end_qexcl_morph)
-        TAPHOLD_TP(th_dot_morph,   &dot_morph,   &end_dot_morph  )
-        TAPHOLD_TP(th_comma_morph, &comma_morph, &end_comma_morph)
+        TAPHOLD_TP(th_semi_colon_morph, &semi_colon_morph, &end_semi_colon_morph)
+        TAPHOLD_TP(th_comma_q_morph,    &comma_q_morph,    &end_comma_q_morph)
+        TAPHOLD_TP(th_dot_excl_morph,   &dot_excl_morph,   &end_dot_excl_morph)
+
+        TAPHOLD_TP(th_colon_semi_morph, &colon_semi_morph, &end_colon_semi_morph)
+        TAPHOLD_TP(th_q_commma_morph,   &q_comma_morph,    &end_q_comma_morph)
+        TAPHOLD_TP(th_excl_dot_morph,   &excl_dot_morph,   &end_excl_dot_morph)
 
         TAPHOLD_TP(th_lpar, &lpar, &end_lpar)
         TAPHOLD_TP(th_rpar, &rpar, &end_rpar)

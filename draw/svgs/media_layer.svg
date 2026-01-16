@@ -279,15 +279,11 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 </g>
 <g transform="translate(415, 34)" class="key keypos-3">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">⇤</tspan><tspan x="0" dy="1.2em">↹</tspan>
-</text>
+<text x="0" y="0" class="key tap">↹</text>
 </g>
 <g transform="translate(485, 34)" class="key keypos-4">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">⇥</tspan><tspan x="0" dy="1.2em">↵</tspan>
-</text>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-return"/>
 </g>
 <g transform="translate(555, 34)" class="key keypos-5">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>

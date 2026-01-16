@@ -3,9 +3,9 @@ layout:
 layers:
   alpha1:
     - [
-        { h: "⇥ ?|!", t: "?", s: "!",},
-        { h: "⇥ .|:", t: ".", s: ":"},
-        { h: "⇥ ,|;", t: ",", s: ";" },
+        { h: "⇥ ;|:", t: ";", s: ":",},
+        { h: "⇥ ,|?", t: ",", s: "?"},
+        { h: "⇥ .|!", t: ".", s: "!" },
         g,
         n,
         w]
@@ -33,9 +33,9 @@ layers:
     - { t: t, h: symbols }
   alpha2:
     - [
-        { h: "⇥ ?|!", t: "?", s: "!",},
-        { h: "⇥ .|:", t: ".", s: ":"},
-        { h: "⇥ ,|;", t: ",", s: ";" },
+        { h: "⇥ :|;", t: ":", s: ";",},
+        { h: "⇥ ?|,", t: "?", s: ","},
+        { h: "⇥ !|.", t: "!", s: "." },
         b,
         j,
         k
@@ -46,8 +46,8 @@ layers:
         { h: $$mdi:apple-keyboard-control$$, t: é },
         { h: $$mdi:apple-keyboard-shift$$, t: à },
         { h: $$mdi:apple-keyboard-shift$$, t: p },
-        { h: $$mdi:apple-keyboard-control$$, t: "dead ´" },
-        { h: $$mdi:apple-keyboard-option$$, t: "dead `" },
+        { h: $$mdi:apple-keyboard-control$$, t: "d(´)" },
+        { h: $$mdi:apple-keyboard-option$$, t: "d(`)" },
         { t: v, h: shortcuts },
       ]
     - [
@@ -55,8 +55,8 @@ layers:
         ô,
         { h: $$mdi:apple-keyboard-command$$, t: û},
         { h: $$mdi:apple-keyboard-command$$, t: ç},
-        "dead ^",
-        "dead ¨",
+        "d(^)",
+        "d(¨)",
       ]
     - $$mdi:keyboard-space$$
     - "'"
@@ -64,9 +64,9 @@ layers:
     - $$mdi:keyboard-space$$
   shifted1:
     - [
-        { h: "⇥ ?|!", t: "?", s: "!",},
-        { h: "⇥ .|:", t: ".", s: ":"},
-        { h: "⇥ ,|;", t: ",", s: ";" },
+        { h: "⇥ ;|:", t: ";", s: ":",},
+        { h: "⇥ ,|?", t: ",", s: "?"},
+        { h: "⇥ .|!", t: ".", s: "!" },
         G,
         N,
         W]
@@ -94,9 +94,9 @@ layers:
     - { t: T, h: symbols }
   shifted2:
     - [
-        { h: "⇥ ?|!", t: "?", s: "!",},
-        { h: "⇥ .|:", t: ".", s: ":"},
-        { h: "⇥ ,|;", t: ",", s: ";" },
+        { h: "⇥ :|;", t: ":", s: ";",},
+        { h: "⇥ ?|,", t: "?", s: ","},
+        { h: "⇥ !|.", t: "!", s: "." },
         B,
         J,
         K
@@ -107,8 +107,8 @@ layers:
         { h: $$mdi:apple-keyboard-control$$, t: É },
         { h: $$mdi:apple-keyboard-shift$$, t: À },
         { h: $$mdi:apple-keyboard-shift$$, t: P },
-        { h: $$mdi:apple-keyboard-control$$, t: "dead ´" },
-        { h: $$mdi:apple-keyboard-option$$, t: "dead `" },
+        { h: $$mdi:apple-keyboard-control$$, t: "d(´)" },
+        { h: $$mdi:apple-keyboard-option$$, t: "d(`)" },
         { t: V, h: shortcuts },
       ]
     - [
@@ -116,8 +116,8 @@ layers:
         Ô,
         { h: $$mdi:apple-keyboard-command$$, t: Û},
         { h: $$mdi:apple-keyboard-command$$, t: Ç},
-        "dead ^",
-        "dead ¨",
+        "d(^)",
+        "d(¨)",
       ]
     - $$mdi:keyboard-space$$
     - "'"
@@ -126,7 +126,7 @@ layers:
   numbers:
     - [{ t: "{", h: "⇥ {" }, { t: "}", h: "⇥ }" }, "\\", 7, 8, 9]
     - [
-        { t: "°", h: func },
+        { h: func },
         { t: "(", h: "⇥ (" },
         { t: ")", h: "⇥ )" },
         "&",
@@ -293,8 +293,8 @@ layers:
         null,
         null,
         null,
-        { t: "⇤ ↹" },
-        { t: "⇥ ↵" },
+        { t: "↹" },
+        { t: "$$mdi:keyboard-return$$" },
         { t: "⎋" },
       ]
     - [
@@ -422,7 +422,18 @@ combos:
           text
         ],
     }
-  - { p: [12, 19], k: "dead ~", a: mid, layers: [alpha2, shifted2] }
+
+  - { p: [1, 8], k: "x", layers: [alpha1] }
+  - { p: [4, 11], k: "j", layers: [alpha1] }
+  - { p: [5, 12], k: "k", layers: [alpha1] }
+  - { p: [12, 19], k: "v", layers: [alpha1] }
+
+  - { p: [1, 8], k: "X", layers: [shifted1] }
+  - { p: [4, 11], k: "J", layers: [shifted1] }
+  - { p: [5, 12], k: "K", layers: [shifted1] }
+  - { p: [12, 19], k: "V", layers: [shifted1] }
+
+  - { p: [12, 19], k: "d(~)", a: mid, layers: [alpha2, shifted2] }
 
   - { p: [1, 2, 21], k: "save", layers: [shortcuts], draw_separate: true }
   - { p: [8, 9, 21], k: "undo", layers: [shortcuts], draw_separate: true }
@@ -465,7 +476,7 @@ combos:
 
   - { p: [0, 1], k: "⇥{ ⏎", a: mid, layers: [numbers] }
   - { p: [1, 2], k: { t: "::", h: "⇥ ::" }, a: mid, layers: [numbers] }
-  - { p: [14, 15], k: { t: "[]", h: "nav" }, a: mid, layers: [numbers] }
+  - { p: [14, 15], k: { t: "[]", h: "⇥ []" }, a: mid, layers: [numbers] }
   - { p: [7, 8], k: { t: "()", h: "⇥ ()" }, a: mid, layers: [numbers] }
   - { p: [8, 9], k: { t: "&&", h: "→ &&" }, a: mid, layers: [numbers] }
   - { p: [15, 16], k: { t: "||", h: "→ ||" }, a: mid, layers: [numbers] }
