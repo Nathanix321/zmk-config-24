@@ -42,6 +42,9 @@
         TAPHOLD_TP(th_qmark, &qmark, &end_qmark)
         TAPHOLD_TP(th_excl,  &excl,  &end_excl)
 
+        TAPHOLD_TP(th_tab, &tab, &home_tab)
+        TAPHOLD_TP(th_enter, &enter, &end_enter)
+
         hlt_mo_sl: hlt_mo_sl {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;

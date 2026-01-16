@@ -99,6 +99,24 @@
         MACRO(cad_letter, &kp C &kp A &kp D)
         MACRO(eur_letter, &kp E &kp U &kp R)
 
+        // Enter and Tab Macros
+        MACRO(tab,               &kp TAB)
+        MACRO(home_tab, &kp HOME &kp TAB)
+        MACRO(enter,             &kp ENTER)
+        MACRO(end_enter, &kp END &kp ENTER)
+
+        // Text  Macros
+        MACRO(sel_word_fw, &kp LC(RIGHT) &kp LC(LEFT)  &kp LS(LC(RIGHT)))
+        MACRO(sel_word_bw, &kp LC(LEFT)  &kp LC(RIGHT) &kp LS(LC(LEFT)))
+        MACRO(sel_home,    &kp LS(HOME))
+        MACRO(sel_line,    &kp HOME &kp LS(END))
+
+        MACRO(mv_word_fw, &kp LC(RIGHT) &kp LC(LEFT)  &kp LC(RIGHT))
+        MACRO(mv_word_bw, &kp LC(LEFT)  &kp LC(RIGHT) &kp LC(LEFT))
+
+        MACRO(del_word_fw, &sel_word_fw &kp DEL)
+        MACRO(del_word_bw, &sel_word_bw &kp DEL)
+
         // letourneau.nathaniel@hotmail.com
         MACRO(email1, &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U &kp DOT &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L &kp AT &kp H &kp O &kp T &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M)
 

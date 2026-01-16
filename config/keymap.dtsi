@@ -54,8 +54,80 @@
     &none               &kp TILDE           &kp POUND           &th_apos 0 0        &none               &none               &kp PERCENT         &th_equal 0 0       &th_colon 0 0       &none
     &kp AT              &kp CARET           &kp DOLLAR          &th_dqt 0 0         &none               &none               &th_qmark 0 0       &kp MINUS           &kp PLUS            &lt MACROS COMMA
     &none               &kp LT              &kp GT              &th_grave 0 0       &none               &none               &th_excl 0 0        &kp FSLH            &kp STAR            &none
-                                            &hlt NUMBERS SPACE  &none               &none               &none               &none               &none
+                                            &none               &hlt NUMBERS SPACE  &none               &none               &none               &none
                         >;
                 };
+                shortcuts_layer {
+                     display-name = "SHORT";
+                     bindings = <
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+                                            &none               &none               &none               &none               &none               &none
+                        >;
+                };
+                cases_layer {
+                     display-name = "CASES";
+                     bindings = <
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+                                            &none               &none               &none               &none               &none               &none
+                        >;
+                };
+                nav_layer {
+                     display-name = "NAV";
+                     bindings = <
+    &none               &none               &none               &none               &none               &none               &th_tab 0 0         &th_enter 0 0       &kp ESC             &none
+    &lt TEXT INS        &kp LALT            &kp LCTRL           &kp LSHFT           &none               &none               &kp LEFT            &kp DOWN            &kp UP              &kp RIGHT
+    &none               &none               &none               &kp LGUI            &none               &none               &kp DEL             &kp HOME            &kp END             &none
+                                            &none               &none               &none               &kp SPACE           &none               &none
+                        >;
+                };
+                text_layer {
+                     display-name = "TEXT";
+                     bindings = <
+    &none               &sel_home           &sel_word_fw        &sel_line           &none               &none               &th_tab 0 0         &th_enter 0 0       &kp ESC             &none
+    &none               &none               &none               &none               &none               &none               &mv_word_bw         &kp DOWN            &kp UP              &mv_word_fw
+    &none               &none               &none               &none               &none               &none               &del_word_fw        &kp HOME            &kp END             &none
+                                            &none               &none               &none               &kp SPACE           &none               &none
+                        >;
+                };
+                media_layer {
+                     display-name = "MEDIA";
+                     bindings = <
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+                                            &none               &none               &none               &none               &none               &none
+                        >;
+                };
+                functions_layer {
+                     display-name = "FUNC";
+                     bindings = <
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+                                            &none               &none               &none               &none               &none               &none
+                        >;
+                };
+                macros_layer {
+                     display-name = "MACROS";
+                     bindings = <
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+                                            &none               &none               &none               &none               &none               &none
+                        >;
+                };
+    //             template_layer {
+    //                  display-name = "TEMPLATE";
+    //                  bindings = <
+    // &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    // &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    // &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    //                                         &none               &none               &none               &none               &none               &none
+    //                     >;
+    //             };
         };
 };

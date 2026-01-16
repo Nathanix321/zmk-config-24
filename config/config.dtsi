@@ -8,6 +8,7 @@
 
 #define NUMBERS 4
 #define SYMBOLS 5
+
 #define SHORTCUTS 6
 #define CASES 7
 
