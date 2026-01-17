@@ -406,14 +406,18 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 <text x="175" y="68" class="combo tap">x</text>
 </g>
 <g class="combo combopos-3">
+<rect rx="6" ry="6" x="398" y="121" width="34" height="30" class="combo"/>
+<text x="415" y="136" class="combo tap">p</text>
+</g>
+<g class="combo combopos-4">
 <rect rx="6" ry="6" x="468" y="53" width="34" height="30" class="combo"/>
 <text x="485" y="68" class="combo tap">j</text>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-5">
 <rect rx="6" ry="6" x="538" y="53" width="34" height="30" class="combo"/>
 <text x="555" y="68" class="combo tap">k</text>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="538" y="121" width="34" height="30" class="combo"/>
 <text x="555" y="136" class="combo tap">v</text>
 </g>
@@ -691,14 +695,18 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 <text x="175" y="68" class="combo tap">X</text>
 </g>
 <g class="combo combopos-3">
+<rect rx="6" ry="6" x="398" y="121" width="34" height="30" class="combo"/>
+<text x="415" y="136" class="combo tap">P</text>
+</g>
+<g class="combo combopos-4">
 <rect rx="6" ry="6" x="468" y="53" width="34" height="30" class="combo"/>
 <text x="485" y="68" class="combo tap">J</text>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-5">
 <rect rx="6" ry="6" x="538" y="53" width="34" height="30" class="combo"/>
 <text x="555" y="68" class="combo tap">K</text>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="538" y="121" width="34" height="30" class="combo"/>
 <text x="555" y="136" class="combo tap">V</text>
 </g>

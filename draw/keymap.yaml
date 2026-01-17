@@ -424,11 +424,13 @@ combos:
     }
 
   - { p: [1, 8], k: "x", layers: [alpha1] }
+  - { p: [10, 17], k: "p", layers: [alpha1] }
   - { p: [4, 11], k: "j", layers: [alpha1] }
   - { p: [5, 12], k: "k", layers: [alpha1] }
   - { p: [12, 19], k: "v", layers: [alpha1] }
 
   - { p: [1, 8], k: "X", layers: [shifted1] }
+  - { p: [10, 17], k: "P", layers: [shifted1] }
   - { p: [4, 11], k: "J", layers: [shifted1] }
   - { p: [5, 12], k: "K", layers: [shifted1] }
   - { p: [12, 19], k: "V", layers: [shifted1] }
