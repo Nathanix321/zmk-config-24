@@ -75,9 +75,6 @@
 <svg id="mdi:file-tree">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-file-tree" viewBox="0 0 24 24"><path d="M3,3H9V7H3V3M15,10H21V14H15V10M15,17H21V21H15V17M13,13H7V18H13V20H7L5,20V9H7V11H13V13Z" /></svg>
 </svg>
-<svg id="mdi:flash">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-flash" viewBox="0 0 24 24"><path d="M7,2V13H10V22L17,10H13L17,2H7Z" /></svg>
-</svg>
 <svg id="mdi:folder-open">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-folder-open" viewBox="0 0 24 24"><path d="M19,20H4C2.89,20 2,19.1 2,18V6C2,4.89 2.89,4 4,4H10L12,6H19A2,2 0 0,1 21,8H21L4,8V18L6.14,10H23.21L20.93,18.5C20.7,19.37 19.92,20 19,20Z" /></svg>
 </svg>
@@ -352,13 +349,9 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 </g>
 <g transform="translate(280, 238)" class="key keypos-21">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<use href="#mdi:flash" xlink:href="#mdi:flash" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:flash"/>
-<text x="0" y="-30" class="key shifted">boot</text>
 </g>
 <g transform="translate(380, 238)" class="key keypos-22">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<use href="#mdi:flash" xlink:href="#mdi:flash" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:flash"/>
-<text x="0" y="-30" class="key shifted">boot</text>
 </g>
 <g transform="translate(450, 238)" class="key keypos-23">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>

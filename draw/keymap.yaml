@@ -347,8 +347,8 @@ layers:
         "F3",
       ]
     - type: held
-    - { t: $$mdi:flash$$, s: "boot" }
-    - { t: $$mdi:flash$$, s: "boot" }
+    - null
+    - null
     - null
   macros:
     - [
