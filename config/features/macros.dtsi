@@ -118,16 +118,16 @@
         MACRO(del_word_fw, &sel_word_fw &kp DEL)
         MACRO(del_word_bw, &sel_word_bw &kp DEL)
 
-        MACRO(undo,  &kp LC(Z))
-        MACRO(redo,  &kp LC(Y))
-        MACRO(save,  &kp LC(S))
-        MACRO(copy,  &kp LC(C))
-        MACRO(paste, &kp LC(V))
-        MACRO(cut,   &kp LC(X))
+        // MACRO(undo,  &kp LC(Z))
+        // MACRO(redo,  &kp LC(Y))
+        // MACRO(save,  &kp LC(S))
+        // MACRO(copy,  &kp LC(C))
+        // MACRO(paste, &kp LC(V))
+        // MACRO(cut,   &kp LC(X))
 
-        MACRO(sel_all_copy,  &sel_all &copy)
-        MACRO(sel_all_paste, &sel_all &paste)
-        MACRO(sel_all_cut,   &sel_all &cut)
+        // MACRO(sel_all_copy,  &sel_all &copy)
+        // MACRO(sel_all_paste, &sel_all &paste)
+        // MACRO(sel_all_cut,   &sel_all &cut)
 
         // Utility Macros
         MACRO(haha, &kp H &kp A &kp H &kp A)
