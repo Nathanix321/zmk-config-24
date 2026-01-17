@@ -130,7 +130,7 @@
         MACRO(sel_all_cut,   &sel_all &cut)
 
         // Utility Macros
-        MACRO(to_camera_teams, LC(LS(O)))
+        MACRO(to_camera_teams, &kp LC(LS(O)))
         MACRO(haha, &kp H &kp A &kp H &kp A)
         MACRO(term_exit, &kp E &kp X &kp I &kp T &kp ENTER)
         MACRO(new_task, &kp MINUS &kp SPACE &kp LBKT &kp SPACE &kp RBKT &kp SPACE)
