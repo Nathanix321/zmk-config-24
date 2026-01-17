@@ -97,7 +97,7 @@
                      display-name = "MEDIA";
                      bindings = <
     &none               &none               &none               &none               &none               &none               &kp TAB             &kp ENTER           &kp ESC             &none
-    &none               &kp LALT            &kp LCTRL           &kp LSHFT           &none               &none               &kp C_MUTE          &kp C_VOL_DN        &kp C_VOL_UP        &to_camera_teams
+    &none               &kp LALT            &kp LCTRL           &kp LSHFT           &none               &none               &tog_mic_teams      &mt C_MUTE C_VOL_DN &kp C_VOL_UP        &tog_camera_teams
     &none               &none               &none               &kp LGUI            &none               &none               &kp C_PP            &kp C_PREV          &kp C_NEXT          &none
                                             &none               &kp SPACE           &none               &none               &none               &none
                         >;
