@@ -1959,12 +1959,21 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 <g transform="translate(0, 56)">
 <g transform="translate(105, 34)" class="key keypos-0">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 88%">Shortcut</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">Combos</tspan>
+</text>
 </g>
 <g transform="translate(175, 34)" class="key keypos-1">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Nav</tspan><tspan x="0" dy="1.2em">Combos</tspan>
+</text>
 </g>
 <g transform="translate(245, 34)" class="key keypos-2">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Whole</tspan><tspan x="0" dy="1.2em">Keymap</tspan>
+</text>
 </g>
 <g transform="translate(415, 34)" class="key keypos-3">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
@@ -2000,12 +2009,12 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 </g>
 <g transform="translate(485, 102)" class="key keypos-11">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<text x="0" y="0" class="key tap">school</text>
+<text x="0" y="0" class="key tap">work</text>
 <text x="0" y="-30" class="key shifted">email</text>
 </g>
 <g transform="translate(555, 102)" class="key keypos-12">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<text x="0" y="0" class="key tap">work</text>
+<text x="0" y="0" class="key tap">school</text>
 <text x="0" y="-30" class="key shifted">email</text>
 </g>
 <g transform="translate(625, 102)" class="key held keypos-13">

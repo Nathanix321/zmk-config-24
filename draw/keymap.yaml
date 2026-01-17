@@ -352,9 +352,9 @@ layers:
     - null
   macros:
     - [
-        null,
-        null,
-        null,
+        "Shortcut Combos",
+        "Nav Combos",
+        "Whole Keymap",
         null,
         null,
         null,
@@ -365,8 +365,8 @@ layers:
         { t: "exit⏎", s: "terminal"},
         { t: "-␣[␣]␣⏎", s: "new task" },
         { t: personal2, s: email },
-        { t: school, s: email },
         { t: work, s: email },
+        { t: school, s: email },
         { type: held },
       ]
     - [
