@@ -18,7 +18,7 @@
     &none               COLON_SEMI          Q_COMMA             EXCL_DOT            &none               &none               &kp B               &kp J               &kp K               &none
     &lt SHORTCUTS X     HML_ACC_I_CIRC      HML_ACC_E_AIGU      HML_ACC_A_GRAVE     &none               &none               &hmr LSHFT  P       &hmr LCTRL RA(SQT)  &hmr LALT RA(GRAVE) &lt SHORTCUTS V
     &none               &kp Q               &acc_o_circ         HML_ACC_U_CIRC      &none               &none               HMR_ACC_C_CEDILLE   &kp RA(CARET)       &kp RA(DQT)         &none
-                                            &none               &space_under_morph  &kp APOS            &kp APOS            &kp SPACE           &none
+                                            &none               &space_under_morph  &none               &none               &kp MINUS           &none
                         >;
                 };
                 numbers_layer {
