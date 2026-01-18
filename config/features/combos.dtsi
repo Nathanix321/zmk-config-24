@@ -25,9 +25,9 @@
 
         // Multi-layer Combos
         COMBO(cb_escape,    LT0 LM0, &kp ESC,     ESC_LAYERS)
-        // COMBO(cb_backspace, RT0 RM0, &kp BSPC,    BACKSPACE_LAYERS)
-        // COMBO(cb_page_up,   RM3 RB3, &kp PAGE_UP, PAGE_UP_LAYERS)
-        // COMBO(cb_page_dn,   RM2 RB2, &kp PAGE_DN, PAGE_DN_LAYERS)
+        COMBO(cb_backspace, RT0 RM0, &kp BSPC,    BACKSPACE_LAYERS)
+        COMBO(cb_page_up,   RM3 RB3, &kp PAGE_UP, PAGE_UP_LAYERS)
+        COMBO(cb_page_dn,   RM2 RB2, &kp PAGE_DN, PAGE_DN_LAYERS)
 
         // Alpha1 Combos
 
