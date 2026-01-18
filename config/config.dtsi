@@ -3,21 +3,17 @@
 #define ALPHA1 0
 #define ALPHA2 1
 
-#define SHIFTED1 2
-#define SHIFTED2 3
+#define NUMBERS 2
+#define SYMBOLS 3
 
-#define NUMBERS 4
-#define SYMBOLS 5
+#define SHORTCUTS 4
 
-#define SHORTCUTS 6
-#define CASES 7
+#define NAV 5
+#define TEXT 6
 
-#define NAV 8
-#define TEXT 9
-
-#define MEDIA 10
-#define FUNCTIONS 11
-#define MACROS 12
+#define MEDIA 7
+#define FUNCTIONS 8
+#define MACROS 9
 
 // Settings
 
@@ -122,6 +118,10 @@
 &sk {
     release-after-ms = <1500>;
     quick-release;
+};
+
+&caps_word {
+    continue-list = <UNDERSCORE MINUS>;
 };
 
 / {
