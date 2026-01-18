@@ -9,6 +9,7 @@
 #include "features/accents.dtsi"
 #include "features/adaptive.dtsi"
 #include "features/bootloader.dtsi"
+#include "features/combos.dtsi"
 #include "features/homerow.dtsi"
 #include "features/macros.dtsi"
 #include "features/morphs.dtsi"
