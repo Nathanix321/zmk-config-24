@@ -45,6 +45,8 @@
         TAPHOLD_TP(th_tab, &tab, &home_tab)
         TAPHOLD_TP(th_enter, &enter, &end_enter)
 
+        TAPHOLD_TP(th_mic_cam, &tog_mic_teams, &tog_camera_teams)
+
         hlt_mo_sl: hlt_mo_sl {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;

@@ -124,7 +124,7 @@ layers:
       ]
     - [
         { t: $$mdi:close$$, s: close},
-        { t: $$mdi:bug$$, s: "debug"},
+        { t: $$mdi:restart$$, s: "restart"},
         { t: $$mdi:play-pause$$, s: "play pause" },
         null,
         null,

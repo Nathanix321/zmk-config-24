@@ -3,6 +3,7 @@
 /   {
         keymap {
                 compatible = "zmk,keymap";
+
                 alpha1_layer {
                      display-name = "ALPHA1";
                      bindings = <
@@ -12,6 +13,7 @@
                                             &none               LT_NUM_SPACE        LT_NAV_ALPHA2       &arcane_repeat 0 0  &hlt SYMBOLS T      &none
                         >;
                 };
+
                 alpha2_layer {
                      display-name = "ALPHA2";
                      bindings = <
@@ -21,6 +23,7 @@
                                             &none               &space_under_morph  &none               &none               &kp MINUS           &none
                         >;
                 };
+
                 numbers_layer {
                      display-name = "NUM";
                      bindings = <
@@ -30,6 +33,7 @@
                                             &none               &none               &none               &kp SPACE           &hlt SYMBOLS N0     &none
                         >;
                 };
+
                 symbols_layer {
                      display-name = "SYM";
                      bindings = <
@@ -39,15 +43,17 @@
                                             &none               LT_NUM_SPACE        &none               &none               &none               &none
                         >;
                 };
+
                 shortcuts_layer {
                      display-name = "SHORT";
                      bindings = <
-    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
-    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
-    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
-                                            &none               &none               &none               &none               &none               &none
+    &none               &term               &files              &task_man           &none               &none               &kp CAPSLOCK        &capsword           &admin_term         &none
+    &none               &debug_step_out     &debug_step_in      &debug_step_over    &none               &none               &none               &none               &none               &none
+    &none               &debug_close        &debug_restart      &debug_pp           &none               &none               &none               &none               &none               &none
+                                            &none               &kp SPACE           &none               &none               &none               &none
                         >;
                 };
+
                 nav_layer {
                      display-name = "NAV";
                      bindings = <
@@ -57,6 +63,7 @@
                                             &none               &none               &none               &kp SPACE           &none               &none
                         >;
                 };
+
                 text_layer {
                      display-name = "TEXT";
                      bindings = <
@@ -66,15 +73,17 @@
                                             &none               &none               &none               &kp SPACE           &none               &none
                         >;
                 };
+
                 media_layer {
                      display-name = "MEDIA";
                      bindings = <
     &none               &none               &none               &none               &none               &none               &kp TAB             &kp ENTER           &kp ESC             &none
-    &none               &kp LALT            &kp LCTRL           &kp LSHFT           &none               &none               &tog_mic_teams      &mt C_MUTE C_VOL_DN &kp C_VOL_UP        &tog_camera_teams
+    &none               &kp LALT            &kp LCTRL           &kp LSHFT           &none               &none               &tog_mic_cam 0 0    &mt C_MUTE C_VOL_DN &kp C_VOL_UP        &none
     &none               &none               &none               &kp LGUI            &none               &none               &kp C_PP            &kp C_PREV          &kp C_NEXT          &none
                                             &none               &space_under_morph  &none               &none               &none               &none
                         >;
                 };
+
                 functions_layer {
                      display-name = "FUNC";
                      bindings = <
@@ -84,15 +93,17 @@
                                             &none               &none               &bootloader         &none               &none               &none
                         >;
                 };
+
                 macros_layer {
                      display-name = "MACROS";
                      bindings = <
-    &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
+    &none               &shortcut_combos    &nav_combos         &keymap             &none               &none               &none               &none               &none               &none
     &none               &haha               &term_exit          &new_task           &none               &none               &personal2          &work               &school             &none
     &none               &none               &none               &new_task_enter     &none               &none               &personal1          &none               &none               &none
                                             &none               &none               &none               &bootloader         &none               &none
                         >;
                 };
+
     //             template_layer {
     //                  display-name = "TEMPLATE";
     //                  bindings = <
@@ -102,5 +113,6 @@
     //                                         &none               &none               &none               &none               &none               &none
     //                     >;
     //             };
+
         };
 };

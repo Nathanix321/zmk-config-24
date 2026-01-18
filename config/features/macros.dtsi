@@ -137,6 +137,20 @@
         MACRO(new_task, &kp MINUS &kp SPACE &kp LBKT &kp SPACE &kp RBKT &kp SPACE)
         MACRO(new_task_enter, &new_task &kp ENTER)
 
+        // Shortcut Macros
+        MACRO(term,       &kp LG(X) &kp I)
+        MACRO(admin_term, &kp LG(X) &kp A)
+        MACRO(files,      &kp LG(X) &kp E)
+        MACRO(task_man,   &kp LG(X) &kp T)
+
+        // Debug Macros
+        MACRO(debug_step_in, &kp F11)
+        MACRO(debug_step_out, &kp LS(F11))
+        MACRO(debug_step_over, &kp F10)
+        MACRO(debug_pp, &kp F5)
+        MACRO(debug_stop, &kp LS(F11))
+        MACRO(debug_restart, &kp LC(LS(F5)))
+
         // letourneau.nathaniel@hotmail.com
         MACRO(personal1, &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U &kp DOT &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L &kp AT &kp H &kp O &kp T &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M)
        // letourneau.nathaniel@pm.me
