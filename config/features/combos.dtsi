@@ -21,6 +21,7 @@
 
 / {
     combos {
+        compatible = "zmk,combos";
         // Multi-layer combos
         COMBO(cb_escape,    LT0 LM0, &kp ESC, ESC_LAYERS)
         COMBO(cb_backspace, RT0 RM0, &kp BSPC, BACKSPACE_LAYERS)

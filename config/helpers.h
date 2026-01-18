@@ -148,33 +148,6 @@
             bindings = <BINDINGS>; \
         };
 
-    #define COMBO_MUST_TAP(NAME, HOLD, TAP) \
-        NAME##hold: NAME##hold { \
-            compatible = "zmk,behavior-macro"; \
-            #binding-cells = <0>; \
-            wait-ms = <0>; \
-            tap-ms = <0>; \
-            bindings \
-                = <&macro_press HOLD> \
-                , <&macro_pause_for_release> \
-                , <&macro_release HOLD> \
-                ; \
-        }; \
-        NAME##tap: NAME##tap {  \
-            compatible = "zmk,behavior-macro";  \
-            #binding-cells = <0>; \
-            wait-ms = <0>; \
-            tap-ms = <0>; \
-            bindings = <&macro_tap TAP>; \
-        }; \
-        NAME: NAME { \
-            compatible = "zmk,behavior-hold-tap"; \
-            #binding-cells = <2>; \
-            tapping-term-ms = <TAPPING_TERM>; \
-            flavor = "hold-preferred"; \
-            bindings = <&NAME##hold>, <&NAME##tap>; \
-        };
-
     /*  ADAPTIVE KEYS  */
 
     #define ADAPTIVE(NAME, TRIGGERS, BINDINGS) \
