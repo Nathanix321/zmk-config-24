@@ -9,7 +9,7 @@
     &none               SEMI_COLON          COMMA_Q             DOT_EXCL            &none               &none               &kp G               &kp N               &kp W               &none
     LT_MAGIC_H          &hml LALT I         &hml LCTRL E        &hml LSHFT A        &none               &none               &hmr LSHFT D        &hmr LCTRL R        &hml LALT S         &lt SHORTCUTS L
     &none               &kp Y               &kp O               &hml LGUI U         &none               &none               &hmr LGUI C         &kp M               &kp F               &none
-                                            &none               &hlt NUMBERS SPACE  LT_NAV_ALPHA2       &arcane_repeat 0 0  &hlt SYMBOLS T      &none
+                                            &none               LT_NUM_SPACE        LT_NAV_ALPHA2       &arcane_repeat 0 0  &hlt SYMBOLS T      &none
                         >;
                 };
                 alpha2_layer {
@@ -18,7 +18,7 @@
     &none               COLON_SEMI          Q_COMMA             EXCL_DOT            &none               &none               &kp B               &kp J               &kp K               &none
     &lt SHORTCUTS X     HML_ACC_I_CIRC      HML_ACC_E_AIGU      HML_ACC_A_GRAVE     &none               &none               &hmr LSHFT  P       &hmr LCTRL RA(SQT)  &hmr LALT RA(GRAVE) &lt SHORTCUTS V
     &none               &kp Q               &acc_o_circ         HML_ACC_U_CIRC      &none               &none               HMR_ACC_C_CEDILLE   &kp RA(CARET)       &kp RA(DQT)         &none
-                                            &none               &kp SPACE           &kp APOS            &kp APOS            &kp SPACE           &none
+                                            &none               &space_under_morph  &kp APOS            &kp APOS            &kp SPACE           &none
                         >;
                 };
                 numbers_layer {
@@ -36,7 +36,7 @@
     &none               &kp TILDE           &kp POUND           &th_apos 0 0        &none               &none               &kp PERCENT         &th_equal 0 0       &th_colon 0 0       &none
     &kp AT              &kp CARET           &kp DOLLAR          &th_dqt 0 0         &none               &none               &th_qmark 0 0       &kp MINUS           &kp PLUS            &lt MACROS COMMA
     &none               &kp LT              &kp GT              &th_grave 0 0       &none               &none               &th_excl 0 0        &kp FSLH            &kp STAR            &none
-                                            &none               &hlt NUMBERS SPACE  &none               &none               &none               &none
+                                            &none               LT_NUM_SPACE        &none               &none               &none               &none
                         >;
                 };
                 shortcuts_layer {
@@ -72,7 +72,7 @@
     &none               &none               &none               &none               &none               &none               &kp TAB             &kp ENTER           &kp ESC             &none
     &none               &kp LALT            &kp LCTRL           &kp LSHFT           &none               &none               &tog_mic_teams      &mt C_MUTE C_VOL_DN &kp C_VOL_UP        &tog_camera_teams
     &none               &none               &none               &kp LGUI            &none               &none               &kp C_PP            &kp C_PREV          &kp C_NEXT          &none
-                                            &none               &kp SPACE           &none               &none               &none               &none
+                                            &none               &space_under_morph  &none               &none               &none               &none
                         >;
                 };
                 functions_layer {

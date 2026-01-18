@@ -1,6 +1,6 @@
 
-#define LT_NAV_ALPHA2   &hlt_mo_sl NAV ALPHA2
-#define LT_NAV_SHIFTED2 &hlt_mo_sl NAV SHIFTED2
+#define LT_NUM_SPACE  &hlt_mo_space_morph NUMBERS 0
+#define LT_NAV_ALPHA2 &hlt_mo_sl NAV ALPHA2
 
 #define LT_MAGIC_H   &lt_magic_h   SHORTCUTS 0
 #define LT_MAGIC_H_S &lt_magic_h_s SHORTCUTS 0
@@ -52,6 +52,15 @@
             flavor = "hold-preferred";
             quick-tap-ms = <QUICK_TAP_TERM>;
             bindings = <&mo>, <&sl>;
+        };
+
+        hlt_mo_space_morph: hlt_mo_space_morph {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <TAPPING_TERM>;
+            flavor = "hold-preferred";
+            quick-tap-ms = <QUICK_TAP_TERM>;
+            bindings = <&mo>, <&space_under_morph>;
         };
 
         lt_magic_h: lt_magic_h {
