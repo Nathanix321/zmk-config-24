@@ -142,7 +142,6 @@
 
     #define COMBO(NAME, KEYS, BINDINGS, LAYERS) \
         NAME: NAME { \
-            compatible = "zmk,combos"; \
             timeout-ms = <COMBO_TERM>; \
             layers = <LAYERS>; \
             key-positions = <KEYS>; \
