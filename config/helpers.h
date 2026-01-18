@@ -141,7 +141,7 @@
     /*  COMBOS  */
 
     #define COMBO(NAME, KEYS, BINDINGS, LAYERS) \
-        cb_##NAME: cb_##NAME { \
+        NAME: NAME { \
             compatible = "zmk,combos"; \
             timeout-ms = <COMBO_TERM>; \
             layers = <LAYERS>; \
