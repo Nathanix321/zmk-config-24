@@ -47,7 +47,7 @@
                 shortcuts_layer {
                      display-name = "SHORT";
                      bindings = <
-    &none               &term               &files              &task_man           &none               &none               &kp CAPSLOCK        &capsword           &admin_term         &none
+    &none               &term               &files              &task_man           &none               &none               &kp CAPSLOCK        &caps_word           &admin_term         &none
     &none               &debug_step_out     &debug_step_in      &debug_step_over    &none               &none               &none               &none               &none               &none
     &none               &debug_close        &debug_restart      &debug_pp           &none               &none               &none               &none               &none               &none
                                             &none               &kp SPACE           &none               &none               &none               &none
