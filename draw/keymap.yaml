@@ -27,7 +27,7 @@ layers:
         m,
         f,
       ]
-    - { t: $$mdi:keyboard-space$$, h: numbers }
+    - { t: $$mdi:keyboard-space$$, s: "_" , h: numbers }
     - { t: alpha2, s: sticky, h: nav }
     - { t: $$mdi:repeat$$, s: repeat, h: arcane }
     - { t: t, h: symbols }
@@ -59,70 +59,9 @@ layers:
         "d(¨)",
       ]
     - $$mdi:keyboard-space$$
-    - "'"
-    - "'"
-    - $$mdi:keyboard-space$$
-  shifted1:
-    - [
-        { h: "⇥ ;|:", t: ";", s: ":",},
-        { h: "⇥ ,|?", t: ",", s: "?"},
-        { h: "⇥ .|!", t: ".", s: "!" },
-        G,
-        N,
-        W]
-    - [
-        { t: H, h: shortcuts, s: adaptive},
-        { h: $$mdi:apple-keyboard-option$$, t: I },
-        { h: $$mdi:apple-keyboard-control$$, t: E },
-        { h: $$mdi:apple-keyboard-shift$$, t: A },
-        { h: $$mdi:apple-keyboard-shift$$, t: D },
-        { h: $$mdi:apple-keyboard-control$$, t: R },
-        { h: $$mdi:apple-keyboard-option$$, t: S },
-        { t: L, h: shortcuts },
-      ]
-    - [
-        Y,
-        O,
-        { h: $$mdi:apple-keyboard-command$$, t: U},
-        { h: $$mdi:apple-keyboard-command$$, t: C},
-        M,
-        F,
-      ]
-    - { t: $$mdi:keyboard-space$$, h: numbers }
-    - { t: shifted2, s: sticky, h: nav }
-    - { t: $$mdi:repeat$$, s: repeat, h: arcane }
-    - { t: T, h: symbols }
-  shifted2:
-    - [
-        { h: "⇥ :|;", t: ":", s: ";",},
-        { h: "⇥ ?|,", t: "?", s: ","},
-        { h: "⇥ !|.", t: "!", s: "." },
-        B,
-        J,
-        K
-      ]
-    - [
-        { t: X, h: shortcuts },
-        { h: $$mdi:apple-keyboard-option$$, t: Î },
-        { h: $$mdi:apple-keyboard-control$$, t: É },
-        { h: $$mdi:apple-keyboard-shift$$, t: À },
-        { h: $$mdi:apple-keyboard-shift$$, t: P },
-        { h: $$mdi:apple-keyboard-control$$, t: "d(´)" },
-        { h: $$mdi:apple-keyboard-option$$, t: "d(`)" },
-        { t: V, h: shortcuts },
-      ]
-    - [
-        Q,
-        Ô,
-        { h: $$mdi:apple-keyboard-command$$, t: Û},
-        { h: $$mdi:apple-keyboard-command$$, t: Ç},
-        "d(^)",
-        "d(¨)",
-      ]
-    - $$mdi:keyboard-space$$
-    - "'"
-    - "'"
-    - $$mdi:keyboard-space$$
+    - null
+    - null
+    - "-"
   numbers:
     - [{ t: "{", h: "⇥ {" }, { t: "}", h: "⇥ }" }, "\\", 7, 8, 9]
     - [
@@ -166,66 +105,35 @@ layers:
     - { type: held }
   shortcuts:
     - [
-        { t: "$$mdi:emoticon-happy-outline$$", s: "emojis" },
-        { t: $$mdi:folder-open$$, s: files},
-        { t: $$mdi:usb-port$$, s: "dev. man." },
-        { t: $$mdi:lock$$, s: "lock" },
         { t: $$mdi:console$$, s: terminal },
-        { t: $$mdi:desktop-classic$$, s: desktop },
+        { t: $$mdi:folder-open$$, s: files},
+        { t: $$mdi:file-tree$$, s: "task. man." },
+        CAPSWORD,
+        CAPSLOCK,
+        { t: $$mdi:console$$, s: terminal, h: admin },
       ]
     - [
-        { t: $$mdi:play-pause$$, s: "play pause", type: held },
+        type: held,
         { t: $$mdi:debug-step-out$$, s: "step out"},
         { t: $$mdi:debug-step-into$$, s: "step in"},
         { t: $$mdi:debug-step-over$$, s: "step over" },
-        { t: $$mdi:format-letter-case$$, s: "smart", h: "cases" },
-        { t: $$mdi:microsoft-visual-studio-code$$, s: terminal },
-        { t: $$mdi:microsoft-visual-studio-code$$, s: sidebar },
-        { t: $$mdi:console$$, s: terminal, h: admin, type: held },
+        null,
+        null,
+        null,
+        type: held,
       ]
     - [
         { t: $$mdi:close$$, s: close},
         { t: $$mdi:bug$$, s: "debug"},
-        { t: $$mdi:file-tree$$, s: "task. man." },
-        { t: $$mdi:power-sleep$$, s: "sleep" },
-        { t: $$mdi:microsoft-visual-studio-code$$, s: search },
-        { t: $$mdi:microsoft-visual-studio-code$$, s: command },
+        { t: $$mdi:play-pause$$, s: "play pause" },
+        null,
+        null,
+        null,
       ]
     - { t: $$mdi:keyboard-space$$, h: func }
-    - { h: text, s: repeat, t: $$mdi:repeat$$ }
-    - { h: media, s: repeat, t: $$mdi:repeat$$ }
-    - { t: $$mdi:keyboard-space$$, h: macros }
-  cases:
-    - [
-        "CAPS LOCK",
-        { t: "CAPS word", s: auto-layer },
-        { t: "CAPS LINE", s: auto-layer },
-        null,
-        null,
-        null,
-      ]
-    - [
-        { t: "sentence case", s: auto-layer },
-        { t: "snake_ case", s: auto-layer },
-        { t: "CONSTANT_ CASE", s: auto-layer },
-        { t: "kebab- case", s: auto-layer },
-        { type: held },
-        null,
-        null,
-        null,
-      ]
-    - [
-        { t: "slash/ case", s: auto-layer },
-        { t: "Pascal Case", s: auto-layer },
-        { t: "camel Case", s: auto-layer },
-        null,
-        null,
-        null,
-      ]
-    - null
-    - null
-    - null
-    - null
+    - h: text
+    - h: media
+    - h: macros
   nav:
     - [
         null,
@@ -293,19 +201,19 @@ layers:
         null,
         null,
         null,
-        { t: "↹" },
-        { t: "$$mdi:keyboard-return$$" },
+        { t: "↹", s: "⇤ ↹" },
+        { t: $$mdi:keyboard-return$$, s: "⇥ ↵" },
         { t: "⎋" },
       ]
     - [
-        type: held,
+        null,
         { t: $$mdi:apple-keyboard-control$$ },
         { t: $$mdi:apple-keyboard-option$$ },
         { t: $$mdi:apple-keyboard-shift$$ },
-        { t: $$mdi:microphone$$, s: mic},
-        { t: $$mdi:volume-medium$$, s: vol- },
+        { t: $$mdi:microphone$$, h: $$mdi:camera$$ },
+        { t: $$mdi:volume-medium$$, s: vol-, h: mute },
         { t: $$mdi:volume-high$$, s: vol+ },
-        { t: $$mdi:camera$$, s: cam},
+        type: held
       ]
     - [
         null,
@@ -347,7 +255,7 @@ layers:
         "F3",
       ]
     - type: held
-    - null
+    - { t: $$mdi:flash$$, s: "boot" }
     - null
     - null
   macros:
@@ -379,7 +287,7 @@ layers:
       ]
     - { t: $$mdi:keyboard-space$$, }
     - null
-    - null
+    - { t: $$mdi:flash$$, s: "boot" }
     - type: held
 combos:
   - {
@@ -390,8 +298,6 @@ combos:
         [
           alpha1,
           alpha2,
-          shifted1,
-          shifted2,
           nav,
           text,
           media,
@@ -405,8 +311,6 @@ combos:
         [
           alpha1,
           alpha2,
-          shifted1,
-          shifted2,
           nav,
           media,
           numbers,
@@ -429,13 +333,7 @@ combos:
   - { p: [5, 12], k: "k", layers: [alpha1] }
   - { p: [12, 19], k: "v", layers: [alpha1] }
 
-  - { p: [1, 8], k: "X", layers: [shifted1] }
-  - { p: [10, 17], k: "P", layers: [shifted1] }
-  - { p: [4, 11], k: "J", layers: [shifted1] }
-  - { p: [5, 12], k: "K", layers: [shifted1] }
-  - { p: [12, 19], k: "V", layers: [shifted1] }
-
-  - { p: [12, 19], k: "d(~)", a: mid, layers: [alpha2, shifted2] }
+  - { p: [12, 19], k: "d(~)", a: mid, layers: [alpha2] }
 
   - { p: [1, 2, 21], k: "save", layers: [shortcuts], draw_separate: true }
   - { p: [8, 9, 21], k: "undo", layers: [shortcuts], draw_separate: true }

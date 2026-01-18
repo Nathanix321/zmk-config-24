@@ -6,17 +6,15 @@
             "type": "shell",
             "command": [
                 "cd ${workspaceRoot}/draw;",
-                
+
                 "sh draw.sh;",
-                
+
                 "poetry run keymap -c 2column_config.yaml draw temp/keymap-noseperatecombos.yaml -o svgs/whole_keymap.svg;",
 
                 "poetry run keymap -c 1column_config.yaml draw temp/keymap-noseperatecombos.yaml -o svgs/alpha_layers.svg -s alpha1 alpha2;",
-                "poetry run keymap -c 1column_config.yaml draw temp/keymap-noseperatecombos.yaml -o svgs/shifted_layers.svg -s shifted1 shifted2;",
                 "poetry run keymap -c 1column_config.yaml draw temp/keymap-noseperatecombos.yaml -o svgs/numbers_layer.svg -s numbers;",
                 "poetry run keymap -c 1column_config.yaml draw temp/keymap-noseperatecombos.yaml -o svgs/symbols_layer.svg -s symbols;",
                 "poetry run keymap -c 1column_config.yaml draw temp/keymap-noseperatecombos.yaml -o svgs/shortcuts_layer.svg -s shortcuts;",
-                "poetry run keymap -c 1column_config.yaml draw temp/keymap-noseperatecombos.yaml -o svgs/cases_layer.svg -s cases;",
                 "poetry run keymap -c 1column_config.yaml draw temp/keymap-noseperatecombos.yaml -o svgs/nav_layer.svg -s nav;",
                 "poetry run keymap -c 1column_config.yaml draw temp/keymap-noseperatecombos.yaml -o svgs/text_layer.svg -s text;",
                 "poetry run keymap -c 1column_config.yaml draw temp/keymap-noseperatecombos.yaml -o svgs/media_layer.svg -s media;",
