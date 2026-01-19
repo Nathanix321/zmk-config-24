@@ -45,7 +45,8 @@ manifest:
     # the default (needed for less common hardware).
     - name: zephyr
       remote: zmkfirmware
-      revision: v3.5.0+zmk-fixes
+      # revision: v3.5.0+zmk-fixes
+      revision: v4.1
       clone-depth: 1
       import:
         name-allowlist:
