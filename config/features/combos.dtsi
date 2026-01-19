@@ -73,8 +73,8 @@
         COMBO(cb_two_equal,  RM2 RM3, &two_equal,  SYMBOLS)
         COMBO(cb_excl_equal, RB2 RB3, &excl_equal, SYMBOLS)
 
-        COMBO(cb_usd, RT1 RT3, &th_usd,    SYMBOLS)
-        COMBO(cb_cad, RM1 RM3, &th_cad,    SYMBOLS)
+        COMBO(cb_usd, RT1 RT3, &th_usd 0 0,    SYMBOLS)
+        COMBO(cb_cad, RM1 RM3, &th_cad 0 0,    SYMBOLS)
         COMBO(cb_eur, RB1 RB3, &eur_letter, SYMBOLS)
 
         // Text Combo
