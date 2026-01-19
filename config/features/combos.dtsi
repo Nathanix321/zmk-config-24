@@ -75,7 +75,7 @@
 
         COMBO(cb_usd, RT1 RT3, &th_usd,    SYMBOLS)
         COMBO(cb_cad, RM1 RM3, &th_cad,    SYMBOLS)
-        COMBO(cb_eur, RB1 RB3, eur_letter, SYMBOLS)
+        COMBO(cb_eur, RB1 RB3, &eur_letter, SYMBOLS)
 
         // Text Combo
         COMBO(cb_bpsc_word, RT1 RM1, &kp LC(BSPC), TEXT)
