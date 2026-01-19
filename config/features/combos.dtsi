@@ -24,22 +24,70 @@
         compatible = "zmk,combos";
 
         // Multi-layer Combos
-        COMBO(cb_escape,    LT0 LM0, &kp ESC,     ESC_LAYERS)
-        COMBO(cb_backspace, RT0 RM0, &kp BSPC,    BACKSPACE_LAYERS)
+        COMBO(cb_escape,    LT1 LM1, &kp ESC,     ESC_LAYERS)
+        COMBO(cb_backspace, RT1 RM1, &kp BSPC,    BACKSPACE_LAYERS)
         COMBO(cb_page_up,   RM3 RB3, &kp PAGE_UP, PAGE_UP_LAYERS)
         COMBO(cb_page_dn,   RM2 RB2, &kp PAGE_DOWN, PAGE_DOWN_LAYERS)
 
         // Alpha1 Combos
+        COMBO(cb_x, LT2 LM2, &kp X, ALPHA1)
+        COMBO(cb_j, RT2 RM2, &kp J, ALPHA1)
+        COMBO(cb_k, RT3 RM3, &kp K, ALPHA1)
+        COMBO(cb_p, RM1 RB1, &kp P, ALPHA1)
+        COMBO(cb_v, RM3 RB3, &kp V, ALPHA1)
 
         // Alpha2 Combo
+        COMBO(cb_dead_tilde, RM3 RB3, &kp RA(TILDE), ALPHA2)
 
         // Numbers Combos
+        COMBO(cb_brc_in,  LT3 LT2, &th_brc_in,  NUMBERS)
+        COMBO(cb_pars_in, LM3 LM2, &th_pars_in, NUMBERS)
+        COMBO(cb_bkts_in, LB3 LB2, &th_bkts_in, NUMBERS)
+
+        COMBO(cb_two_colon, LT2 LT1, &th_two_colon, NUMBERS)
+        COMBO(cb_two_amps,  LM2 LM1, &th_two_amps,  NUMBERS)
+        COMBO(cb_two_pipe,  LB2 LB1, &th_two_pipe,  NUMBERS)
+
+        COMBO(cb_end_pars_semi, RM1 RM3, &th_end_pars_semi, NUMBERS)
+        COMBO(cb_end_semi,      RB1 RB3, &th_end_semi,      NUMBERS)
 
         // Symbols Combos
+        COMBO(cb_two_pound,   LT3 LT2, &two_pound,   SYMBOLS)
+        COMBO(cb_three_pound, LT3 LT1, &three_pound, SYMBOLS)
+
+        COMBO(cb_two_apos_in, LT2 LT1, &two_apos_in, SYMBOLS)
+
+        COMBO(cb_two_dqt_in, LM2 LM1, &two_dqt_in, SYMBOLS)
+        COMBO(cb_three_dqt,  LM3 LM1, &three_dqt,  SYMBOLS)
+
+        COMBO(cb_min_arrow, LM3 LM2, &min_arrow, SYMBOLS)
+        COMBO(cb_equ_arrow, LB3 LB2, &equ_arrow, SYMBOLS)
+
+        COMBO(cb_three_grave,  LB3 LB1, &three_grave,  SYMBOLS)
+        COMBO(cb_two_grave_in, LB2 LB1, &two_grave_in, SYMBOLS)
+
+        COMBO(cb_dot_fslh,     RT1 RT2, &dot_fslh,     SYMBOLS)
+        COMBO(cb_tilde_fslh,   RM1 RM2, &tilde_fslh,   SYMBOLS)
+        COMBO(cb_two_dot_fslh, RB1 RB2, &two_dot_fslh, SYMBOLS)
+
+        COMBO(cb_two_equal,  RM2 RM3, &two_equal,  SYMBOLS)
+        COMBO(cb_excl_equal, RB2 RB3, &excl_equal, SYMBOLS)
+
+        COMBO(cb_usd, RT1 RT3, &th_usd,    SYMBOLS)
+        COMBO(cb_cad, RM1 RM3, &th_cad,    SYMBOLS)
+        COMBO(cb_eur, RB1 RB3, eur_letter, SYMBOLS)
 
         // Text Combo
+        COMBO(cb_bpsc_word, RT1 RM1, &kp LC(BSPC), TEXT)
 
         // Function Combos
+        COMBO(cb_bluetooth_clear, LT3 LT1, &bt BT_CLR, FUNCTIONS)
+        COMBO(cb_f10, RM1 RB1, &kp F10, FUNCTIONS)
+        COMBO(cb_f11, RM2 RB2, &kp F11, FUNCTIONS)
+        COMBO(cb_f12, RM3 RB3, &kp F12, FUNCTIONS)
+        COMBO(cb_f13, RT1 RM1, &kp F13, FUNCTIONS)
+        COMBO(cb_f14, RT2 RM2, &kp F14, FUNCTIONS)
+        COMBO(cb_f15, RT3 RM3, &kp F15, FUNCTIONS)
 
         // Nav Combos
 

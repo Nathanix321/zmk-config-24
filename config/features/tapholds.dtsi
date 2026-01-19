@@ -14,6 +14,7 @@
 
 / {
     definitions {
+        // Main Keymap Tapholds
         TAPHOLD_TP_AGRESSIVE(arcane_repeat, &key_repeat, &arcane_key)
 
         TAPHOLD_TP(th_semi_colon_morph, &semi_colon_morph, &end_semi_colon_morph)
@@ -47,6 +48,22 @@
 
         TAPHOLD_TP(th_mic_cam, &tog_mic_teams, &tog_camera_teams)
 
+        // Combo Tapholds
+        TAPHOLD_TP(th_brc_in,  &brc_in,  &end_brc_in_n)
+        TAPHOLD_TP(th_pars_in, &pars_in, &end_pars_in)
+        TAPHOLD_TP(th_bkts_in, &bkts_in, &end_bkts_in)
+
+        TAPHOLD_TP(th_two_colon, &two_colon, &end_two_colon)
+        TAPHOLD_TP(th_two_amps,  &two_amps,  &end_two_amps)
+        TAPHOLD_TP(th_two_pipe,  &two_pipe,  &end_two_pipe)
+
+        TAPHOLD_TP(th_end_pars_semi, &end_pars_semi, &end_pars_semi_enter)
+        TAPHOLD_TP(th_end_semi,      &end_semi,      &end_semi_enter)
+
+        TAPHOLD_TP(th_usd, &usd_sign, &usd_letter)
+        TAPHOLD_TP(th_cad, &cad_sign, &cad_letter)
+
+        // Special Tapholds
         hlt_mo_sl: hlt_mo_sl {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;

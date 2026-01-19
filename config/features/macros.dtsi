@@ -12,7 +12,7 @@
         MACRO(pars_in,                 &kp LPAR &kp RPAR &kp LEFT)
         MACRO(end_pars_in,     &kp END &kp LPAR &kp RPAR &kp LEFT)
         MACRO(end_pars_semi,   &kp END &kp LPAR &kp RPAR &kp SEMI)
-        MACRO(end_pars_semi_n, &kp END &kp LPAR &kp RPAR &kp SEMI &kp ENTER)
+        MACRO(end_pars_semi_enter, &kp END &kp LPAR &kp RPAR &kp SEMI &kp ENTER)
 
         // [] Macros
         MACRO(lbkt,                &kp LBKT)
@@ -27,7 +27,7 @@
         MACRO(rbrc,                 &kp RBRC)
         MACRO(end_lbrc,     &kp END &kp LBRC)
         MACRO(end_rbrc,     &kp END &kp RBRC)
-        MACRO(end_brc_in,   &kp END &kp LBRC &kp RBRC &kp LEFT)
+        MACRO(brc_in,               &kp LBRC &kp RBRC &kp LEFT)
         MACRO(end_brc_in_n, &kp END &kp LBRC &kp RBRC &kp LEFT &kp ENTER)
 
         // : Macros
@@ -45,8 +45,8 @@
         MACRO(end_two_pipe, &kp END &kp PIPE &kp PIPE)
 
         // ; Macros
-        MACRO(end_semi,   &kp END &kp SEMI)
-        MACRO(end_semi_n, &kp END &kp SEMI &kp ENTER)
+        MACRO(end_semi,       &kp END &kp SEMI)
+        MACRO(end_semi_enter, &kp END &kp SEMI &kp ENTER)
 
         // # Macros
         MACRO(two_pound,   &kp POUND &kp POUND)
