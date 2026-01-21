@@ -301,6 +301,8 @@ combos:
           nav,
           text,
           media,
+          numbers,
+          symbols,
         ],
     }
   - {

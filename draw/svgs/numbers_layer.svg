@@ -349,41 +349,45 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 <text x="0" y="30" class="key hold">symbols</text>
 </g>
 <g class="combo combopos-0">
+<rect rx="6" ry="6" x="228" y="53" width="34" height="30" class="combo"/>
+<text x="245" y="68" class="combo tap">⎋</text>
+</g>
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="398" y="53" width="34" height="30" class="combo"/>
 <use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="408" y="61" height="14" width="14.0" class="combo tap glyph mdi:backspace-outline"/>
 </g>
-<g class="combo combopos-1">
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="123" y="19" width="34" height="30" class="combo"/>
 <text x="140" y="34" class="combo tap">
 <tspan x="140" dy="-0.6em">⇥{</tspan><tspan x="140" dy="1.2em">⏎</tspan>
 </text>
 </g>
-<g class="combo combopos-2">
+<g class="combo combopos-3">
 <rect rx="6" ry="6" x="193" y="19" width="34" height="30" class="combo"/>
 <text x="210" y="34" class="combo tap">::</text>
 <text x="210" y="47" class="combo hold">⇥ ::</text>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-4">
 <rect rx="6" ry="6" x="123" y="155" width="34" height="30" class="combo"/>
 <text x="140" y="170" class="combo tap">[]</text>
 <text x="140" y="183" class="combo hold">⇥ []</text>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-5">
 <rect rx="6" ry="6" x="123" y="87" width="34" height="30" class="combo"/>
 <text x="140" y="102" class="combo tap">()</text>
 <text x="140" y="115" class="combo hold">⇥ ()</text>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="193" y="87" width="34" height="30" class="combo"/>
 <text x="210" y="102" class="combo tap">&amp;&amp;</text>
 <text x="210" y="115" class="combo hold">→ &amp;&amp;</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="193" y="155" width="34" height="30" class="combo"/>
 <text x="210" y="170" class="combo tap">||</text>
 <text x="210" y="183" class="combo hold">→ ||</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-8">
 <path d="M485,137 h-64 a6.0,6.0 0 0 1 -6.0,-6.0 v-6" class="combo"/>
 <path d="M485,137 l0,-21" class="combo"/>
 <path d="M485,137 h64 a6.0,6.0 0 0 0 6.0,-6.0 v-6" class="combo"/>
@@ -392,7 +396,7 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 <tspan x="485" dy="-0.6em">⇥();</tspan><tspan x="485" dy="1.2em">⏎</tspan>
 </text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-9">
 <path d="M485,205 h-64 a6.0,6.0 0 0 1 -6.0,-6.0 v-6" class="combo"/>
 <path d="M485,205 l0,-21" class="combo"/>
 <path d="M485,205 h64 a6.0,6.0 0 0 0 6.0,-6.0 v-6" class="combo"/>
