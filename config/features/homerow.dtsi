@@ -1,6 +1,6 @@
 
 // ALPHA1 Layer
-#define HML_SHORT_MAGIC_H &hlm_short_magic_h SHORTCUT 0
+#define HML_SHORT_MAGIC_H &hml_short_magic_h SHORTCUT 0
 #define HMR_SHORT_L       &hmr_short_l       SHORTCUT L
 
 // ALPHA2 Layer
