@@ -1,4 +1,8 @@
 
+// ALPHA1 Layer
+#define HML_SHORT_MAGIC_H &hlm_short_magic_h SHORTCUT 0
+#defube HMR_SHORT_L       &hmr_short_l       SHORTCUT L
+
 // ALPHA2 Layer
 #define HML_ACC_I_CIRC    &hml_acc_i_circ    LALT  0
 #define HML_ACC_E_AIGU    &hml_acc_e_aigu    LCTRL 0
@@ -35,6 +39,31 @@
     };
 
     homerow_specifics {
+        // ALPHA1 Layer
+        hml_short_magic_h: hml_short_magic_h {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "balanced";
+            #binding-cells = <2>;
+            tapping-term-ms = <HOMEROW_TAPPING_TERM>;
+            quick-tap-ms = <QUICK_TAP_TERM>;
+            require-prior-idle-ms = <HOMEROW_REQUIRE_IDLE>;
+            bindings = <&lt>, <&magic_h>;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <KEYS_R THUMBS>;
+        };
+
+        hmr_short_l: hmr_short_l {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "balanced";
+            #binding-cells = <2>;
+            tapping-term-ms = <HOMEROW_TAPPING_TERM>;
+            quick-tap-ms = <QUICK_TAP_TERM>;
+            require-prior-idle-ms = <HOMEROW_REQUIRE_IDLE>;
+            bindings = <&lt>, <&kp>;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <KEYS_L THUMBS>;
+        };
+
         // ALPHA2 Layer
         hml_acc_i_circ: hml_acc_i_circ {
             compatible = "zmk,behavior-hold-tap";

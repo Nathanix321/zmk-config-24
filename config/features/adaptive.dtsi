@@ -47,17 +47,5 @@
             ADAPTIVE_QUICK(oh, O, &kp E)
             ADAPTIVE_QUICK(rh, R, &kp N)
         };
-
-        magic_h_s: magic_h_s {
-            compatible = "zmk,behavior-adaptive-key";
-            #binding-cells = <0>;
-            bindings = <&kp LS(H)>;
-
-            ADAPTIVE_QUICK(ah_s, A, &kp LS(U))
-            ADAPTIVE_QUICK(eh_s, U, &kp LS(A))
-            ADAPTIVE_QUICK(uh_s, E, &kp LS(O))
-            ADAPTIVE_QUICK(oh_s, O, &kp LS(E))
-            ADAPTIVE_QUICK(rh_s, R, &kp LS(N))
-        };
     };
 };
