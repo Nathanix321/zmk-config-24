@@ -20,98 +20,98 @@
 #define PAGE_UP_LAYERS NAV TEXT
 #define PAGE_DOWN_LAYERS NAV TEXT
 
-// / {
-//     combos {
-//         compatible = "zmk,combos";
+/ {
+    combos {
+        compatible = "zmk,combos";
 
-//         // Multi-layer Combos
-//         COMBO(cb_escape,    LT1 LM1, &kp ESC,     ESC_LAYERS)
-//         COMBO(cb_backspace, RT1 RM1, &kp BSPC,    BACKSPACE_LAYERS)
-//         COMBO(cb_page_up,   RM3 RB3, &kp PAGE_UP, PAGE_UP_LAYERS)
-//         COMBO(cb_page_dn,   RM2 RB2, &kp PAGE_DOWN, PAGE_DOWN_LAYERS)
+        // Multi-layer Combos
+        COMBO(cb_escape,    LT1 LM1, &kp ESC,     ESC_LAYERS)
+        COMBO(cb_backspace, RT1 RM1, &kp BSPC,    BACKSPACE_LAYERS)
+        COMBO(cb_page_up,   RM3 RB3, &kp PAGE_UP, PAGE_UP_LAYERS)
+        COMBO(cb_page_dn,   RM2 RB2, &kp PAGE_DOWN, PAGE_DOWN_LAYERS)
 
-//         // Alpha1 Combos
-//         COMBO(cb_x, LT2 LM2, &kp X, ALPHA1)
-//         COMBO(cb_j, RT2 RM2, &kp J, ALPHA1)
-//         COMBO(cb_k, RT3 RM3, &kp K, ALPHA1)
-//         COMBO(cb_p, RM1 RB1, &kp P, ALPHA1)
-//         COMBO(cb_v, RM3 RB3, &kp V, ALPHA1)
+        // Alpha1 Combos
+        COMBO(cb_x, LT2 LM2, &kp X, ALPHA1)
+        COMBO(cb_j, RT2 RM2, &kp J, ALPHA1)
+        COMBO(cb_k, RT3 RM3, &kp K, ALPHA1)
+        COMBO(cb_p, RM1 RB1, &kp P, ALPHA1)
+        COMBO(cb_v, RM3 RB3, &kp V, ALPHA1)
 
-//         // Alpha2 Combo
-//         COMBO(cb_dead_tilde, RM3 RB3, &kp RA(TILDE), ALPHA2)
+        // Alpha2 Combo
+        COMBO(cb_dead_tilde, RM3 RB3, &kp RA(TILDE), ALPHA2)
 
-//         // Numbers Combos
-//         COMBO(cb_brc_in,  LT3 LT2, &th_brc_in 0 0,  NUMBERS)
-//         COMBO(cb_pars_in, LM3 LM2, &th_pars_in 0 0, NUMBERS)
-//         COMBO(cb_bkts_in, LB3 LB2, &th_bkts_in 0 0, NUMBERS)
+        // Numbers Combos
+        COMBO(cb_brc_in,  LT3 LT2, &th_brc_in 0 0,  NUMBERS)
+        COMBO(cb_pars_in, LM3 LM2, &th_pars_in 0 0, NUMBERS)
+        COMBO(cb_bkts_in, LB3 LB2, &th_bkts_in 0 0, NUMBERS)
 
-//         COMBO(cb_two_colon, LT2 LT1, &th_two_colon 0 0, NUMBERS)
-//         COMBO(cb_two_amps,  LM2 LM1, &th_two_amps 0 0,  NUMBERS)
-//         COMBO(cb_two_pipe,  LB2 LB1, &th_two_pipe 0 0,  NUMBERS)
+        COMBO(cb_two_colon, LT2 LT1, &th_two_colon 0 0, NUMBERS)
+        COMBO(cb_two_amps,  LM2 LM1, &th_two_amps 0 0,  NUMBERS)
+        COMBO(cb_two_pipe,  LB2 LB1, &th_two_pipe 0 0,  NUMBERS)
 
-//         COMBO(cb_end_pars_semi, RM1 RM3, &th_end_pars_semi 0 0, NUMBERS)
-//         COMBO(cb_end_semi,      RB1 RB3, &th_end_semi 0 0,      NUMBERS)
+        COMBO(cb_end_pars_semi, RM1 RM3, &th_end_pars_semi 0 0, NUMBERS)
+        COMBO(cb_end_semi,      RB1 RB3, &th_end_semi 0 0,      NUMBERS)
 
-//         // Symbols Combos
-//         COMBO(cb_two_pound,   LT3 LT2, &two_pound,   SYMBOLS)
-//         COMBO(cb_three_pound, LT3 LT1, &three_pound, SYMBOLS)
+        // Symbols Combos
+        COMBO(cb_two_pound,   LT3 LT2, &two_pound,   SYMBOLS)
+        COMBO(cb_three_pound, LT3 LT1, &three_pound, SYMBOLS)
 
-//         COMBO(cb_two_apos_in, LT2 LT1, &two_apos_in, SYMBOLS)
+        COMBO(cb_two_apos_in, LT2 LT1, &two_apos_in, SYMBOLS)
 
-//         COMBO(cb_two_dqt_in, LM2 LM1, &two_dqt_in, SYMBOLS)
-//         COMBO(cb_three_dqt,  LM3 LM1, &three_dqt,  SYMBOLS)
+        COMBO(cb_two_dqt_in, LM2 LM1, &two_dqt_in, SYMBOLS)
+        COMBO(cb_three_dqt,  LM3 LM1, &three_dqt,  SYMBOLS)
 
-//         COMBO(cb_min_arrow, LM3 LM2, &min_arrow, SYMBOLS)
-//         COMBO(cb_equ_arrow, LB3 LB2, &equ_arrow, SYMBOLS)
+        COMBO(cb_min_arrow, LM3 LM2, &min_arrow, SYMBOLS)
+        COMBO(cb_equ_arrow, LB3 LB2, &equ_arrow, SYMBOLS)
 
-//         COMBO(cb_three_grave,  LB3 LB1, &three_grave,  SYMBOLS)
-//         COMBO(cb_two_grave_in, LB2 LB1, &two_grave_in, SYMBOLS)
+        COMBO(cb_three_grave,  LB3 LB1, &three_grave,  SYMBOLS)
+        COMBO(cb_two_grave_in, LB2 LB1, &two_grave_in, SYMBOLS)
 
-//         COMBO(cb_dot_fslh,     RT1 RT2, &dot_fslh,     SYMBOLS)
-//         COMBO(cb_tilde_fslh,   RM1 RM2, &tilde_fslh,   SYMBOLS)
-//         COMBO(cb_two_dot_fslh, RB1 RB2, &two_dot_fslh, SYMBOLS)
+        COMBO(cb_dot_fslh,     RT1 RT2, &dot_fslh,     SYMBOLS)
+        COMBO(cb_tilde_fslh,   RM1 RM2, &tilde_fslh,   SYMBOLS)
+        COMBO(cb_two_dot_fslh, RB1 RB2, &two_dot_fslh, SYMBOLS)
 
-//         COMBO(cb_two_equal,  RM2 RM3, &two_equal,  SYMBOLS)
-//         COMBO(cb_excl_equal, RB2 RB3, &excl_equal, SYMBOLS)
+        COMBO(cb_two_equal,  RM2 RM3, &two_equal,  SYMBOLS)
+        COMBO(cb_excl_equal, RB2 RB3, &excl_equal, SYMBOLS)
 
-//         COMBO(cb_usd, RT1 RT3, &th_usd 0 0,    SYMBOLS)
-//         COMBO(cb_cad, RM1 RM3, &th_cad 0 0,    SYMBOLS)
-//         COMBO(cb_eur, RB1 RB3, &eur_letter,    SYMBOLS)
+        COMBO(cb_usd, RT1 RT3, &th_usd 0 0,    SYMBOLS)
+        COMBO(cb_cad, RM1 RM3, &th_cad 0 0,    SYMBOLS)
+        COMBO(cb_eur, RB1 RB3, &eur_letter,    SYMBOLS)
 
-//         // Text Combo
-//         COMBO(cb_bpsc_word, RT1 RM1, &kp LC(BSPC), TEXT)
+        // Text Combo
+        COMBO(cb_bpsc_word, RT1 RM1, &kp LC(BSPC), TEXT)
 
-//         // Function Combos
-//         COMBO(cb_bluetooth_clear, LT3 LT1, &bt BT_CLR, FUNCTIONS)
+        // Function Combos
+        COMBO(cb_bluetooth_clear, LT3 LT1, &bt BT_CLR, FUNCTIONS)
 
-//         COMBO(cb_f10, RM1 RB1, &kp F10, FUNCTIONS)
-//         COMBO(cb_f11, RM2 RB2, &kp F11, FUNCTIONS)
-//         COMBO(cb_f12, RM3 RB3, &kp F12, FUNCTIONS)
-//         COMBO(cb_f13, RT1 RM1, &kp F13, FUNCTIONS)
-//         COMBO(cb_f14, RT2 RM2, &kp F14, FUNCTIONS)
-//         COMBO(cb_f15, RT3 RM3, &kp F15, FUNCTIONS)
+        COMBO(cb_f10, RM1 RB1, &kp F10, FUNCTIONS)
+        COMBO(cb_f11, RM2 RB2, &kp F11, FUNCTIONS)
+        COMBO(cb_f12, RM3 RB3, &kp F12, FUNCTIONS)
+        COMBO(cb_f13, RT1 RM1, &kp F13, FUNCTIONS)
+        COMBO(cb_f14, RT2 RM2, &kp F14, FUNCTIONS)
+        COMBO(cb_f15, RT3 RM3, &kp F15, FUNCTIONS)
 
-//         // Universal Nav Combos
-//         COMBO(cb_tab,   RT1 RH0, &kp TAB,   ALL_LAYERS)
-//         COMBO(cb_enter, RT2 RH0, &kp ENTER, ALL_LAYERS)
-//         COMBO(cb_del,   RB1 RH0, &kp DEL,   ALL_LAYERS)
-//         COMBO(cb_left,  RM1 RH0, &kp LEFT,  ALL_LAYERS)
-//         COMBO(cb_down,  RM2 RH0, &kp DOWN,  ALL_LAYERS)
-//         COMBO(cb_up,    RM3 RH0, &kp UP,    ALL_LAYERS)
-//         COMBO(cb_right, RM4 RH0, &kp RIGHT, ALL_LAYERS)
-//         COMBO(cb_home,  RB2 RH0, &kp HOME,  ALL_LAYERS)
-//         COMBO(cb_end,   RB3 RH0, &kp END,   ALL_LAYERS)
+        // Universal Nav Combos
+        COMBO(cb_tab,   RT1 RH0, &kp TAB,   ALL_LAYERS)
+        COMBO(cb_enter, RT2 RH0, &kp ENTER, ALL_LAYERS)
+        COMBO(cb_del,   RB1 RH0, &kp DEL,   ALL_LAYERS)
+        COMBO(cb_left,  RM1 RH0, &kp LEFT,  ALL_LAYERS)
+        COMBO(cb_down,  RM2 RH0, &kp DOWN,  ALL_LAYERS)
+        COMBO(cb_up,    RM3 RH0, &kp UP,    ALL_LAYERS)
+        COMBO(cb_right, RM4 RH0, &kp RIGHT, ALL_LAYERS)
+        COMBO(cb_home,  RB2 RH0, &kp HOME,  ALL_LAYERS)
+        COMBO(cb_end,   RB3 RH0, &kp END,   ALL_LAYERS)
 
-//         // Universal Shortcut Combos
-//         COMBO(cb_save,          LT2 LT1 LH0,     &save,          ALL_LAYERS)
-//         COMBO(cb_undo,          LM2 LM1 LH0,     &undo,          ALL_LAYERS)
-//         COMBO(cb_redo,          LB2 LB1 LH0,     &redo,          ALL_LAYERS)
-//         COMBO(cb_cut,           LT3 LT2 LH0,     &cut,           ALL_LAYERS)
-//         COMBO(cb_copy,          LM3 LM2 LH0,     &copy,          ALL_LAYERS)
-//         COMBO(cb_paste,         LB3 LB2 LH0,     &paste,         ALL_LAYERS)
-//         COMBO(cb_sel_all,       LM3 LM2 LM1,     &sel_all,       ALL_LAYERS)
-//         COMBO(cb_sel_all_cut,   LT3 LT2 LT1 LH0, &sel_all_cut,   ALL_LAYERS)
-//         COMBO(cb_sel_all_copy,  LM3 LM2 LM1 LH0, &sel_all_copy,  ALL_LAYERS)
-//         COMBO(cb_sel_all_paste, LB3 LB2 LB1 LH0, &sel_all_paste, ALL_LAYERS)
-//     };
-// };
+        // Universal Shortcut Combos
+        COMBO(cb_save,          LT2 LT1 LH0,     &save,          ALL_LAYERS)
+        COMBO(cb_undo,          LM2 LM1 LH0,     &undo,          ALL_LAYERS)
+        COMBO(cb_redo,          LB2 LB1 LH0,     &redo,          ALL_LAYERS)
+        COMBO(cb_cut,           LT3 LT2 LH0,     &cut,           ALL_LAYERS)
+        COMBO(cb_copy,          LM3 LM2 LH0,     &copy,          ALL_LAYERS)
+        COMBO(cb_paste,         LB3 LB2 LH0,     &paste,         ALL_LAYERS)
+        COMBO(cb_sel_all,       LM3 LM2 LM1,     &sel_all,       ALL_LAYERS)
+        COMBO(cb_sel_all_cut,   LT3 LT2 LT1 LH0, &sel_all_cut,   ALL_LAYERS)
+        COMBO(cb_sel_all_copy,  LM3 LM2 LM1 LH0, &sel_all_copy,  ALL_LAYERS)
+        COMBO(cb_sel_all_paste, LB3 LB2 LB1 LH0, &sel_all_paste, ALL_LAYERS)
+    };
+};
