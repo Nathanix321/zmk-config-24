@@ -6,7 +6,7 @@
         arcane_key: arcane_key {
             compatible = "zmk,behavior-adaptive-key";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp A>;
 
             ADAPTIVE(arcane_a, A, &kp N &kp D &kp SPACE                        )
             ADAPTIVE(arcane_b, B, &kp E &kp C &kp A &kp U &kp S &kp E &kp SPACE)
