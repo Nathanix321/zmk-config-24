@@ -115,8 +115,8 @@
         MACRO(mc_mv_word_fw, &kp LC(RIGHT) &kp LC(LEFT)  &kp LC(RIGHT))
         MACRO(mc_mv_word_bw, &kp LC(LEFT)  &kp LC(RIGHT) &kp LC(LEFT))
 
-        MACRO(mc_del_word_fw, &sel_word_fw &kp DEL)
-        MACRO(mc_del_word_bw, &sel_word_bw &kp DEL)
+        MACRO(mc_del_word_fw, &mc_sel_word_fw &kp DEL)
+        MACRO(mc_del_word_bw, &mc_sel_word_bw &kp DEL)
 
         MACRO(mc_undo,  &kp LC(Z))
         MACRO(mc_redo,  &kp LC(Y))
@@ -125,17 +125,18 @@
         MACRO(mc_paste, &kp LC(V))
         MACRO(mc_cut,   &kp LC(X))
 
-        MACRO(mc_sel_all_copy,  &sel_all &copy)
-        MACRO(mc_sel_all_paste, &sel_all &paste)
-        MACRO(mc_sel_all_cut,   &sel_all &cut)
+        MACRO(mc_sel_all_copy,  &mc_sel_all &copy)
+        MACRO(mc_sel_all_paste, &mc_sel_all &paste)
+        MACRO(mc_sel_all_cut,   &mc_sel_all &cut)
 
         // Utility Macros
-        MACRO(mc_tog_mic_teams, &kp LC(LS(M)))
+        MACRO(mc_tog_mic_teams,    &kp LC(LS(M)))
         MACRO(mc_tog_camera_teams, &kp LC(LS(O)))
+
         MACRO(mc_haha, &kp H &kp A &kp H &kp A)
         MACRO(mc_term_exit, &kp E &kp X &kp I &kp T &kp ENTER)
         MACRO(mc_new_task, &kp MINUS &kp SPACE &kp LBKT &kp SPACE &kp RBKT &kp SPACE)
-        MACRO(mc_new_task_enter, &new_task &kp ENTER)
+        MACRO(mc_new_task_enter, &mc_new_task &kp ENTER)
 
         // Shortcut Macros
         MACRO(mc_term,       &kp LG(X) &kp I)
