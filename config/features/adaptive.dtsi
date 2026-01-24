@@ -9,7 +9,7 @@
             bindings = <&kp A>;
 
             ADAPTIVE(arcane_a, A, &kp N )//&kp D &kp SPACE                        )
-            ADAPTIVE(arcane_b, B, &kp E )//&kp C &kp A &kp U &kp S &kp E &kp SPACE)
+            ADAPTIVE(arcane_b, B, &arc_b)
             ADAPTIVE(arcane_c, C, &kp K                                        )
             ADAPTIVE(arcane_e, E, &kp U                                        )
             ADAPTIVE(arcane_f, F, &kp O )//&kp R                                  )
