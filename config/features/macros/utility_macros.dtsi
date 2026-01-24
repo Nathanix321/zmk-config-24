@@ -1,11 +1,11 @@
-\ {
+/ {
     utility_macros {
         MACRO(mc_tog_mic_teams,    &kp LC(LS(M)))
         MACRO(mc_tog_camera_teams, &kp LC(LS(O)))
 
         MACRO(mc_haha, &kp H &kp A &kp H &kp A)
         MACRO(mc_term_exit, &kp E &kp X &kp I &kp T &kp ENTER)
-MACRO(mc_new_task, &kp MINUS &kp SPACE &kp LBKT &kp SPACE &kp RBKT &kp SPACE)
+        MACRO(mc_new_task, &kp MINUS &kp SPACE &kp LBKT &kp SPACE &kp RBKT &kp SPACE)
         MACRO(mc_new_task_enter, &mc_new_task &kp ENTER)
     };
 };
