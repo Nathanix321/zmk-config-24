@@ -1,6 +1,6 @@
 
-#define LT_NUM_SPACE  &hlt_mo_space_morph NUMBERS 0
-#define LT_NAV_ALPHA2 &hlt_mo_sl NAV ALPHA2
+#define HLT_NUM_SPACE  &hlt_mo_space_morph NUMBERS 0
+#define HLT_NAV_ALPHA2 &hlt_mo_sl NAV ALPHA2
 
 #define SEMI_COLON &th_semi_colon_morph 0 0
 #define COMMA_Q    &th_comma_q_morph    0 0

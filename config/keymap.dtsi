@@ -10,7 +10,7 @@
     &none               SEMI_COLON          COMMA_Q             DOT_EXCL            &none               &none               &kp G               &kp N               &kp W               &none
     HML_SHORT_MAGIC_H   &hml LALT I         &hml LCTRL E        &hml LSHFT A        &none               &none               &hmr LSHFT D        &hmr LCTRL R        &hmr LALT S         HMR_SHORT_L
     &none               &kp Y               &kp O               &hml LGUI U         &none               &none               &hmr LGUI C         &kp M               &kp F               &none
-                                            &none               LT_NUM_SPACE        LT_NAV_ALPHA2       &arcane_repeat 0 0  &hlt SYMBOLS T      &none
+                                            &none               HLT_NUM_SPACE       HLT_NAV_ALPHA2      &arcane_repeat 0 0  &hlt SYMBOLS T      &none
                         >;
                 };
 
@@ -40,7 +40,7 @@
     &none               &kp TILDE           &kp POUND           &th_apos 0 0        &none               &none               &kp PERCENT         &th_equal 0 0       &th_colon 0 0       &none
     &kp AT              &kp CARET           &kp DOLLAR          &th_dqt 0 0         &none               &none               &th_qmark 0 0       &kp MINUS           &kp PLUS            &lt MACROS COMMA
     &none               &kp LT              &kp GT              &th_grave 0 0       &none               &none               &th_excl 0 0        &kp FSLH            &kp STAR            &none
-                                            &none               LT_NUM_SPACE        &none               &none               &none               &none
+                                            &none               HLT_NUM_SPACE       &none               &none               &none               &none
                         >;
                 };
 
