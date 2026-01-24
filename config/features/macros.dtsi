@@ -125,9 +125,9 @@
         MACRO(mc_paste, &kp LC(V))
         MACRO(mc_cut,   &kp LC(X))
 
-        MACRO(mc_sel_all_copy,  &mc_sel_all &copy)
-        MACRO(mc_sel_all_paste, &mc_sel_all &paste)
-        MACRO(mc_sel_all_cut,   &mc_sel_all &cut)
+        MACRO(mc_sel_all_copy,  &mc_sel_all &mc_copy)
+        MACRO(mc_sel_all_paste, &mc_sel_all &mc_paste)
+        MACRO(mc_sel_all_cut,   &mc_sel_all &mc_cut)
 
         // Utility Macros
         MACRO(mc_tog_mic_teams,    &kp LC(LS(M)))
