@@ -189,7 +189,7 @@
         MACRO(mc_arcane_y, &kp E &kp A &kp H)
 
         MACRO(mc_arcane_space, &kp T &kp H &kp E &kp SPACE)
-        MACRO(mc_arcane_dot, &kp FLSH)
+        MACRO(mc_arcane_dot, &kp FSLH)
         MACRO(mc_arcane_comma, &kp SPACE &kp B &kp U &kp T &kp SPACE)
         MACRO(mc_arcane_pound, &kp D &kp E &kp F &kp I &kp N &kp E &kp SPACE)
     };
