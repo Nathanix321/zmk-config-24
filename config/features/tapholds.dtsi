@@ -19,46 +19,46 @@
         TAPHOLD_TP(th_dot_excl_morph,   &dot_excl_morph,   &end_dot_excl_morph)
 
         TAPHOLD_TP(th_colon_semi_morph, &colon_semi_morph, &end_colon_semi_morph)
-        TAPHOLD_TP(th_q_comma_morph,   &q_comma_morph,    &end_q_comma_morph)
+        TAPHOLD_TP(th_q_comma_morph,    &q_comma_morph,    &end_q_comma_morph)
         TAPHOLD_TP(th_excl_dot_morph,   &excl_dot_morph,   &end_excl_dot_morph)
 
-        TAPHOLD_TP(th_lpar, &lpar, &end_lpar)
-        TAPHOLD_TP(th_rpar, &rpar, &end_rpar)
+        TAPHOLD_TP(th_lpar, &mc_lpar, &mc_end_lpar)
+        TAPHOLD_TP(th_rpar, &mc_rpar, &mc_end_rpar)
 
-        TAPHOLD_TP(th_lbkt, &lbkt, &end_lbkt)
-        TAPHOLD_TP(th_rbkt, &rbkt, &end_rbkt)
+        TAPHOLD_TP(th_lbkt, &mc_lbkt, &mc_end_lbkt)
+        TAPHOLD_TP(th_rbkt, &mc_rbkt, &mc_end_rbkt)
 
-        TAPHOLD_TP(th_lbrc, &lbrc, &end_lbrc)
-        TAPHOLD_TP(th_rbrc, &rbrc, &end_rbrc)
+        TAPHOLD_TP(th_lbrc, &mc_lbrc, &mc_end_lbrc)
+        TAPHOLD_TP(th_rbrc, &mc_rbrc, &mc_end_rbrc)
 
-        TAPHOLD_TP(th_apos,  &apos,  &end_apos)
-        TAPHOLD_TP(th_dqt,   &dqt,   &end_dqt)
-        TAPHOLD_TP(th_grave, &grave, &end_grave)
+        TAPHOLD_TP(th_apos,  &mc_apos,  &mc_end_apos)
+        TAPHOLD_TP(th_dqt,   &mc_dqt,   &mc_end_dqt)
+        TAPHOLD_TP(th_grave, &mc_grave, &mc_end_grave)
 
-        TAPHOLD_TP(th_equal, &equal, &end_equal)
-        TAPHOLD_TP(th_colon, &colon, &end_colon)
-        TAPHOLD_TP(th_qmark, &qmark, &end_qmark)
-        TAPHOLD_TP(th_excl,  &excl,  &end_excl)
+        TAPHOLD_TP(th_equal, &mc_equal, &mc_end_equal)
+        TAPHOLD_TP(th_colon, &mc_colon, &mc_end_colon)
+        TAPHOLD_TP(th_qmark, &mc_qmark, &mc_end_qmark)
+        TAPHOLD_TP(th_excl,  &mc_excl,  &mc_end_excl)
 
-        TAPHOLD_TP(th_tab, &tab, &home_tab)
-        TAPHOLD_TP(th_enter, &enter, &end_enter)
+        TAPHOLD_TP(th_tab, &mc_tab, &mc_home_tab)
+        TAPHOLD_TP(th_enter, &mc_enter, &mc_end_enter)
 
-        TAPHOLD_TP(th_mic_cam, &tog_mic_teams, &tog_camera_teams)
+        TAPHOLD_TP(th_mic_cam, &mc_tog_mic_teams, &mc_tog_camera_teams)
 
         // Combo Tapholds
-        TAPHOLD_TP(th_brc_in,  &brc_in,  &end_brc_in_n)
-        TAPHOLD_TP(th_pars_in, &pars_in, &end_pars_in)
-        TAPHOLD_TP(th_bkts_in, &bkts_in, &end_bkts_in)
+        TAPHOLD_TP(th_brc_in,  &mc_brc_in,  &mc_end_brc_in_n)
+        TAPHOLD_TP(th_pars_in, &mc_pars_in, &mc_end_pars_in)
+        TAPHOLD_TP(th_bkts_in, &mc_bkts_in, &mc_end_bkts_in)
 
-        TAPHOLD_TP(th_two_colon, &two_colon, &end_two_colon)
-        TAPHOLD_TP(th_two_amps,  &two_amps,  &end_two_amps)
-        TAPHOLD_TP(th_two_pipe,  &two_pipe,  &end_two_pipe)
+        TAPHOLD_TP(th_two_colon, &mc_two_colon, &mc_end_two_colon)
+        TAPHOLD_TP(th_two_amps,  &mc_two_amps,  &mc_end_two_amps)
+        TAPHOLD_TP(th_two_pipe,  &mc_two_pipe,  &mc_end_two_pipe)
 
-        TAPHOLD_TP(th_end_pars_semi, &end_pars_semi, &end_pars_semi_enter)
-        TAPHOLD_TP(th_end_semi,      &end_semi,      &end_semi_enter)
+        TAPHOLD_TP(th_end_pars_semi, &mc_end_pars_semi, &mc_end_pars_semi_enter)
+        TAPHOLD_TP(th_end_semi,      &mc_end_semi,      &mc_end_semi_enter)
 
-        TAPHOLD_TP(th_usd, &usd_sign, &usd_letter)
-        TAPHOLD_TP(th_cad, &cad_sign, &cad_letter)
+        TAPHOLD_TP(th_usd, &mc_usd_sign, &mc_usd_letter)
+        TAPHOLD_TP(th_cad, &mc_cad_sign, &mc_cad_letter)
 
         // Special Tapholds
         hlt_mo_sl: hlt_mo_sl {

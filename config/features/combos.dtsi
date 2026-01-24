@@ -53,30 +53,30 @@
         COMBO(cb_end_semi,      RB1 RB3, &th_end_semi 0 0,      NUMBERS)
 
         // Symbols Combos
-        COMBO(cb_two_pound,   LT3 LT2, &two_pound,   SYMBOLS)
-        COMBO(cb_three_pound, LT3 LT1, &three_pound, SYMBOLS)
+        COMBO(cb_two_pound,   LT3 LT2, &mc_two_pound,   SYMBOLS)
+        COMBO(cb_three_pound, LT3 LT1, &mc_three_pound, SYMBOLS)
 
-        COMBO(cb_two_apos_in, LT2 LT1, &two_apos_in, SYMBOLS)
+        COMBO(cb_two_apos_in, LT2 LT1, &mc_two_apos_in, SYMBOLS)
 
-        COMBO(cb_two_dqt_in, LM2 LM1, &two_dqt_in, SYMBOLS)
-        COMBO(cb_three_dqt,  LM3 LM1, &three_dqt,  SYMBOLS)
+        COMBO(cb_two_dqt_in, LM2 LM1, &mc_two_dqt_in, SYMBOLS)
+        COMBO(cb_three_dqt,  LM3 LM1, &mc_three_dqt,  SYMBOLS)
 
-        COMBO(cb_min_arrow, LM3 LM2, &min_arrow, SYMBOLS)
-        COMBO(cb_equ_arrow, LB3 LB2, &equ_arrow, SYMBOLS)
+        COMBO(cb_min_arrow, LM3 LM2, &mc_min_arrow, SYMBOLS)
+        COMBO(cb_equ_arrow, LB3 LB2, &mc_equ_arrow, SYMBOLS)
 
-        COMBO(cb_three_grave,  LB3 LB1, &three_grave,  SYMBOLS)
-        COMBO(cb_two_grave_in, LB2 LB1, &two_grave_in, SYMBOLS)
+        COMBO(cb_three_grave,  LB3 LB1, &mc_three_grave,  SYMBOLS)
+        COMBO(cb_two_grave_in, LB2 LB1, &mc_two_grave_in, SYMBOLS)
 
-        COMBO(cb_dot_fslh,     RT1 RT2, &dot_fslh,     SYMBOLS)
-        COMBO(cb_tilde_fslh,   RM1 RM2, &tilde_fslh,   SYMBOLS)
-        COMBO(cb_two_dot_fslh, RB1 RB2, &two_dot_fslh, SYMBOLS)
+        COMBO(cb_dot_fslh,     RT1 RT2, &mc_dot_fslh,     SYMBOLS)
+        COMBO(cb_tilde_fslh,   RM1 RM2, &mc_tilde_fslh,   SYMBOLS)
+        COMBO(cb_two_dot_fslh, RB1 RB2, &mc_two_dot_fslh, SYMBOLS)
 
-        COMBO(cb_two_equal,  RM2 RM3, &two_equal,  SYMBOLS)
-        COMBO(cb_excl_equal, RB2 RB3, &excl_equal, SYMBOLS)
+        COMBO(cb_two_equal,  RM2 RM3, &mc_two_equal,  SYMBOLS)
+        COMBO(cb_excl_equal, RB2 RB3, &mc_excl_equal, SYMBOLS)
 
         COMBO(cb_usd, RT1 RT3, &th_usd 0 0,    SYMBOLS)
         COMBO(cb_cad, RM1 RM3, &th_cad 0 0,    SYMBOLS)
-        COMBO(cb_eur, RB1 RB3, &eur_letter,    SYMBOLS)
+        COMBO(cb_eur, RB1 RB3, &mc_eur_letter,    SYMBOLS)
 
         // Text Combo
         COMBO(cb_bpsc_word, RT1 RM1, &kp LC(BSPC), TEXT)
@@ -103,15 +103,15 @@
         COMBO(cb_end,   RB3 RH0, &kp END,   ALL_LAYERS)
 
         // Universal Shortcut Combos
-        COMBO(cb_save,          LT2 LT1 LH0,     &save,          ALL_LAYERS)
-        COMBO(cb_undo,          LM2 LM1 LH0,     &undo,          ALL_LAYERS)
-        COMBO(cb_redo,          LB2 LB1 LH0,     &redo,          ALL_LAYERS)
-        COMBO(cb_cut,           LT3 LT2 LH0,     &cut,           ALL_LAYERS)
-        COMBO(cb_copy,          LM3 LM2 LH0,     &copy,          ALL_LAYERS)
-        COMBO(cb_paste,         LB3 LB2 LH0,     &paste,         ALL_LAYERS)
-        COMBO(cb_sel_all,       LM3 LM2 LM1,     &sel_all,       ALL_LAYERS)
-        COMBO(cb_sel_all_cut,   LT3 LT2 LT1 LH0, &sel_all_cut,   ALL_LAYERS)
-        COMBO(cb_sel_all_copy,  LM3 LM2 LM1 LH0, &sel_all_copy,  ALL_LAYERS)
-        COMBO(cb_sel_all_paste, LB3 LB2 LB1 LH0, &sel_all_paste, ALL_LAYERS)
+        COMBO(cb_save,          LT2 LT1 LH0,     &mc_save,          ALL_LAYERS)
+        COMBO(cb_undo,          LM2 LM1 LH0,     &mc_undo,          ALL_LAYERS)
+        COMBO(cb_redo,          LB2 LB1 LH0,     &mc_redo,          ALL_LAYERS)
+        COMBO(cb_cut,           LT3 LT2 LH0,     &mc_cut,           ALL_LAYERS)
+        COMBO(cb_copy,          LM3 LM2 LH0,     &mc_copy,          ALL_LAYERS)
+        COMBO(cb_paste,         LB3 LB2 LH0,     &mc_paste,         ALL_LAYERS)
+        COMBO(cb_sel_all,       LM3 LM2 LM1,     &mc_sel_all,       ALL_LAYERS)
+        COMBO(cb_sel_all_cut,   LT3 LT2 LT1 LH0, &mc_sel_all_cut,   ALL_LAYERS)
+        COMBO(cb_sel_all_copy,  LM3 LM2 LM1 LH0, &mc_sel_all_copy,  ALL_LAYERS)
+        COMBO(cb_sel_all_paste, LB3 LB2 LB1 LH0, &mc_sel_all_paste, ALL_LAYERS)
     };
 };

@@ -10,12 +10,12 @@
         MOD_MORPH(q_comma_morph,    MOD_LSFT|MOD_RSFT, &kp QMARK, &kp COMMA)
         MOD_MORPH(excl_dot_morph,   MOD_LSFT|MOD_RSFT, &kp DOT,   &kp EXCL)
 
-        MOD_MORPH(end_semi_colon_morph, MOD_LSFT|MOD_RSFT, &end_colon, &end_semi)
-        MOD_MORPH(end_comma_q_morph,    MOD_LSFT|MOD_RSFT, &end_comma, &end_qmark)
-        MOD_MORPH(end_dot_excl_morph,   MOD_LSFT|MOD_RSFT, &end_excl,  &end_dot)
+        MOD_MORPH(end_semi_colon_morph, MOD_LSFT|MOD_RSFT, &mc_end_colon, &mc_end_semi)
+        MOD_MORPH(end_comma_q_morph,    MOD_LSFT|MOD_RSFT, &mc_end_comma, &mc_end_qmark)
+        MOD_MORPH(end_dot_excl_morph,   MOD_LSFT|MOD_RSFT, &mc_end_excl,  &mc_end_dot)
 
-        MOD_MORPH(end_colon_semi_morph, MOD_LSFT|MOD_RSFT, &end_semi,  &end_colon)
-        MOD_MORPH(end_q_comma_morph,    MOD_LSFT|MOD_RSFT, &end_qmark, &end_comma)
-        MOD_MORPH(end_excl_dot_morph,   MOD_LSFT|MOD_RSFT, &end_dot,   &end_excl)
+        MOD_MORPH(end_colon_semi_morph, MOD_LSFT|MOD_RSFT, &mc_end_semi,  &mc_end_colon)
+        MOD_MORPH(end_q_comma_morph,    MOD_LSFT|MOD_RSFT, &mc_end_qmark, &mc_end_comma)
+        MOD_MORPH(end_excl_dot_morph,   MOD_LSFT|MOD_RSFT, &mc_end_dot,   &mc_end_excl)
     };
 };

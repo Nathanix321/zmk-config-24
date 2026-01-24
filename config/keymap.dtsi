@@ -47,9 +47,9 @@
                 shortcuts_layer {
                      display-name = "SHORT";
                      bindings = <
-    &none               &term               &files              &task_man           &none               &none               &kp CAPSLOCK        &caps_word           &admin_term         &none
-    &none               &debug_step_out     &debug_step_in      &debug_step_over    &none               &none               &none               &none               &none               &none
-    &none               &debug_stop         &debug_restart      &debug_pp           &none               &none               &none               &none               &none               &none
+    &none               &mc_term            &mc_files           &mc_task_man        &none               &none               &kp CAPSLOCK        &caps_word          &mc_admin_term      &none
+    &none               &mc_debug_step_out  &mc_debug_step_in   &mc_debug_step_over &none               &none               &none               &none               &none               &none
+    &none               &mc_debug_stop      &mc_debug_restart   &mc_debug_pp        &none               &none               &none               &none               &none               &none
                                             &none               &kp SPACE           &none               &none               &none               &none
                         >;
                 };
@@ -67,9 +67,9 @@
                 text_layer {
                      display-name = "TEXT";
                      bindings = <
-    &none               &sel_home           &sel_word_fw        &sel_line           &none               &none               &th_tab 0 0         &th_enter 0 0       &kp ESC             &none
-    &none               &kp LALT            &kp LCTRL           &kp LSHFT           &none               &none               &mv_word_bw         &kp DOWN            &kp UP              &mv_word_fw
-    &none               &none               &none               &kp LGUI            &none               &none               &del_word_fw        &kp HOME            &kp END             &none
+    &none               &mc_sel_home        &mc_sel_word_fw     &mc_sel_line        &none               &none               &th_tab 0 0         &th_enter 0 0       &kp ESC             &none
+    &none               &kp LALT            &kp LCTRL           &kp LSHFT           &none               &none               &mc_mv_word_bw      &kp DOWN            &kp UP              &mc_mv_word_fw
+    &none               &none               &none               &kp LGUI            &none               &none               &mc_del_word_fw     &kp HOME            &kp END             &none
                                             &none               &none               &none               &kp SPACE           &none               &none
                         >;
                 };
@@ -97,9 +97,9 @@
                 macros_layer {
                      display-name = "MACROS";
                      bindings = <
-    &none               &shortcut_combos    &nav_combos         &keymap             &none               &none               &none               &none               &none               &none
-    &none               &haha               &term_exit          &new_task           &none               &none               &personal2          &work               &school             &none
-    &none               &none               &none               &new_task_enter     &none               &none               &personal1          &none               &none               &none
+    &none               &mc_shortcut_combos &mc_nav_combos      &mc_keymap          &none               &none               &none               &none               &none               &none
+    &none               &mc_haha            &mc_term_exit       &mc_new_task        &none               &none               &mc_personal2       &mc_work            &mc_school          &none
+    &none               &none               &none               &mc_new_task_enter  &none               &none               &mc_personal1       &none               &none               &none
                                             &none               &none               &none               &bootloader         &none               &none
                         >;
                 };
