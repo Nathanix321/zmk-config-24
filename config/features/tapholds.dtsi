@@ -1,13 +1,52 @@
 
+#define ARCANE_REPEAT &arcane_repeat 0 0
+
 #define HLT_NUM_SPACE  &hlt_mo_space_morph NUMBERS 0
 #define HLT_NAV_ALPHA2 &hlt_mo_sl NAV ALPHA2
 
-#define SEMI_COLON &th_semi_colon_morph 0 0
-#define COMMA_Q    &th_comma_q_morph    0 0
-#define DOT_EXCL   &th_dot_excl_morph   0 0
-#define COLON_SEMI &th_colon_semi_morph 0 0
-#define Q_COMMA    &th_q_comma_morph    0 0
-#define EXCL_DOT   &th_excl_dot_morph   0 0
+#define TH_SEMI_COLON &th_semi_colon_morph 0 0
+#define TH_COMMA_Q    &th_comma_q_morph    0 0
+#define TH_DOT_EXCL   &th_dot_excl_morph   0 0
+#define TH_COLON_SEMI &th_colon_semi_morph 0 0
+#define TH_Q_COMMA    &th_q_comma_morph    0 0
+#define TH_EXCL_DOT   &th_excl_dot_morph   0 0
+
+#define TH_LPAR &th_lpar 0 0
+#define TH_RPAR &th_rpar 0 0
+
+#define TH_LBKT &th_lbkt 0 0
+#define TH_RBKT &th_rbkt 0 0
+
+#define TH_LBRC &th_lbrc 0 0
+#define TH_RBRC &th_rbrc 0 0
+
+#define TH_APOS  &th_apos  0 0
+#define TH_DQT   &th_dqt   0 0
+#define TH_GRAVE &th_grave 0 0
+
+#define TH_EQUAL &th_equal 0 0
+#define TH_COLON &th_colon 0 0
+#define TH_QMARK &th_qmark 0 0
+#define TH_EXCL  &th_excl  0 0
+
+#define TH_TAB   &th_tab   0 0
+#define TH_ENTER &th_enter 0 0
+
+#define TH_MIC_CAM &th_mic_cam 0 0
+
+#define TH_BRC_IN &th_brc_in 0 0
+#define TH_PARS_IN &th_pars_in 0 0
+#define TH_BKTS_IN &th_bkts_in 0 0
+
+#define TH_TWO_COLON &th_two_colon 0 0
+#define TH_TWO_AMPS &th_two_amps 0 0
+#define TH_TWO_PIPE &th_two_pipe 0 0
+
+#define TH_END_PARS_SEMI &th_end_pars_semi 0 0
+#define TH_END_SEMI &th_end_semi 0 0
+
+#define TH_USD &th_usd 0 0
+#define TH_CAD &th_cad 0 0
 
 / {
     definitions {

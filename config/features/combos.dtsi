@@ -41,16 +41,16 @@
         COMBO(cb_dead_tilde, RM3 RB3, &kp RA(TILDE), ALPHA2)
 
         // Numbers Combos
-        COMBO(cb_brc_in,  LT3 LT2, &th_brc_in 0 0,  NUMBERS)
-        COMBO(cb_pars_in, LM3 LM2, &th_pars_in 0 0, NUMBERS)
-        COMBO(cb_bkts_in, LB3 LB2, &th_bkts_in 0 0, NUMBERS)
+        COMBO(cb_brc_in,  LT3 LT2, TH_BRC_IN,  NUMBERS)
+        COMBO(cb_pars_in, LM3 LM2, TH_PARS_IN, NUMBERS)
+        COMBO(cb_bkts_in, LB3 LB2, TH_BKTS_IN, NUMBERS)
 
-        COMBO(cb_two_colon, LT2 LT1, &th_two_colon 0 0, NUMBERS)
-        COMBO(cb_two_amps,  LM2 LM1, &th_two_amps 0 0,  NUMBERS)
-        COMBO(cb_two_pipe,  LB2 LB1, &th_two_pipe 0 0,  NUMBERS)
+        COMBO(cb_two_colon, LT2 LT1, TH_TWO_COLON, NUMBERS)
+        COMBO(cb_two_amps,  LM2 LM1, TH_TWO_AMPS,  NUMBERS)
+        COMBO(cb_two_pipe,  LB2 LB1, TH_TWO_PIPE,  NUMBERS)
 
-        COMBO(cb_end_pars_semi, RM1 RM3, &th_end_pars_semi 0 0, NUMBERS)
-        COMBO(cb_end_semi,      RB1 RB3, &th_end_semi 0 0,      NUMBERS)
+        COMBO(cb_end_pars_semi, RM1 RM3, TH_END_PARS_SEMI, NUMBERS)
+        COMBO(cb_end_semi,      RB1 RB3, TH_END_SEMI,      NUMBERS)
 
         // Symbols Combos
         COMBO(cb_two_pound,   LT3 LT2, &mc_two_pound,   SYMBOLS)
@@ -74,8 +74,8 @@
         COMBO(cb_two_equal,  RM2 RM3, &mc_two_equal,  SYMBOLS)
         COMBO(cb_excl_equal, RB2 RB3, &mc_excl_equal, SYMBOLS)
 
-        COMBO(cb_usd, RT1 RT3, &th_usd 0 0,    SYMBOLS)
-        COMBO(cb_cad, RM1 RM3, &th_cad 0 0,    SYMBOLS)
+        COMBO(cb_usd, RT1 RT3, TH_USD,            SYMBOLS)
+        COMBO(cb_cad, RM1 RM3, TH_CAD,            SYMBOLS)
         COMBO(cb_eur, RB1 RB3, &mc_eur_letter,    SYMBOLS)
 
         // Text Combo
