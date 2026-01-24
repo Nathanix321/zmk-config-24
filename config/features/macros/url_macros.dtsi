@@ -1,0 +1,10 @@
+/ {
+    url_macros {
+        // https://github.com/Nathanix321/zmk-config-24/blob/main/draw/svgs/whole_keymap.svg
+        MACRO(mc_keymap, &kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH &kp G &kp I &kp T &kp H &kp U &kp B &kp DOT &kp C &kp O &kp M &kp FSLH &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp X &kp N3 &kp N2 &kp N1 &kp FSLH &kp Z &kp M &kp K &kp MINUS &kp C &kp O &kp N &kp F &kp I &kp G &kp MINUS &kp N2 &kp N4 &kp FSLH &kp B &kp L &kp O &kp B &kp FSLH &kp M &kp A &kp I &kp N &kp FSLH &kp D &kp R &kp A &kp W &kp FSLH &kp S &kp V &kp G &kp S &kp FSLH &kp W &kp H &kp O &kp L &kp E &kp UNDER &kp K &kp E &kp Y &kp M &kp A &kp P &kp DOT &kp S &kp V &kp G &kp ENTER)
+        // https://github.com/Nathanix321/zmk-config-24/blob/main/draw/svgs/nav_combos.svg
+        MACRO(mc_nav_combos, &kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH &kp G &kp I &kp T &kp H &kp U &kp B &kp DOT &kp C &kp O &kp M &kp FSLH &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp X &kp N3 &kp N2 &kp N1 &kp FSLH &kp Z &kp M &kp K &kp MINUS &kp C &kp O &kp N &kp F &kp I &kp G &kp MINUS &kp N2 &kp N4 &kp FSLH &kp B &kp L &kp O &kp B &kp FSLH &kp M &kp A &kp I &kp N &kp FSLH &kp D &kp R &kp A &kp W &kp FSLH &kp S &kp V &kp G &kp S &kp FSLH &kp N &kp A &kp V &kp UNDER &kp C &kp O &kp M &kp B &kp O &kp S &kp DOT &kp S &kp V &kp G &kp ENTER)
+        // https://github.com/Nathanix321/zmk-config-24/blob/main/draw/svgs/shortcut_combos.svg
+        MACRO(mc_shortcut_combos, &kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH &kp G &kp I &kp T &kp H &kp U &kp B &kp DOT &kp C &kp O &kp M &kp FSLH &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp X &kp N3 &kp N2 &kp N1 &kp FSLH &kp Z &kp M &kp K &kp MINUS &kp C &kp O &kp N &kp F &kp I &kp G &kp MINUS &kp N2 &kp N4 &kp FSLH &kp B &kp L &kp O &kp B &kp FSLH &kp M &kp A &kp I &kp N &kp FSLH &kp D &kp R &kp A &kp W &kp FSLH &kp S &kp V &kp G &kp S &kp FSLH &kp S &kp H &kp O &kp R &kp T &kp C &kp U &kp T &kp UNDER &kp C &kp O &kp M &kp B &kp O &kp S &kp DOT &kp S &kp V &kp G &kp ENTER)
+    };
+};

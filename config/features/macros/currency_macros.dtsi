@@ -1,0 +1,9 @@
+/ {
+    currency_macros {
+        MACRO(mc_usd_sign,   &kp U &kp S &kp DOLLAR)
+        MACRO(mc_usd_letter, &kp U &kp S &kp D)
+        MACRO(mc_cad_sign,   &kp C &kp A &kp DOLLAR)
+        MACRO(mc_cad_letter, &kp C &kp A &kp D)
+        MACRO(mc_eur_letter, &kp E &kp U &kp R)
+    };
+};

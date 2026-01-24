@@ -1,0 +1,28 @@
+/ {
+    arcane_macros {
+        MACRO(mc_arcane_a, &kp N &kp D &kp SPACE)
+        MACRO(mc_arcane_b, &kp E &kp C &kp A &kp U &kp S &kp E &kp SPACE)
+        MACRO(mc_arcane_c, &kp K)
+        MACRO(mc_arcane_e, &kp U)
+        MACRO(mc_arcane_f, &kp O &kp R)
+        MACRO(mc_arcane_g, &kp E &kp N &kp E &kp R &kp A &kp L)
+        MACRO(mc_arcane_i, &kp O &kp N)
+        MACRO(mc_arcane_j, &kp U &kp S &kp T)
+        MACRO(mc_arcane_l, &kp K)
+        MACRO(mc_arcane_m, &kp E &kp N &kp T)
+        MACRO(mc_arcane_n, &kp I &kp O &kp N)
+        MACRO(mc_arcane_o, &kp I)
+        MACRO(mc_arcane_p, &kp R &kp E &kp T &kp T &kp Y)
+        MACRO(mc_arcane_q, &kp U &kp A &kp N &kp T &kp U &kp M)
+        MACRO(mc_arcane_r, &kp M)
+        MACRO(mc_arcane_s, &kp K)
+        MACRO(mc_arcane_t, &kp M &kp E &kp N &kp T)
+        MACRO(mc_arcane_w, &kp H &kp I &kp C &kp H)
+        MACRO(mc_arcane_y, &kp E &kp A &kp H)
+
+        MACRO(mc_arcane_space, &kp T &kp H &kp E &kp SPACE)
+        MACRO(mc_arcane_dot, &kp FSLH)
+        MACRO(mc_arcane_comma, &kp SPACE &kp B &kp U &kp T &kp SPACE)
+        MACRO(mc_arcane_pound, &kp D &kp E &kp F &kp I &kp N &kp E &kp SPACE)
+    };
+};

@@ -1,0 +1,95 @@
+/ {
+    symbol_macros {
+        // End -> Morphs
+        MACRO(mc_end_dot,   &kp END &kp DOT  )
+        MACRO(mc_end_comma, &kp END &kp COMMA)
+
+        // () Macros
+        MACRO(mc_lpar,                    &kp LPAR)
+        MACRO(mc_rpar,                    &kp RPAR)
+        MACRO(mc_end_lpar,        &kp END &kp LPAR)
+        MACRO(mc_end_rpar,        &kp END &kp RPAR)
+        MACRO(mc_pars_in,                 &kp LPAR &kp RPAR &kp LEFT)
+        MACRO(mc_end_pars_in,     &kp END &kp LPAR &kp RPAR &kp LEFT)
+        MACRO(mc_end_pars_semi,   &kp END &kp LPAR &kp RPAR &kp SEMI)
+        MACRO(mc_end_pars_semi_enter, &kp END &kp LPAR &kp RPAR &kp SEMI &kp ENTER)
+
+        // [] Macros
+        MACRO(mc_lbkt,                &kp LBKT)
+        MACRO(mc_rbkt,                &kp RBKT)
+        MACRO(mc_end_lbkt,   &kp END  &kp LBKT)
+        MACRO(mc_end_rbkt,   &kp END  &kp RBKT)
+        MACRO(mc_bkts_in,             &kp LBKT &kp RBKT &kp LEFT)
+        MACRO(mc_end_bkts_in, &kp END &kp LBKT &kp RBKT &kp LEFT)
+
+        // {} Macros
+        MACRO(mc_lbrc,                 &kp LBRC)
+        MACRO(mc_rbrc,                 &kp RBRC)
+        MACRO(mc_end_lbrc,     &kp END &kp LBRC)
+        MACRO(mc_end_rbrc,     &kp END &kp RBRC)
+        MACRO(mc_brc_in,               &kp LBRC &kp RBRC &kp LEFT)
+        MACRO(mc_end_brc_in_n, &kp END &kp LBRC &kp RBRC &kp LEFT &kp ENTER)
+
+        // : Macros
+        MACRO(mc_colon,                 &kp COLON)
+        MACRO(mc_two_colon,             &kp COLON &kp COLON)
+        MACRO(mc_end_two_colon, &kp END &kp COLON &kp COLON)
+        MACRO(mc_end_colon,     &kp END &kp COLON)
+
+        // && Macros
+        MACRO(mc_two_amps,             &kp AMPS &kp AMPS)
+        MACRO(mc_end_two_amps, &kp END &kp AMPS &kp AMPS)
+
+        // || Macros
+        MACRO(mc_two_pipe,             &kp PIPE &kp PIPE)
+        MACRO(mc_end_two_pipe, &kp END &kp PIPE &kp PIPE)
+
+        // ; Macros
+        MACRO(mc_end_semi,       &kp END &kp SEMI)
+        MACRO(mc_end_semi_enter, &kp END &kp SEMI &kp ENTER)
+
+        // # Macros
+        MACRO(mc_two_pound,   &kp POUND &kp POUND)
+        MACRO(mc_three_pound, &kp POUND &kp POUND &kp POUND)
+
+        // ' Macros
+        MACRO(mc_apos,               &kp APOS)
+        MACRO(mc_two_apos_in,        &kp APOS &kp APOS &kp LEFT)
+        MACRO(mc_end_apos,  &kp END  &kp APOS)
+
+        // " Macros
+        MACRO(mc_dqt,              &kp DQT)
+        MACRO(mc_two_dqt_in,       &kp DQT &kp DQT &kp LEFT)
+        MACRO(mc_three_dqt,        &kp DQT &kp DQT &kp DQT)
+        MACRO(mc_end_dqt,  &kp END &kp DQT)
+
+        // ` Macros
+        MACRO(mc_grave,                &kp GRAVE)
+        MACRO(mc_two_grave_in,         &kp GRAVE &kp GRAVE &kp LEFT)
+        MACRO(mc_three_grave,          &kp GRAVE &kp GRAVE &kp GRAVE)
+        MACRO(mc_end_grave,  &kp END   &kp GRAVE)
+
+        // Arrow Macros
+        MACRO(mc_min_arrow, &kp EQUAL &kp GT)
+        MACRO(mc_equ_arrow, &kp MINUS &kp GT)
+
+        // / Macros
+        MACRO(mc_tilde_fslh,   &kp TILDE &kp FSLH)
+        MACRO(mc_dot_fslh,     &kp DOT   &kp FSLH)
+        MACRO(mc_two_dot_fslh, &kp DOT   &kp DOT &kp FSLH)
+
+        // = Macros
+        MACRO(mc_equal,      &kp EQUAL)
+        MACRO(mc_two_equal,  &kp EQUAL &kp EQUAL)
+        MACRO(mc_excl_equal, &kp EXCL  &kp EQUAL)
+        MACRO(mc_end_equal,  &kp END   &kp EQUAL)
+
+        // ! Macros
+        MACRO(mc_excl,             &kp EXCL)
+        MACRO(mc_end_excl, &kp END &kp EXCL)
+
+        // ? Macros
+        MACRO(mc_qmark,             &kp QMARK)
+        MACRO(mc_end_qmark, &kp END &kp QMARK)
+    };
+};

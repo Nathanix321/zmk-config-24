@@ -1,0 +1,15 @@
+/ {
+    shortcut_macros {
+        MACRO(mc_term,       &kp LG(X) &kp I)
+        MACRO(mc_admin_term, &kp LG(X) &kp A)
+        MACRO(mc_files,      &kp LG(X) &kp E)
+        MACRO(mc_task_man,   &kp LG(X) &kp T)
+
+        MACRO(mc_debug_step_in, &kp F11)
+        MACRO(mc_debug_step_out, &kp LS(F11))
+        MACRO(mc_debug_step_over, &kp F10)
+        MACRO(mc_debug_pp, &kp F5)
+        MACRO(mc_debug_stop, &kp LS(F11))
+        MACRO(mc_debug_restart, &kp LC(LS(F5)))
+    };
+};

@@ -1,0 +1,31 @@
+/ {
+    text_macros {
+        MACRO(mc_tab,               &kp TAB)
+        MACRO(mc_home_tab, &kp HOME &kp TAB)
+        MACRO(mc_enter,             &kp ENTER)
+        MACRO(mc_end_enter, &kp END &kp ENTER)
+
+        MACRO(mc_sel_word_fw, &kp LC(RIGHT) &kp LC(LEFT)  &kp LS(LC(RIGHT)))
+        MACRO(mc_sel_word_bw, &kp LC(LEFT)  &kp LC(RIGHT) &kp LS(LC(LEFT)))
+        MACRO(mc_sel_home,    &kp LS(HOME))
+        MACRO(mc_sel_line,    &kp HOME &kp LS(END))
+        MACRO(mc_sel_all,     &kp LC(HOME) &kp LS(LC(END)))
+
+        MACRO(mc_mv_word_fw, &kp LC(RIGHT) &kp LC(LEFT)  &kp LC(RIGHT))
+        MACRO(mc_mv_word_bw, &kp LC(LEFT)  &kp LC(RIGHT) &kp LC(LEFT))
+
+        MACRO(mc_del_word_fw, &mc_sel_word_fw &kp DEL)
+        MACRO(mc_del_word_bw, &mc_sel_word_bw &kp DEL)
+
+        MACRO(mc_undo,  &kp LC(Z))
+        MACRO(mc_redo,  &kp LC(Y))
+        MACRO(mc_save,  &kp LC(S))
+        MACRO(mc_copy,  &kp LC(C))
+        MACRO(mc_paste, &kp LC(V))
+        MACRO(mc_cut,   &kp LC(X))
+
+        MACRO(mc_sel_all_copy,  &mc_sel_all &mc_copy)
+        MACRO(mc_sel_all_paste, &mc_sel_all &mc_paste)
+        MACRO(mc_sel_all_cut,   &mc_sel_all &mc_cut)
+    };
+};
