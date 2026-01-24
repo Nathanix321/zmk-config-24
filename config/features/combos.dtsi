@@ -41,7 +41,7 @@
         COMBO(cb_dead_tilde, RM3 RB3, &kp RA(TILDE), ALPHA2)
 
         // Numbers Combos
-        COMBO(cb_brc_in,  LT3 LT2, TH_BRC_IN,  NUMBERS)
+        COMBO(cb_brc_in,  LT3 LT2, &th_brc_in 0 0,  NUMBERS)
         COMBO(cb_pars_in, LM3 LM2, TH_PARS_IN, NUMBERS)
         COMBO(cb_bkts_in, LB3 LB2, TH_BKTS_IN, NUMBERS)
 
