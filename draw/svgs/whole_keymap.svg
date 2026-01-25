@@ -502,7 +502,7 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 </g>
 <g transform="translate(555, 170)" class="key keypos-19">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
-<text x="0" y="0" class="key tap">d(¨)</text>
+<text x="0" y="0" class="key tap">z</text>
 </g>
 <g transform="translate(210, 238)" class="key keypos-20">
 <rect rx="6" ry="6" x="-33" y="-32" width="66" height="64" class="key"/>
@@ -527,6 +527,10 @@ rect.held.alternate { fill: #ffe6f2; }</style>
 <use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="408" y="61" height="14" width="14.0" class="combo tap glyph mdi:backspace-outline"/>
 </g>
 <g class="combo combopos-2">
+<rect rx="6" ry="6" x="468" y="121" width="34" height="30" class="combo"/>
+<text x="485" y="136" class="combo tap">d(¨)</text>
+</g>
+<g class="combo combopos-3">
 <rect rx="6" ry="6" x="538" y="121" width="34" height="30" class="combo"/>
 <text x="555" y="136" class="combo tap">d(~)</text>
 </g>

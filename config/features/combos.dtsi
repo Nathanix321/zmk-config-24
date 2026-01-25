@@ -38,6 +38,7 @@
         COMBO(cb_v, RM3 RB3, &kp V, ALPHA1)
 
         // Alpha2 Combo
+        COMBO(cb_dead_trema, RM2 RB2, &kp RA(DQT),   ALPHA2)
         COMBO(cb_dead_tilde, RM3 RB3, &kp RA(TILDE), ALPHA2)
 
         // Numbers Combos

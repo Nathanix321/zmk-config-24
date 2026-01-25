@@ -56,7 +56,7 @@ layers:
         { h: $$mdi:apple-keyboard-command$$, t: û},
         { h: $$mdi:apple-keyboard-command$$, t: ç},
         "d(^)",
-        "d(¨)",
+        z,
       ]
     - $$mdi:keyboard-space$$
     - null
@@ -335,6 +335,7 @@ combos:
   - { p: [5, 12], k: "k", layers: [alpha1] }
   - { p: [12, 19], k: "v", layers: [alpha1] }
 
+  - { p: [11, 18], k: "d(¨)", a: mid, layers: [alpha2] }
   - { p: [12, 19], k: "d(~)", a: mid, layers: [alpha2] }
 
   - { p: [1, 2, 21], k: "save", layers: [shortcuts], draw_separate: true }

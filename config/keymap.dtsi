@@ -19,7 +19,7 @@
                      bindings = <
     &none               TH_COLON_SEMI       TH_Q_COMMA          TH_EXCL_DOT         &none               &none               &kp B               &kp J               &kp K               &none
     &kp X               HML_ACC_I_CIRC      HML_ACC_E_AIGU      HML_ACC_A_GRAVE     &none               &none               &hmr LSHFT  P       &hmr LCTRL RA(SQT)  &hmr LALT RA(GRAVE) &kp V
-    &none               &kp Q               &acc_o_circ         HML_ACC_U_CIRC      &none               &none               HMR_ACC_C_CEDILLE   &kp RA(CARET)       &kp RA(DQT)         &none
+    &none               &kp Q               &acc_o_circ         HML_ACC_U_CIRC      &none               &none               HMR_ACC_C_CEDILLE   &kp RA(CARET)       &kp Z               &none
                                             &none               &space_under_morph  &none               &none               &kp MINUS           &none
                         >;
                 };
