@@ -69,15 +69,6 @@
             bindings = <BINDINGS>; \
         };
 
-    #define MACRO_LONG(NAME, BINDINGS) \
-        NAME: NAME { \
-			compatible = "zmk,behavior-macro"; \
-            #binding-cells = <0>; \
-            wait-ms = <50>; \
-            tap-ms = <5>; \
-            bindings = <BINDINGS>; \
-        };
-
     /*  MOD MORPHS  */
 
     #define MOD_MORPH(NAME, MODS, MODDED, UNMODDED) \
