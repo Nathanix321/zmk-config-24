@@ -42,15 +42,15 @@
 
         // Numbers Combos
         COMBO(cb_brc_in,  LT3 LT2, &th_brc_in 0 0,  NUMBERS)
-        COMBO(cb_pars_in, LM3 LM2, TH_PARS_IN, NUMBERS)
-        COMBO(cb_bkts_in, LB3 LB2, TH_BKTS_IN, NUMBERS)
+        COMBO(cb_pars_in, LM3 LM2, &th_pars_in 0 0, NUMBERS)
+        COMBO(cb_bkts_in, LB3 LB2, &th_bkts_in 0 0, NUMBERS)
 
-        COMBO(cb_two_colon, LT2 LT1, TH_TWO_COLON, NUMBERS)
-        COMBO(cb_two_amps,  LM2 LM1, TH_TWO_AMPS,  NUMBERS)
-        COMBO(cb_two_pipe,  LB2 LB1, TH_TWO_PIPE,  NUMBERS)
+        COMBO(cb_two_colon, LT2 LT1, th_two_colon 0 0, NUMBERS)
+        COMBO(cb_two_amps,  LM2 LM1, th_two_amps 0 0,  NUMBERS)
+        COMBO(cb_two_pipe,  LB2 LB1, th_two_pipe 0 0,  NUMBERS)
 
-        COMBO(cb_end_pars_semi, RM1 RM3, TH_END_PARS_SEMI, NUMBERS)
-        COMBO(cb_end_semi,      RB1 RB3, TH_END_SEMI,      NUMBERS)
+        COMBO(cb_end_pars_semi, RM1 RM3, th_end_pars_semi 0 0, NUMBERS)
+        COMBO(cb_end_semi,      RB1 RB3, th_end_semi 0 0,      NUMBERS)
 
         // Symbols Combos
         COMBO(cb_two_pound,   LT3 LT2, &mc_two_pound,   SYMBOLS)
