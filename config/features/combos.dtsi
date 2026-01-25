@@ -31,10 +31,13 @@
         COMBO(cb_page_dn,   RM2 RB2, &kp PAGE_DOWN, PAGE_DOWN_LAYERS)
 
         // Alpha1 Combos
-        COMBO(cb_x, LT2 LM2, &kp X, ALPHA1)
+        COMBO(cb_x, LT3 LM3, &kp X, ALPHA1)
+        COMBO(cb_z, LT2 LM2, &kp Z, ALPHA1)
+        COMBO(cb_q, LM3 LB3, &kp Q, ALPHA1)
         COMBO(cb_j, RT2 RM2, &kp J, ALPHA1)
         COMBO(cb_k, RT3 RM3, &kp K, ALPHA1)
         COMBO(cb_p, RM1 RB1, &kp P, ALPHA1)
+        COMBO(cb_b, RM2 RB2, &kp B, ALPHA1)
         COMBO(cb_v, RM3 RB3, &kp V, ALPHA1)
 
         // Alpha2 Combo

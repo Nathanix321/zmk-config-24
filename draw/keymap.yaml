@@ -329,8 +329,11 @@ combos:
         ],
     }
 
-  - { p: [1, 8], k: "x", layers: [alpha1] }
+  - { p: [0, 7], k: "x", layers: [alpha1] }
+  - { p: [1, 8], k: "z", layers: [alpha1]}
+  - { p: [7, 14], k: "q", layers: [alpha1]}
   - { p: [10, 17], k: "p", layers: [alpha1] }
+  - { p: [11, 18], k: "b", layers: [alpha1]}
   - { p: [4, 11], k: "j", layers: [alpha1] }
   - { p: [5, 12], k: "k", layers: [alpha1] }
   - { p: [12, 19], k: "v", layers: [alpha1] }

@@ -3,11 +3,11 @@
         MOD_MORPH(space_under_morph, MOD_LSFT|MOD_RSFT, &kp UNDER, &kp SPACE)
 
         MOD_MORPH(semi_colon_morph, MOD_LSFT|MOD_RSFT, &kp COLON, &kp SEMI)
-        MOD_MORPH(comma_q_morph,    MOD_LSFT|MOD_RSFT, &kp COMMA, &kp QMARK)
+        MOD_MORPH(comma_q_morph,    MOD_LSFT|MOD_RSFT, &kp QMARK, &kp COMMA)
         MOD_MORPH(dot_excl_morph,   MOD_LSFT|MOD_RSFT, &kp EXCL,  &kp DOT)
 
         MOD_MORPH(colon_semi_morph, MOD_LSFT|MOD_RSFT, &kp SEMI,  &kp COLON)
-        MOD_MORPH(q_comma_morph,    MOD_LSFT|MOD_RSFT, &kp QMARK, &kp COMMA)
+        MOD_MORPH(q_comma_morph,    MOD_LSFT|MOD_RSFT, &kp COMMA, &kp QMARK)
         MOD_MORPH(excl_dot_morph,   MOD_LSFT|MOD_RSFT, &kp DOT,   &kp EXCL)
 
         MOD_MORPH(end_semi_colon_morph, MOD_LSFT|MOD_RSFT, &mc_end_colon, &mc_end_semi)

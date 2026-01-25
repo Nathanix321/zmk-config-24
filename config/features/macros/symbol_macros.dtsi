@@ -70,8 +70,8 @@
         MACRO(mc_end_grave,  &kp END   &kp GRAVE)
 
         // Arrow Macros
-        MACRO(mc_min_arrow, &kp EQUAL &kp GT)
-        MACRO(mc_equ_arrow, &kp MINUS &kp GT)
+        MACRO(mc_min_arrow, &kp MINUS &kp GT)
+        MACRO(mc_equ_arrow, &kp EQUAL &kp GT)
 
         // / Macros
         MACRO(mc_tilde_fslh,   &kp TILDE &kp FSLH)
