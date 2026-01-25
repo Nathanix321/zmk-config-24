@@ -132,6 +132,15 @@
             bindings = <&mo>, <&kp>;
         };
 
+        blt: layer-tap-with-balanced {
+            compatible = "zmk,behavior-hold-tap"
+            #binding-cells = <2>;
+            tapping-term-ms = <TAPPING_TERM>;
+            flavor = "balanced";
+            quick-tap-ms = <QUICK_TAP_TERM>;
+            bindings = <&mo>, <&kp>;
+        }
+
         ltn: layer-tap-no-quick-tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;

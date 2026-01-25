@@ -10,7 +10,7 @@
     &none               TH_SEMI_COLON       TH_COMMA_Q          TH_DOT_EXCL         &none               &none               &kp G               &kp N               &kp W               &none
     HML_SHORT_MAGIC_H   &hml LALT I         &hml LCTRL E        &hml LSHFT A        &none               &none               &hmr LSHFT D        &hmr LCTRL R        &hmr LALT S         HMR_SHORT_L
     &none               &kp Y               &kp O               &hml LGUI U         &none               &none               &hmr LGUI C         &kp M               &kp F               &none
-                                            &none               HLT_NUM_SPACE       HLT_NAV_ALPHA2      ARCANE_REPEAT       &hlt SYMBOLS T      &none
+                                            &none               BLT_NUM_SPACE       BLT_NAV_ALPHA2      ARCANE_REPEAT       &blt SYMBOLS T      &none
                         >;
                 };
 
@@ -30,7 +30,7 @@
     &none               TH_LBRC             TH_RBRC             &kp BSLH            &none               &none               &kp N7              &kp N8              &kp N9              &none
     &mo FUNCTIONS       TH_LPAR             TH_RPAR             &kp AMPS            &none               &none               &kp N4              &kp N5              &kp N6              &kp DOT
     &none               TH_LBKT             TH_RBKT             &kp PIPE            &none               &none               &kp N1              &kp N2              &kp N3              &none
-                                            &none               &none               &none               &kp SPACE           &hlt SYMBOLS N0     &none
+                                            &none               &none               &none               &kp SPACE           &blt SYMBOLS N0     &none
                         >;
                 };
 
@@ -40,7 +40,7 @@
     &none               &kp TILDE           &kp POUND           TH_APOS             &none               &none               &kp PERCENT         TH_EQUAL            TH_COLON            &none
     &kp AT              &kp CARET           &kp DOLLAR          TH_DQT              &none               &none               TH_QMARK            &kp MINUS           &kp PLUS            &lt MACROS COMMA
     &none               &kp LT              &kp GT              TH_GRAVE            &none               &none               TH_EXCL             &kp FSLH            &kp STAR            &none
-                                            &none               HLT_NUM_SPACE       &none               &none               &none               &none
+                                            &none               BLT_NUM_SPACE       &none               &none               &none               &none
                         >;
                 };
 
