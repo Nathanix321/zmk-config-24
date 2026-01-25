@@ -1,6 +1,6 @@
 / {
     currency_macros {
-        MACRO(mc_usd_sign,   &kp :S(U) &kp LS(S) &kp DOLLAR)
+        MACRO(mc_usd_sign,   &kp LS(U) &kp LS(S) &kp DOLLAR)
         MACRO(mc_usd_letter, &kp LS(U) &kp LS(S) &kp LS(D))
         MACRO(mc_cad_sign,   &kp LS(C) &kp LS(A) &kp DOLLAR)
         MACRO(mc_cad_letter, &kp LS(C) &kp LS(A) &kp LS(D))
