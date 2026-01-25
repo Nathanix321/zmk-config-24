@@ -9,6 +9,7 @@
         MACRO(mc_sb,         &kp S &kp B &kp Q &kp U &kp A &kp N &kp T &kp U &kp M)
         MACRO(mc_ca,         &kp C &kp A)
         MACRO(mc_com,        &kp C &kp O &kp M)
+        MACRO(test_macro,    &macro "Hello there buddy")
         // letourneau.nathaniel@hotmail.com
         MACRO(mc_personal1, &mc_last_name &kp DOT &mc_first_name &kp AT &mc_hotmail &kp DOT &mc_com)
        // letourneau.nathaniel@pm.me
