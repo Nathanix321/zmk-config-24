@@ -1,6 +1,6 @@
 / {
     email_macros {
-        MACRO(mc_first_name, &kp N &kp A &kp T &kp H &kp A &kp N &kp I &KP E &kp L)
+        MACRO(mc_first_name, &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L)
         MACRO(mc_last_name,  &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U)
         MACRO(mc_cip,        &kp L &kp E &kp T &kp N &kp N1 &kp N1 &kp N0 &kp N2)
         MACRO(mc_hotmail,    &kp H &kp O &kp T &kp M &kp A &kp I &kp L)
