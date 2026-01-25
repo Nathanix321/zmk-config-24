@@ -64,8 +64,17 @@
         NAME: NAME { \
 			compatible = "zmk,behavior-macro"; \
             #binding-cells = <0>; \
-            wait-ms = <30>; \
+            wait-ms = <5>; \
             tap-ms = <5>; \
+            bindings = <BINDINGS>; \
+        };
+
+    #define MACRO_LONG(NAME, BINDINGS) \
+        NAME: NAME { \
+			compatible = "zmk,behavior-macro"; \
+            #binding-cells = <0>; \
+            wait-ms = <30>; \
+            tap-ms = <1>; \
             bindings = <BINDINGS>; \
         };
 
