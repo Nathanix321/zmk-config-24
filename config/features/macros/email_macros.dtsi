@@ -1,12 +1,21 @@
 / {
     email_macros {
+        MACRO(mc_first_name, &kp N &kp A &kp T &kp H &kp A &kp N &kp I &KP E &kp L)
+        MACRO(mc_last_name,  &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U)
+        MACRO(mc_cip,        &kp L &kp E &kp T &kp N &kp N1 &kp N1 &kp N0 &kp N2)
+        MACRO(mc_hotmail,    &kp H &kp O &kp T &kp M &kp A &kp I &kp L)
+        MACRO(mc_pm,         &kp P &kp M &kp DOT &kp M &kp E)
+        MACRO(mc_udes,       &kp U &kp S &kp H &kp E &kp R &kp B &kp R &kp O &kp O &kp K &kp E)
+        MACRO(mc_sb,         &kp S &kp B &kp Q &kp U &kp A &kp N &kp T &kp U &kp M)
+        MACRO(mc_ca,         &kp C &kp A)
+        MACRO(mc_com,        &kp C &kp O &kp M)
         // letourneau.nathaniel@hotmail.com
-        MACRO(mc_personal1, &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U &kp DOT &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L &kp AT &kp H &kp O &kp T &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M)
+        MACRO(mc_personal1, &mc_last_name &kp DOT &mc_first_name &kp AT &mc_hotmail &kp DOT &mc_com)
        // letourneau.nathaniel@pm.me
-        MACRO(mc_personal2, &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U &kp DOT &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L &kp AT &kp P &kp M &kp DOT &kp M &kp E)
+        MACRO(mc_personal2, &mc_last_name &kp DOT &mc_first_name &kp AT &mc_pm)
         // letn1102@usherbrooke.ca
-        MACRO(mc_school, &kp L &kp E &kp T &kp N &kp N1 &kp N1 &kp N0 &kp N2 &kp AT &kp U &kp S &kp H &kp E &kp R &kp B &kp R &kp O &kp O &kp K &kp E &kp DOT &kp C &kp A)
+        MACRO(mc_school, &mc_cip &kp AT &mc_udes &kp DOT &mc_ca)
         // nathaniel.letourneau@sbquantum.com
-        MACRO(mc_work, &kp N &kp A &kp T &kp H &kp A &kp N &kp I &kp E &kp L &kp DOT &kp L &kp E &kp T &kp O &kp U &kp R &kp N &kp E &kp A &kp U &kp AT &kp S &kp B &kp Q &kp U &kp A &kp N &kp T &kp U &kp M &kp DOT &kp C &kp O &kp M)
+        MACRO(mc_work, &mc_first_name &kp DOT &mc_last_name &kp AT &mc_sb &kp DOT &mc_com)
     };
 };
