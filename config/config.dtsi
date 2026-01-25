@@ -139,7 +139,7 @@
             flavor = "balanced";
             quick-tap-ms = <QUICK_TAP_TERM>;
             bindings = <&mo>, <&kp>;
-        }
+        };
 
         ltn: layer-tap-no-quick-tap {
             compatible = "zmk,behavior-hold-tap";
