@@ -64,7 +64,7 @@
         NAME: NAME { \
 			compatible = "zmk,behavior-macro"; \
             #binding-cells = <0>; \
-            wait-ms = <5>; \
+            wait-ms = <30>; \
             tap-ms = <5>; \
             bindings = <BINDINGS>; \
         };
