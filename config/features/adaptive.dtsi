@@ -42,9 +42,11 @@
             bindings = <&kp H>;
 
             ADAPTIVE_QUICK(ah, A, &kp U)
-            ADAPTIVE_QUICK(eh, U, &kp A)
-            ADAPTIVE_QUICK(uh, E, &kp O)
+            ADAPTIVE_QUICK(eh, E, &kp O)
+            ADAPTIVE_QUICK(ih, I, &kp Y)
             ADAPTIVE_QUICK(oh, O, &kp E)
+            ADAPTIVE_QUICK(uh, U, &kp A)
+            ADAPTIVE_QUICK(yh, Y, &kp I)
             ADAPTIVE_QUICK(rh, R, &kp N)
         };
     };
